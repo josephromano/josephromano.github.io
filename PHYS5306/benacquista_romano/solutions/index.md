@@ -1,4 +1,4 @@
-# Solutions:
+# Solutions to problems in Benacquista & Romano:
 
 - [chapter 1](soln_chpt1.pdf)
 - [chapter 2](soln_chpt2.pdf)
