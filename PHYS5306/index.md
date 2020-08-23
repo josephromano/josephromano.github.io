@@ -1,10 +1,10 @@
 # PHYS 5306 - Classical Dynamics
 
-- [Why should you learn this stuff?](notes/why.pdf)
+- [Why should you learn this stuff?](info/why.pdf)
 
-- [What should you know how to do by the end of this course?](notes/what.pdf)
+- [What should you know how to do by the end of this course?](info/what.pdf)
 
-- [Suggested problems from Landau & Lifshitz](notes/problems.pdf)
+- [Suggested problems from Landau & Lifshitz](info/problems.pdf)
 
 - [Solutions to problems in Landau & Lifshitz](landau_lifshitz/solutions/index.md)
 
