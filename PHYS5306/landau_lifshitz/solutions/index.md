@@ -1,4 +1,4 @@
-# Solutions:
+# Solutions to problems in Landau & Lifshitz:
 
 - [section 5](sec5.pdf)
 - [section 7](sec7.pdf)
