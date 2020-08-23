@@ -2,7 +2,7 @@
 
 ## PHYS 5306 - Classical Dynamics
 
-- [solutions](https://github.com/josephromano/josephromano.github.io/tree/master/PHYS5306/landau_lifshitz/solutions) to problems from Landau & Lifshitz
+- [solutions](PHYS5306/landau_lifshitz/solutions) to problems from Landau & Lifshitz
 
 - [solutions](PHYS5306/benacquista_romano/solutions/soln_chpt7.pdf) to problems from Benacquista & Romano
 
