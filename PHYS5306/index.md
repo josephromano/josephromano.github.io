@@ -4,6 +4,8 @@
 
 - [What should you know how to do by the end of this course?](notes/what.pdf)
 
+- [Suggested problems from Landau & Lifshitz](notes/problems.pdf)
+
 - [Solutions to problems in Landau & Lifshitz](landau_lifshitz/solutions/index.md)
 
 - [Solutions to problems in Benacquista & Romano](benacquista_romano/solutions/index.md)
