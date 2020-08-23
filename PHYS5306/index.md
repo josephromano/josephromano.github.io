@@ -4,4 +4,4 @@
 
 - [Solutions to problems in Benacquista & Romano](benacquista_romano/solutions/index.md)
 
-- ipython notebook
+- [ipython notebook](notes/workbook.ipynb)
