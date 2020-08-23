@@ -1,7 +1,4 @@
----
-layout: page
-title: Solutions to problems in Landau & Lifshitz
----
+# Solutions:
 
 - [section 5](sec5.pdf)
 
