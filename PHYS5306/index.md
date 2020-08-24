@@ -1,13 +1,13 @@
 # PHYS 5306 - Classical Dynamics
 
-## Basic information:
+## Basic information
 
 - [syllabus](info/syllabus_with_attachments.pdf)
 - [course calendar](info/calendar.pdf)
 - [why should you learn this stuff?](info/why.pdf)
 - [what should you know how to do by the end of this course?](info/what.pdf)
 
-## Problems and solutions:
+## Problems and solutions
 
 - [suggested problems from Landau & Lifshitz](info/problems.pdf)
 - [solutions to problems in Landau & Lifshitz](landau_lifshitz/solutions/index.md)
