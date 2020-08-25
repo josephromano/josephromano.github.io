@@ -16,4 +16,4 @@
 
 ## Extra resources
 
-- [ipython notebook](notes/workbook.ipynb)
+- workbook: [.ipnyb](notes/workbook.ipynb), [.pdf](notes/workbook.pdf)
