@@ -16,6 +16,7 @@
 
 ## Extra resources
 
-- [mathematical appendices](benacquista_romano/appendices.pdf) 
-- [lectutre notes](notes/LectureNotes.pdf)
+- [mathematical appendices](benacquista_romano/appendices.pdf) from
+  Benacquista & Romano
+- [lecture notes](notes/LectureNotes.pdf)
 - workbook: [.ipnyb](notes/workbook.ipynb), [.pdf](notes/workbook.pdf)
