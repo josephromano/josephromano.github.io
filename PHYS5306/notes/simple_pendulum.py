@@ -1,8 +1,6 @@
-from numpy import sin, cos
 import numpy as np
 import matplotlib.pyplot as plt
-import scipy.integrate as integrate
-#import matplotlib.animation as animation
+import matplotlib.animation as animation
 import scipy.special as special
 
 phi0 = 40 # max angular displacement (degrees)
@@ -21,7 +19,7 @@ k = np.sin(phi0/2)
 m = k**2
 
 # discrete times	
-t = np.linspace(0, 5*P0, 10000)
+t = np.linspace(0, 4*P0, 10000)
 
 # small angle approx
 phi_approx = phi0 *np.cos(omega0*t)
@@ -41,23 +39,19 @@ line2, = ax.plot([], [], 'o-', color='black', lw=2)
 ax.text(-1,0.5, 'grey, dashed: small-angle approx')
 ax.text(-1,0.75, 'black, solid: exact solution')
 
-for ii in range(len(t)):
-	line1.set_data([0, np.sin(phi_approx[ii])],[0,-np.cos(phi_approx[ii])])
-	line2.set_data([0, np.sin(phi[ii])], [0,-np.cos(phi[ii])])
-	plt.pause(0.001)
+def update(num, phi_approx, phi, line1, line2):
+	line1.set_data([0,np.sin(phi_approx[num])],[0,-np.cos(phi_approx[num])])
+	line2.set_data([0, np.sin(phi[num])], [0,-np.cos(phi[num])])
+	return line1, line2
 
 #def init():
 #	line.set_data([0, np.sin(phi_approx[0])], [0,-np.cos(phi_approx[0])])
 #	return line
 
-#def animate(i):
-#	line.set_data([0, np.sin(phi_approx[i])], [0,-np.cos(phi_approx[i])])
-#	return line
+ani = animation.FuncAnimation(fig, update, len(t), fargs=[phi_approx,
+phi, line1, line2], interval=1, blit=True, repeat=False)
 
-#interval = t[1]-t[0]
-#ani = animation.FuncAnimation(fig, animate, frames=300, interval=interval, blit=True, init_func=init)
-
-#plt.show()
+plt.show()
 
 # To save the animation, use e.g.
 #
