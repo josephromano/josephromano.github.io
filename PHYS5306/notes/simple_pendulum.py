@@ -3,9 +3,8 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import scipy.special as special
 
+# initial angle
 phi0 = 40 # max angular displacement (degrees)
-
-# convert to radians
 phi0 = np.deg2rad(phi0)
 
 # some constants
@@ -48,8 +47,7 @@ def update(num, phi_approx, phi, line1, line2):
 #	line.set_data([0, np.sin(phi_approx[0])], [0,-np.cos(phi_approx[0])])
 #	return line
 
-ani = animation.FuncAnimation(fig, update, len(t), fargs=[phi_approx,
-phi, line1, line2], interval=1, blit=True, repeat=False)
+ani = animation.FuncAnimation(fig, update, len(t), fargs=[phi_approx, phi, line1, line2], interval=1, blit=True, repeat=False)
 
 plt.show()
 
@@ -61,4 +59,11 @@ plt.show()
 #
 # writer = animation.FFMpegWriter(
 #     fps=15, metadata=dict(artist='Me'), bitrate=1800)
-# ani.save("movie.mp4", writer=writer)	
+# ani.save("movie.mp4", writer=writer)
+##############################################
+# old code that doesn't using animation function
+#for ii in range(len(t)):
+#	line1.set_data([0, np.sin(phi_approx[ii])],[0,-np.cos(phi_approx[ii])])
+#	line2.set_data([0, np.sin(phi[ii])], [0,-np.cos(phi[ii])])
+#	plt.pause(0.001)
+###############################################
