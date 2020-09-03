@@ -19,3 +19,5 @@
 - [lecture notes](notes/LectureNotes.pdf)
 - [mathematical appendices from Benacquista & Romano](benacquista_romano/appendices.pdf)
 - workbook: [.ipnyb](notes/workbook.ipynb), [.pdf](notes/workbook.pdf)
+- animations: [simple pendulum](notes/simple_pendulum.py)
+
