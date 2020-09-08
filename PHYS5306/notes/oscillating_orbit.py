@@ -3,8 +3,9 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import scipy.optimize as optimize
 
-# two masses connected on a string passing through a hole 
-# on a frictionless table, in a uniform gravitational field
+# numerically solve for the motion of two masses connected by a 
+# string passing through a hole on a frictionless table, in a 
+# uniform gravitational field g
 
 # set parameters
 g = 9.8 # m/s^2
@@ -15,12 +16,12 @@ r0 = 0.5 # m  (radius for stable circular orbit)
 Mz = np.sqrt(m1*m2*g*r0**3) # (angular momentum needed for r=r0)
 
 # discrete angles, radii
-N = 5000
+N = 4*1000
 phi = np.linspace(0, 4*2*np.pi, N)
 r = np.zeros(N)
 dphi = phi[1]-phi[0]
 
-# initial value of r, x, y
+# initial value of r
 rmin = 0.7*r0 # minimum r value
 r[0] = rmin
 E = m2*g*rmin + Mz**2/(2*m1*rmin**2)
@@ -47,7 +48,7 @@ plt.axvline(rmax, color='grey')
 plt.xlabel('r')
 plt.ylabel('Ueff')
 
-# integrate
+# integrate equations of motion
 sign = 1
 for ii in range(1,N):
 	dr = sign * dphi*(m1*r[ii-1]**2/Mz)*np.sqrt((2/(m1+m2))* (E- m2*g*r[ii-1]-Mz**2/(2*m1*r[ii-1]**2)))
@@ -59,7 +60,7 @@ for ii in range(1,N):
 		r[ii] = r[ii]+abs(dr)
 		sign = -sign
 	
-# plot
+# plot r vs. phi
 plt.figure()
 plt.plot(phi, r)
 plt.xlabel('phi')
@@ -69,7 +70,7 @@ plt.ylabel('r')
 x = r*np.cos(phi)
 y = r*np.sin(phi)
 
-# plot
+# plot x vs. y
 plt.figure()
 plt.plot(x, y)
 plt.xlabel('x')
