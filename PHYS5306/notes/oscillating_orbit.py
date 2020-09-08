@@ -14,16 +14,22 @@ m1 = 0.65 # kg (on table)
 m2 = 1.0 # kg (below table)
 r0 = 0.5 # m  (radius for stable circular orbit)
 Mz = np.sqrt(m1*m2*g*r0**3) # (angular momentum needed for r=r0)
-
-# discrete angles, radii
+omega_phi = np.sqrt((m2/m1)*(g/r0)) # angular frequency for a circular orbit
+P_phi = 2*np.pi/omega_phi # corresponding angular period
+ 
+# discrete times, radii, phi
 N = 4*1000
-phi = np.linspace(0, 4*2*np.pi, N)
+t = np.linspace(0, 4*P_phi, N)
+dt = t[1]-t[0]
 r = np.zeros(N)
-dphi = phi[1]-phi[0]
+phi = np.zeros(N)
 
-# initial value of r
+# initial value of r, phi
 rmin = 0.7*r0 # minimum r value
 r[0] = rmin
+phi[0] = 0
+
+# total energy for the system
 E = m2*g*rmin + Mz**2/(2*m1*rmin**2)
 print('E =', E)
 
@@ -50,8 +56,10 @@ plt.ylabel('Ueff')
 
 # integrate equations of motion
 sign = 1
-for ii in range(1,N):
-	dr = sign * dphi*(m1*r[ii-1]**2/Mz)*np.sqrt((2/(m1+m2))* (E- m2*g*r[ii-1]-Mz**2/(2*m1*r[ii-1]**2)))
+for ii in range(1,len(t)):
+
+    # radial equation
+	dr = sign * dt*np.sqrt((2/(m1+m2))* (E- m2*g*r[ii-1]-Mz**2/(2*m1*r[ii-1]**2)))
 	r[ii] = r[ii-1]+dr
 	if r[ii] > rmax:
 		r[ii] = r[ii]-abs(dr)
@@ -60,6 +68,10 @@ for ii in range(1,N):
 		r[ii] = r[ii]+abs(dr)
 		sign = -sign
 	
+	# angular equation (from conservation of angular momentum)
+	dphi = dt*Mz/(m1*r[ii-1]**2)
+	phi[ii] = phi[ii-1]+dphi
+
 # plot r vs. phi
 plt.figure()
 plt.plot(phi, r)
