@@ -26,7 +26,7 @@ phi_approx = phi0 *np.cos(omega0*t)
 # exact solution
 x = omega0*t
 P = (4/omega0)*special.ellipk(m)
-sn_x, cn_x, dn_x, ph_x = special.ellipj(x+omega0*P/4, m)
+sn_x, cn_x, dn_x, ph_x = special.ellipj(x+special.ellipk(m), m)
 phi = 2*np.arcsin(k*sn_x)
 
 # define figure
