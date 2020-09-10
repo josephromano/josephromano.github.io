@@ -18,8 +18,8 @@ omega_phi = np.sqrt((m2/m1)*(g/r0)) # angular frequency for a circular orbit
 P_phi = 2*np.pi/omega_phi # corresponding angular period
  
 # discrete times, radii, phi
-N = 4*1000
-t = np.linspace(0, 4*P_phi, N)
+N = 5000
+t = np.linspace(0, 5*P_phi, N)
 dt = t[1]-t[0]
 r = np.zeros(N)
 phi = np.zeros(N)
