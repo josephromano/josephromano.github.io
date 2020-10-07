@@ -1,0 +1,192 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      5405,        183]
+NotebookOptionsPosition[      4858,        158]
+NotebookOutlinePosition[      5212,        174]
+CellTagsIndexPosition[      5169,        171]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+   "testing", " ", "the", " ", "Wigner", " ", "3", "j", " ", "symbol", " ", 
+    "implemention"}], "*)"}], 
+  RowBox[{
+   RowBox[{"ThreeJSymbol", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"2", ",", "2"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"2", ",", 
+       RowBox[{"-", "2"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "0"}], "}"}]}], "]"}], 
+   "\[IndentingNewLine]"}]}]], "Input",
+ CellChangeTimes->{{3.615921719967209*^9, 3.615921758019661*^9}, {
+  3.615921820156952*^9, 3.615921840628127*^9}, {3.615922540357698*^9, 
+  3.615922552748123*^9}}],
+
+Cell[BoxData[
+ FractionBox["1", 
+  SqrtBox["5"]]], "Output",
+ CellChangeTimes->{
+  3.615921766872081*^9, 3.615921845734786*^9, 3.6159225895935707`*^9, 
+   3.615922624958971*^9, 3.615922955342937*^9, 3.615923450069816*^9, {
+   3.615923482382614*^9, 3.615923518707052*^9}, 3.615923549054615*^9, 
+   3.615981556298683*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+   "This", " ", "is", " ", "used", " ", "to", " ", "simplify", " ", "Eq", " ",
+     "38", " ", "in", " ", "the", " ", "ifo", " ", "paper"}], "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"25", "*", 
+    RowBox[{"ThreeJSymbol", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"2", ",", 
+        RowBox[{"-", "m"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"2", ",", "m"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"2", ",", "0"}], "}"}]}], "]"}], "*", 
+    RowBox[{"ThreeJSymbol", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"2", ",", "2"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"2", ",", 
+        RowBox[{"-", "2"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"2", ",", "0"}], "}"}]}], "]"}]}], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]"}]}]], "Input",
+ CellChangeTimes->{{3.6159220261520033`*^9, 3.615922112595376*^9}, {
+  3.615922597477989*^9, 3.6159226523642178`*^9}, {3.615981525097172*^9, 
+  3.615981526028389*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  FractionBox["5", "7"], " ", 
+  SuperscriptBox[
+   RowBox[{"(", 
+    RowBox[{"-", "1"}], ")"}], "m"], " ", 
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{"-", "2"}], "+", 
+    SuperscriptBox["m", "2"]}], ")"}]}]], "Output",
+ CellChangeTimes->{
+  3.615922063868767*^9, 3.615922117563026*^9, 3.6159225896766644`*^9, 
+   3.615922625035149*^9, 3.615922659646934*^9, 3.615922955421071*^9, 
+   3.615923450168645*^9, {3.6159234824771214`*^9, 3.6159235187834673`*^9}, 
+   3.615923549148182*^9, 3.6159815563998938`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+   "This", " ", "is", " ", "used", " ", "to", " ", "simplify", " ", "Eq", " ",
+     "39", " ", "in", " ", "the", " ", "ifo", " ", "paper"}], "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{"5", "*", "9", "*", 
+   RowBox[{"ThreeJSymbol", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"2", ",", 
+       RowBox[{"-", "m"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"2", ",", "m"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"4", ",", "0"}], "}"}]}], "]"}], "*", 
+   RowBox[{"ThreeJSymbol", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"2", ",", "2"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"2", ",", 
+       RowBox[{"-", "2"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"4", ",", "0"}], "}"}]}], "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.615922795723909*^9, 3.615922811867881*^9}, {
+  3.615922856861146*^9, 3.615922867667618*^9}, {3.615923477614133*^9, 
+  3.6159234781563*^9}, {3.615981546574439*^9, 3.6159815512602377`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  FractionBox["12", "7"], " ", 
+  SqrtBox[
+   FractionBox["1", 
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"2", "-", "m"}], ")"}], "!"}], ")"}], "2"], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"2", "+", "m"}], ")"}], "!"}], ")"}], "2"]}]]]}]], "Output",
+ CellChangeTimes->{
+  3.615922817143652*^9, 3.615922870986642*^9, {3.6159229530542307`*^9, 
+   3.615922955455388*^9}, 3.615923450202188*^9, {3.615923482510043*^9, 
+   3.6159235188167543`*^9}, 3.615923549181382*^9, 3.6159815564326763`*^9}]
+}, Open  ]]
+},
+WindowSize->{740, 583},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"9.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (January 25, \
+2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 637, 19, 63, "Input"],
+Cell[1219, 43, 319, 7, 52, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1575, 55, 1042, 30, 80, "Input"],
+Cell[2620, 87, 529, 14, 46, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3186, 106, 1011, 28, 46, "Input"],
+Cell[4200, 136, 642, 19, 103, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

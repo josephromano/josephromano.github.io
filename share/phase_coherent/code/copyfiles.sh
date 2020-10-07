@@ -1,0 +1,119 @@
+cp max_realhp_pointsource_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/max_realhp_point.jpg
+cp max_realhc_pointsource_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/max_realhc_point.jpg
+cp max_imaghp_pointsource_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/max_imaghp_point.jpg
+cp max_imaghc_pointsource_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/max_imaghc_point.jpg
+
+cp snr_realhp_pointsource_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/snr_realhp_point.jpg
+cp snr_realhc_pointsource_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/snr_realhc_point.jpg
+cp snr_imaghp_pointsource_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/snr_imaghp_point.jpg
+cp snr_imaghc_pointsource_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/snr_imaghc_point.jpg
+
+cp sigma_hp_pointsource_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/sigma_hp_point.jpg
+cp sigma_hc_pointsource_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/sigma_hc_point.jpg
+
+cp max_realhp_grad_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/max_realhp_grad.jpg
+cp max_realhc_grad_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/max_realhc_grad.jpg
+cp max_imaghp_grad_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/max_imaghp_grad.jpg
+cp max_imaghc_grad_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/max_imaghc_grad.jpg
+
+cp snr_realhp_grad_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/snr_realhp_grad.jpg
+cp snr_realhc_grad_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/snr_realhc_grad.jpg
+cp snr_imaghp_grad_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/snr_imaghp_grad.jpg
+cp snr_imaghc_grad_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/snr_imaghc_grad.jpg
+
+cp sigma_hp_grad_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/sigma_hp_grad.jpg
+cp sigma_hc_grad_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/sigma_hc_grad.jpg
+
+cp max_realhp_curl_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/max_realhp_curl.jpg
+cp max_realhc_curl_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/max_realhc_curl.jpg
+cp max_imaghp_curl_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/max_imaghp_curl.jpg
+cp max_imaghc_curl_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/max_imaghc_curl.jpg
+
+cp snr_realhp_curl_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/snr_realhp_curl.jpg
+cp snr_realhc_curl_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/snr_realhc_curl.jpg
+cp snr_imaghp_curl_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/snr_imaghp_curl.jpg
+cp snr_imaghc_curl_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/snr_imaghc_curl.jpg
+
+cp sigma_hp_curl_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/sigma_hp_curl.jpg
+cp sigma_hc_curl_both_pix_768_ifo_noise_6_times_400.jpg ../manuscript/sigma_hc_curl.jpg
+
+
+cp max_realhp_pointsource_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/max_realhp_point_3.jpg
+cp max_realhc_pointsource_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/max_realhc_point_3.jpg
+cp max_imaghp_pointsource_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/max_imaghp_point_3.jpg
+cp max_imaghc_pointsource_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/max_imaghc_point_3.jpg
+
+cp snr_realhp_pointsource_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/snr_realhp_point_3.jpg
+cp snr_realhc_pointsource_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/snr_realhc_point_3.jpg
+cp snr_imaghp_pointsource_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/snr_imaghp_point_3.jpg
+cp snr_imaghc_pointsource_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/snr_imaghc_point_3.jpg
+
+cp sigma_hp_pointsource_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/sigma_hp_point_3.jpg
+cp sigma_hc_pointsource_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/sigma_hc_point_3.jpg
+
+cp max_realhp_grad_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/max_realhp_grad_3.jpg
+cp max_realhc_grad_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/max_realhc_grad_3.jpg
+cp max_imaghp_grad_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/max_imaghp_grad_3.jpg
+cp max_imaghc_grad_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/max_imaghc_grad_3.jpg
+
+cp snr_realhp_grad_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/snr_realhp_grad_3.jpg
+cp snr_realhc_grad_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/snr_realhc_grad_3.jpg
+cp snr_imaghp_grad_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/snr_imaghp_grad_3.jpg
+cp snr_imaghc_grad_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/snr_imaghc_grad_3.jpg
+
+cp sigma_hp_grad_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/sigma_hp_grad_3.jpg
+cp sigma_hc_grad_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/sigma_hc_grad_3.jpg
+
+cp max_realhp_curl_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/max_realhp_curl_3.jpg
+cp max_realhc_curl_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/max_realhc_curl_3.jpg
+cp max_imaghp_curl_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/max_imaghp_curl_3.jpg
+cp max_imaghc_curl_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/max_imaghc_curl_3.jpg
+
+cp snr_realhp_curl_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/snr_realhp_curl_3.jpg
+cp snr_realhc_curl_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/snr_realhc_curl_3.jpg
+cp snr_imaghp_curl_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/snr_imaghp_curl_3.jpg
+cp snr_imaghc_curl_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/snr_imaghc_curl_3.jpg
+
+cp sigma_hp_curl_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/sigma_hp_curl_3.jpg
+cp sigma_hc_curl_both_pix_768_ifo_noise_3_times_400.jpg ../manuscript/sigma_hc_curl_3.jpg
+
+
+cp max_realhp_pointsource_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/max_realhp_point_3_2.jpg
+cp max_realhc_pointsource_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/max_realhc_point_3_2.jpg
+cp max_imaghp_pointsource_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/max_imaghp_point_3_2.jpg
+cp max_imaghc_pointsource_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/max_imaghc_point_3_2.jpg
+
+cp snr_realhp_pointsource_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/snr_realhp_point_3_2.jpg
+cp snr_realhc_pointsource_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/snr_realhc_point_3_2.jpg
+cp snr_imaghp_pointsource_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/snr_imaghp_point_3_2.jpg
+cp snr_imaghc_pointsource_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/snr_imaghc_point_3_2.jpg
+
+cp sigma_hp_pointsource_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/sigma_hp_point_3_2.jpg
+cp sigma_hc_pointsource_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/sigma_hc_point_3_2.jpg
+
+cp max_realhp_grad_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/max_realhp_grad_3_2.jpg
+cp max_realhc_grad_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/max_realhc_grad_3_2.jpg
+cp max_imaghp_grad_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/max_imaghp_grad_3_2.jpg
+cp max_imaghc_grad_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/max_imaghc_grad_3_2.jpg
+
+cp snr_realhp_grad_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/snr_realhp_grad_3_2.jpg
+cp snr_realhc_grad_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/snr_realhc_grad_3_2.jpg
+cp snr_imaghp_grad_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/snr_imaghp_grad_3_2.jpg
+cp snr_imaghc_grad_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/snr_imaghc_grad_3_2.jpg
+
+cp sigma_hp_grad_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/sigma_hp_grad_3_2.jpg
+cp sigma_hc_grad_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/sigma_hc_grad_3_2.jpg
+
+cp max_realhp_curl_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/max_realhp_curl_3_2.jpg
+cp max_realhc_curl_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/max_realhc_curl_3_2.jpg
+cp max_imaghp_curl_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/max_imaghp_curl_3_2.jpg
+cp max_imaghc_curl_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/max_imaghc_curl_3_2.jpg
+
+cp snr_realhp_curl_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/snr_realhp_curl_3_2.jpg
+cp snr_realhc_curl_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/snr_realhc_curl_3_2.jpg
+cp snr_imaghp_curl_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/snr_imaghp_curl_3_2.jpg
+cp snr_imaghc_curl_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/snr_imaghc_curl_3_2.jpg
+
+cp sigma_hp_curl_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/sigma_hp_curl_3_2.jpg
+cp sigma_hc_curl_both_pix_768_ifo_noise_3_times_800.jpg ../manuscript/sigma_hc_curl_3_2.jpg
+
