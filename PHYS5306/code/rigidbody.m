@@ -33,9 +33,9 @@ psidot = -Omega;
 fprintf('I1 = I2 = %f\n', I1)
 fprintf('I3 = %f\n', I3)
 fprintf('alpha = %f, theta = %f degrees\n', alpha*180/pi, theta0*180/pi);
-fprintf('omega :phidot = %f\n', I1*cos(theta0)/(I3*cos(alpha)));
+%fprintf('omega :phidot = %f\n', I1*cos(theta0)/(I3*cos(alpha)));
 fprintf('omega3:phidot = %f\n', I1*cos(theta0)/I3);
-fprintf('psidot:phidot = %f\n', I1*cos(theta0)/I3 - cos(theta0));
+%fprintf('psidot:phidot = %f\n', I1*cos(theta0)/I3 - cos(theta0));
 
 % angular coordinates on surface of ellipsoid
 u = transpose(linspace(0, pi, 30));
