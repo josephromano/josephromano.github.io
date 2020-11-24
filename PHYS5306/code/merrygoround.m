@@ -6,6 +6,14 @@ function merrygoround(x0, y0, v0, theta0, T)
 % v0, theta0  - intial velocity and direction wrt merry-go-round frame
 % T           - duration of motion
 %
+% e.g., from Marion & Thornton p.389: 
+% merrygoround(-0.5, 0, 1.5, pi/2, 0.86)
+% merrygoround(-0.5, 0, 0.8, pi/2, 2.9)
+% merrygoround(-0.5, 0, 0.45, pi/2, 17.3)
+% merrygoround(-0.5, 0, 0.328, pi/2, 5)
+% merrygoround(-0.5, 0, 0.47, pi/4, 3.83)
+% merrygoround(-0.5, 0, 0.283, pi/4, 3.3)
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 close all
 
@@ -34,7 +42,7 @@ figure
 circle(1,[0 0]);
 hold on
 plot(0,0,'+k');
-plot(xp, yp)
+plot(xp, yp, 'linewidth', 2)
 xlim([-1 1]);
 ylim([-1 1]);
 axis square
