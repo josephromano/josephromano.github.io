@@ -18,6 +18,6 @@
 
 - [lecture notes](notes/LectureNotes.pdf)
 - [mathematical appendices from Benacquista & Romano](benacquista_romano/appendices.pdf)
-- workbook: [.ipnyb](notes/workbook.ipynb), [.pdf](notes/workbook.pdf)
-- animations: [simple pendulum](notes/simple_pendulum.py), [oscillating orbit](notes/oscillating_orbit.py)
+- workbook: [.ipnyb](workbook/workbook.ipynb), [.pdf](workbook/workbook.pdf)
+- animations: [simple pendulum](code/simple_pendulum.py), [oscillating orbit](code/oscillating_orbit.py), [frisbee](code/frisbee.avi), [football](code/football.avi), [sphere](code/sphere.avi)
 
