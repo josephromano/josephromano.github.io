@@ -1,0 +1,27 @@
+% sphere
+>> rigidbody
+I1 = I2 = 0.400000
+I3 = 0.400000
+alpha = 9.000000, theta = 9.000000 degrees
+omega :phidot = 1.000000
+omega3:phidot = 0.987688
+psidot:phidot = 0.000000
+
+% football
+>> rigidbody
+I1 = I2 = 1.000000
+I3 = 0.400000
+alpha = 3.625059, theta = 9.000000 degrees
+omega :phidot = 2.474171
+omega3:phidot = 2.469221
+psidot:phidot = 1.481533
+
+% frisbee
+>> rigidbody
+I1 = I2 = 0.208000
+I3 = 0.400000
+alpha = 16.939974, theta = 9.000000 degrees
+omega :phidot = 0.536893
+omega3:phidot = 0.513598
+psidot:phidot = -0.474090
+
