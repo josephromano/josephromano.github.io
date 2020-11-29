@@ -84,6 +84,7 @@ ylabel('y-axis (rotating)')
 
 axis square
 title(['v0 = ' num2str(v0) '; theta0 = ' num2str(theta0) '; T = ' num2str(T)]);
-print -depsc2 merrygoround.eps
+filename = ['merrygoround_' num2str(v0) '_' num2str(theta0) '_' num2str(T) '.eps'];
+print('-depsc2', filename)
 
 return
