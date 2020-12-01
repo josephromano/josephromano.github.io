@@ -19,6 +19,7 @@
 - [lecture notes](notes/LectureNotes.pdf)
 - [mathematical appendices from Benacquista & Romano](benacquista_romano/appendices.pdf)
 - workbook: [.ipnyb](workbook/workbook.ipynb), [.pdf](workbook/workbook.pdf)
+- miscellaneous animations: [simple pendulum](code/simple_pendulum.py), [oscillating orbit](code/oscillating_orbit.py), [frisbee](code/frisbee.avi), [football](code/football.avi), [sphere](code/sphere.avi)
 - merry-go-round animations: [merry-go-round matlab code](code/merrygoround.m),
 [merrygoround_0.328_1.5708_5.avi](code/merrygoround_0.328_1.5708_5.avi),
 [merrygoround_0.328_1.5708_5.eps](code/merrygoround_0.328_1.5708_5.eps),
@@ -30,7 +31,3 @@
 [merrygoround_0.47_0.7854_3.83.eps](code/merrygoround_0.47_0.7854_3.83.eps),
 [merrygoround_0.283_0.7854_3.3.avi](code/merrygoround_0.283_0.7854_3.3.avi),
 [merrygoround_0.283_0.7854_3.3.eps](code/merrygoround_0.283_0.7854_3.3.eps)
-
-
-- miscellaneous animations: [simple pendulum](code/simple_pendulum.py), [oscillating orbit](code/oscillating_orbit.py), [frisbee](code/frisbee.avi), [football](code/football.avi), [sphere](code/sphere.avi)
-
