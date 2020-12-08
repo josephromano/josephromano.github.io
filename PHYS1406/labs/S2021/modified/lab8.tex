@@ -1,0 +1,316 @@
+\documentclass[11pt]{NSF}
+\sloppy
+
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{draftcopy}
+\usepackage{longtable}
+\usepackage{hyperref}
+
+% some definitions
+ 
+% begin equation, itemize, etc.
+
+\def\be{\begin{equation}}
+\def\ee{\end{equation}}
+\def\bi{\begin{itemize}}
+\def\ei{\end{itemize}}
+\def\ben{\begin{enumerate}}
+\def\een{\end{enumerate}}
+\def\i{\item{}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+     
+\section{8. Room Acoustics}
+
+PURPOSE AND BACKGROUND
+
+An enclosed space has characteristic resonance frequencies for
+standing waves between walls and other surfaces. We already have
+discussed the much simpler case of resonating air columns in pipes.
+The acoustics of a room depends on the volume of the room, the surface
+area of the walls, the sound absorption properties of the materials,
+and persons and furniture in the room. When you sing in a shower, you
+will notice that certain frequencies are enhanced. This is due to
+resonances in the box-shaped volume of the shower. Resonances may also
+play an undesirable role in concert halls. These resonances may cause
+feedback noise if electronic sound amplification is used. In such
+cases the resonances can be removed from the frequency spectrum with
+electronic equalizers.
+
+A study of room acoustics includes the frequency analysis and time
+analysis of sound. The {\em reverberation time} is the time it takes 
+for the sound intensity to decay by 60~dB or a factor of $10^6$.
+
+Large concert halls and churches have reverberation times of up to a
+few seconds. Our lecture room has a reverberation time of about 0.5~s. 
+Sound travels with speed
+$v = 346~{\rm m/s}$ at $25{}^\circ{\rm C}$. 
+A large
+concert hall has large distances for sound to travel and consequently
+a long decay time. The materials from which sound is reflected also
+affect the reverberation time. Sound absorbing materials such as
+cloth, egg crating, and acoustical boards greatly absorb sound and have a
+short reverberation time. Highly reflective materials such as concrete
+walls and tile floors reflect sound with little absorption and result
+in long reverberation times. The sound absorption of a material
+depends on frequency and hence so does the reverberation time. One can
+``tune” the reverberation time of a room for best acoustics by the
+choice of materials and their placement.
+
+\subsection{Room Resonances}
+
+For the simplest case of a box-like room, with all surfaces constructed 
+of the same material, the resonant frequencies are given by the formula
+%
+\be
+f_{N_xN_yN_z} = \frac{v}{2}\sqrt{
+\left(\frac{N_x}{L_x}\right)^2+
+\left(\frac{N_y}{L_y}\right)^2+
+\left(\frac{N_z}{L_z}\right)^2}
+\label{e:1}
+\ee
+%
+where $N_x$, $N_y$, $N_z$ are integer harmonic numbers; $L_x$, $L_y$,
+$L_z$ are the dimensions of the room; and $v$ is the speed of sound in
+air. For example, the lowest resonance frequency (fundamental) for the
+$x$-direction is $f_{100} = v/2L_x$, with $N_x=1$ and $N_y=N_z=0$.
+This is the same as the fundamental frequency of a vibrating
+string, where the wavelength was twice the length of the string. Now
+the wavelength is twice the $x$-dimension, $L_x$, of the box.  The $y$
+and $z$-directions have their resonance frequencies as well,
+calculated in the same way. Many higher resonance frequencies exist
+for the standing waves in each direction, and also when waves get
+reflected at an angle with respect to the walls of the box. These
+frequencies are obtained from equation~(\ref{e:1}) with more than one of
+the harmonic numbers $N_x$, $N_y$, $N_z$ equal to 1 or larger.
+
+Our lecture room has a complicated geometry. It is not a ``box” 
+and therefore it has a much more complex resonance spectrum than that from
+equation~(\ref{e:1}). The room contains furniture, equipment, and people that
+change the resonances. Nevertheless, we shall assume in a grand
+simplification that the room is box-like and calculate the lowest
+resonances.  
+The approximate length, width, and height of the room are 
+$L_x=29~{\rm ft}$, $L_y=24~{\rm ft}$, and $L_z=9.5~{\rm ft}$,
+respectively.
+
+\ben
+\item
+Calculate the three fundamental resonance frequencies of the room
+from the formula
+%
+\be
+f= \frac{v}{2L}
+\ee
+%
+where $L$ is any of the lengths $L_x$, $L_y$, $L_z$ and $v = 346~{\rm
+m/s}$ at an assumed room temperature of $25{}^\circ{\rm C}$.
+(Don't forget to first convert the lengths from feet to meters using
+$1~{\rm m}= 3.28~{\rm ft}$.)
+
+\item 
+Calculate the first overtones (2nd harmonics) of each of the three
+fundamentals by doubling the frequencies from the preceding question.
+
+\item
+Write down the range of these first six frequencies.
+\een
+
+\subsection{Acoustics Box}
+
+Instead of studying the lecture room in more detail, we use a cubical
+box or ``model room” with identical dimensions 
+$L_x =L_y = L_z = 362~{\rm mm}\equiv L$.
+See Figure~\ref{f:1} for a similar but non-cubical box. 
+%
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.7\textwidth]{fig8_1}
+\caption{Acoustics box to
+simulate the acoustics of a room (built by Arnold Fernandez).  The
+small speaker at the top excites box resonances with a swept-sine 
+excitation or white noise. 
+The microphone inserted on the right records the resonances.}
+\label{f:1}
+\end{center}
+\end{figure}
+%
+The frequency spectrum for this cubical ``room” is much simpler than
+for a real room with different dimensions, surfaces, furniture, etc.
+Equation~(\ref{e:1}) above simplifies to
+%
+\be
+f_{N_1N_2N_3} = \frac{v}{2L}\sqrt{N_1^2 + N_2^2 + N_3^2}
+\label{e:3}
+\ee
+%
+The integers $N_1$, $N_2$, $N_3$ in the formula are the mode numbers. 
+For example, the lowest mode with an air resonance in only the 
+$x$-direction is $(N_1, N_2, N_3) = (1, 0, 0)$. 
+The corresponding resonance frequency is
+%
+\be
+f_{1,0,0} = \frac{v}{2L}
+\ee
+%
+For a cubical box, we obviously have the same resonance frequency 
+$f_{1,0,0}$ for the three modes $(1,0,0)$, $(0,1,0)$, $(0,0,1)$.
+
+By exciting the acoustics box with either a swept-sine wave 
+or white noise, we are able to obtain a ``room spectrum” from 
+the cubical box as shown in Figure~\ref{f:2}. 
+%
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.9\textwidth]{fig8_2}
+\caption{Resonances in a cubical plywood box of inside dimension 
+$L = 362~{\rm mm}$. 
+The lowest resonances are clearly seen and the vibrational mode
+numbers can be identified.
+The resonances were excited with broadband white noise.}
+\label{f:2}
+\end{center}
+\end{figure}
+%
+
+\ben
+\item
+Verify that the frequencies of the peaks in Figure~\ref{f:2} 
+agree with the frequencies calculated from equation~(\ref{e:3}) using 
+$L=362~{\rm mm}$ and the appropriate values of $N_1$, $N_2$, $N_3$.
+
+\een
+
+\subsection{Calculation of the Reverberation Time}
+
+The {\em reverberation time} is one of the most important characteristics of
+a room. Just as in the case of the resonant frequencies, the
+reverberation time depends on the geometry of the room, on the choice of
+sound absorbing materials, and on the persons and furniture in the room.
+The reverberation time can be estimated from the formula 
+%
+\be
+T_{\rm R} = 0.050\,\frac{V}{A_{\rm sabin}}~{\rm s}
+\label{e:TR}
+\ee
+%
+where $V$ is the volume of the room in ${\rm ft}^3$ and $A_{\rm
+sabin}$ is the total {\em effective area} of the room, also called
+``absorption”, in units of {\em sabin}. 
+
+The unit {\em sabin} is named after Wallace C.~Sabine, founder of
+architectural acoustics. One sabin is equal to a square foot of
+perfectly absorbing material. For instance, a $3~{\rm ft}^2$ 
+hole in a wall is a perfect sound absorber as it reflects no sound 
+and thus corresponds to an effective area 
+$A_{\rm eff} = 3~{\rm sabin}$. 
+Table~\ref{t:1} lists the absorption
+coefficients of several common materials. For example, a piece of
+carpet with an area of $3~{\rm ft}^2$ at a sound frequency of 
+500~Hz has an absorption coefficient $a = 0.3$ and an effective 
+area $A_{\rm eff} = a A = 0.3\times 3= 0.90~{\rm sabin}$.
+%
+\begin{table}[hbtp]
+\begin{center}
+\includegraphics[width=.8\textwidth]{tab8_1}
+\caption{Absorption coefficients a of various materials. 
+(Values from ``The Physics of Sound" by R.E.~Berg and D.G.~Stork.)}
+\label{t:1}
+\end{center}
+\end{table}
+%
+The effective area of an adult person is $A_{\rm eff} = 4.2~{\rm sabin}$.
+
+In order to find the total effective area entering in
+equation~(\ref{e:3}), each surface area $A$ is multiplied by 
+its absorption coefficient $a$, resulting in the
+product $a\, A$ for each surface. 
+The total effective area then is the sum over all areas
+%
+\be
+A_{\rm eff} = a_1\,A_1 + a_2\,A_2 + a_3\,A_3 + \cdots
+~(\textrm{in sabin})
+\label{e:Aeff}
+\ee
+
+\ben
+\item
+Calculate the reverberation time of our lecture room, which has
+approximate
+length, width, and height $L_x=29~{\rm ft}$, $L_y=24~{\rm ft}$, and 
+$L_z=9.5~{\rm ft}$, respectively.
+Use the absorption coefficients from Table~\ref{t:1} at 500~Hz
+for concrete/brick for the walls and floors, and acoustical board
+for the ceiling.
+Calculate the effective area $A_{\rm eff}$ from
+equation~(\ref{e:Aeff}) and the volume from $V = L_xL_yL_z$. 
+Finally, use your values for $A_{\rm eff}$ and $V$ in
+equation~(\ref{e:TR}) to
+obtain the reverberation time.
+
+\item 
+Compare your values with those in the Course Guide (see chapter 
+on ``Room Acoustics”).
+\een
+
+\subsection{Calculation of the Reverberation Time of the
+Cubical Acoustics Box}
+
+Consider the much simpler case of the cubical acoustics box, 
+which has length $L=362~{\rm mm}$ for all three dimensions.
+
+\ben
+\item 
+Calculate the reverberation time for the box 
+assuming the absorption coefficient for plywood at 500~Hz 
+in Table~\ref{t:1}.
+
+\item 
+What are the least and most sound absorbing materials in 
+Table~\ref{t:1} at 500~Hz?
+Calculate the reverberation time of the cubical box for 
+those two materials instead of plywood.
+
+\item
+Based on your results for the previous question, describe how you
+can adjust the reverberation time of a room with the proper choice
+of materials.
+
+\een
+
+\end{document}
+
+% extras
+%
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.7\textwidth]{fig8_3}
+\caption{Resonances of the cubical box with white noise excitation on
+an extended frequency scale including the higher modes. The modes
+become denser with increasing frequency.}
+\label{f:3}
+\end{center}
+\end{figure}
+%
+%
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.7\textwidth]{fig8_4}
+\caption{Entry Hall of the TTU Southwest Collection/Special 
+Collections Library.}
+\label{f:4}
+\end{center}
+\end{figure}
+%
+%
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.7\textwidth]{fig8_5}
+\caption{Campus Circle at Texas Tech University.}
+\label{f:5}
+\end{center}
+\end{figure}
+%
+

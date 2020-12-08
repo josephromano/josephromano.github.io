@@ -1,0 +1,297 @@
+\documentclass[11pt]{NSF}
+\sloppy
+
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{draftcopy}
+\usepackage{longtable}
+\usepackage{hyperref}
+
+% some definitions
+ 
+% begin equation, itemize, etc.
+
+\def\be{\begin{equation}}
+\def\ee{\end{equation}}
+\def\bi{\begin{itemize}}
+\def\ei{\end{itemize}}
+\def\ben{\begin{enumerate}}
+\def\een{\end{enumerate}}
+\def\i{\item{}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+     
+\section{9. Electrical Energy and Work, Acoustical Power}
+
+PURPOSE AND BACKGROUND
+
+Electricity is one of the most important energy forms. 
+Here we study electrical energy, work, power, voltage, current,
+and resistance. 
+We will compare the power consumption of a conventional
+incandescent light bulb with more efficient 
+compact fluorescent and light-emitting diode light bulbs
+(CFL and LED light bulbs for short).
+We will determine the energy and dollar savings of using a CFL 
+or LED light bulb instead of an incandescent light bulb. 
+We will also investigate the acoustic power radiated by
+a loudspeaker by finding the sound intensity in front of
+the speaker. 
+The speaker efficiency then follows from the acoustic power 
+divided by the electric power. 
+We judge how loud a speaker sounds for a given acoustic power 
+and find out how acute our sense of hearing is.
+
+\subsection{Some Theory Concerning Power, Energy, Work, and
+Electricity}
+
+{\em Energy} is the ability to do work.
+
+{\bf Example:} 1 gallon of gasoline contains energy to do work. An
+automobile engine does work and moves a car 30 miles with this energy.
+
+Unit of energy and work: 1~Joule (J)
+
+{\em Power} is the rate at which work is done:
+%
+\be
+{\rm Power} = {\rm Work/Time~Interval}
+\quad{\rm or}\quad
+P = W/\Delta t
+\ee
+%
+\be
+{\rm Work} = {\rm Power}\cdot{\rm Time~Interval}
+\quad{\rm or}\quad
+W = P\,\Delta t
+\ee
+
+Unit of power: 1~J/s = 1 Watt (W)
+
+{\em Ohm's law of electricity}:
+%
+\be
+V=IR
+\ee
+%
+where
+$V$ is the voltage across a load
+(for instance a light bulb or loudspeaker) in volt (V); 
+$I$ is the current through the load in Ampere (A); and
+$R$ is the resistance of the load in Ohm ($\Omega$).
+
+Electric power:
+\be
+P = VI\quad{\rm or,\ equivalently,}\quad
+P = I^2 R\quad{\rm and}\quad 
+P = V^2/R
+\ee
+
+Common unit of energy: 1~kilowatt-hour (kWh)
+
+Conversion: $1~{\rm kWh} = 1000~{\rm W}\times 3600~{\rm s}
+=3,600,000~{\rm W}\cdot{\rm s} 
+=3,600,000~{\rm J}
+=3.6\times 10^6~{\rm J}$
+
+{\bf Example:} A sedentary person consumes 2000~kcal (kilocalories) of food
+energy per day. The conversion is $1~{\rm kcal} = 4184~{\rm J}$. 
+Therefore $2000~{\rm kcal} = 8,370,000~{\rm J}$. 
+This amount of energy is consumed in a time interval 
+$\Delta t = 24~{\rm hr} = 86,400~{\rm s}$. 
+Hence the rate of energy consumption is 
+$P = W/\Delta t =8,370,000~{\rm J}/86,400~{\rm s} = 97~{\rm J/s} = 97~{\rm W}$ 
+or about 100~W.  This is typical
+for the resting metabolic rate of a person. You may know this rate as
+``2000 kcal per day” rather than 100~Watt. When we sit around doing
+little, we burn food energy at the rate of 100~W, i.e., about the same
+as an old-style 100~W incandescent light bulb consumes in the form of
+electrical energy.
+
+\subsection{Power and Energy Consumption in Light Bulbs}
+
+An incadescent light bulb, CFL, and LED light bulb are connected to a 
+triple light bulb fixture, which supplies a household voltage 
+$V=120~{\rm volt}$ to each bulb.
+The power rating of the three bulbs are $P=40~{\rm W}$, 9~W, and 6~W,
+respectively, but the bulbs are equally bright.
+
+\ben
+\item 
+Suppose you turn the light bulbs on for 5~hours each day. 
+Calculate the energy used by each bulb in a 30-day month. 
+Express your answers first in Joules, and then convert to kWh.
+
+\item 
+Electricity costs about 13~cents/kWh. 
+What is the monthly electric bill for each of the light bulbs?
+
+\item 
+An incandescent light bulb costs \$0.75 (if still available), 
+a CFL \$1.50, and an LED light bulb \$5.00. 
+How long does it take to make up for the extra initial cost of 
+the CFL and LED light bulbs over the incandescent light bulb?
+(Hint: The number of months needed to make up the extra initial 
+cost is equal to the difference in their initial costs divided 
+by the difference in their monthly costs.)
+
+\item 
+How much money is saved over the lifetime of 10,000~hours of a 
+CFL and 20,000~hours of an LED light bulb, 
+compared to the 2000 hours for an incandescent light bulb?
+Include in your calculation the number of incandescent light bulbs 
+you would need during the lifetime of a CFL and LED light bulb.
+Hint: Use the formula
+%
+\be
+{\rm savings~(in\ dollars)}
+=\$0.75\left(\frac{T}{2000~{\rm hr}}\right)
+- C_{\rm initial} + \frac{\$0.13}{1000~{\rm
+  W}\cdot{\rm hr}}(40~{\rm W}-P)\,{T}
+\ee
+%
+where $T=10,000~{\rm hr}$, $C_{\rm initial}=\$1.50$, and 
+$P=9~{\rm W}$ for a CFL; 
+or $T=20,000~{\rm hr}$, $C_{\rm initial}=\$5.00$, and 
+$P=6~{\rm W}$ for a LED light bulb.
+
+\item What are the energy savings in percent when using a CFL and 
+LED light bulb instead of an incandescent light bulb? 
+(Hint: Compare the wattages of the three bulbs.)
+
+\een
+
+\subsection{Electric Power to a Loudspeaker}
+
+A sine-wave signal generator is connected to a loudspeaker as shown in
+Figure~\ref{f:1}. 
+A multi-meter, set to the ammeter mode, is connected in-line between the 
+loudspeaker and the signal generator, and 
+another multi-meter, set to the voltmeter mode, is connected in parallel 
+to the speaker inputs.
+%
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.5\textwidth]{fig9_1}
+\caption{Schematic of the speaker connections to a signal generator,
+voltmeter, and ammeter.}
+\label{f:1}
+\end{center}
+\end{figure}
+%
+When the amplitude of the signal generator is adjusted to produce
+a comfortable loudness at $500~{\rm Hz}$, one observes a current 
+$I=0.3~{\rm Ampere}$ and voltage $V=5~{\rm volt}$.
+
+\ben
+\item 
+Calculate the power to the loudspeaker from the formula $P = IV$.
+
+\item 
+Loudspeakers of hi-fi systems often are rated at 100~W or higher. 
+How does your answer for our loudspeaker compare with such ratings?
+
+\item 
+Do you think a power of several hundred Watt is necessary? Why or why not?
+\een
+
+\subsection{Resistance or Impedance of a Loudspeaker, Power Continued}
+
+The reaction of a loudspeaker to an applied alternating current (AC) 
+voltage is called {\em impedance}, labeled with the letter $Z$. 
+Impedance is not the same as resistance because it also includes 
+capacitance and inductance. 
+But we will ignore this distinction here and use resistance and impedance
+interchangeably.
+This means that we will use Ohm's law $V=IR$ to calculate the
+resistance from $R=V/I$, and then use this value of $R$ to get an
+estimate of the impedance $Z$.
+
+\ben
+\item
+Obtain the impedance of the loudspeaker from the voltage $V$ and 
+current $I$ given in Part III above.
+Compare this with the specification of $16~\Omega$ on the loudspeaker 
+enclosure.
+
+\item
+Obtain the power to the loudspeaker from the expression $P = I^2 R$.
+Compare your answer with the result from Part III, Question 1.
+
+\een
+
+%\subsection{Loudspeaker Power Measured Directly with a Power Meter}
+
+%The loudspeaker power can also be measured directly by using 
+%a power meter.
+%To do so, one feeds the output from the signal generator directly 
+%into the power meter without the loudspeaker, voltmeter, and 
+%ammeter in the circuit. 
+%The impedance of the power meter should be set to the same value 
+%as the impedance found in Part IV above.
+%Doing so leads to a power reading of $1.5~{\rm W}$.
+
+\subsection{Acoustical Power and Loudspeaker Efficiency}
+
+Using a sound level meter in setting “A” (which corresponds to
+the response of the human ear), we can measure the sound 
+loudness level (in phon)  
+at various locations in front of and close to the speaker. 
+Averaging these measurements at a distance of 1~m from the 
+speaker, we find an average loudness level of 90~phon.
+%
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.9\textwidth]{fig9_2}
+\caption{Fletcher-Munson curves of equal loudness.
+(From ``Physics of Sound," by R.E.~Berg and D.G.~Stork.)}
+\label{f:2}
+\end{center}
+\end{figure}
+%
+
+\ben
+\item 
+Consulting the Fletcher-Munson equal loudness curves in Figure~\ref{f:2}, 
+what is the sound intensity $I$ in ${\rm W/m}^2$ corresponding to an
+average loudness level of 90~phon at a frequency of 500~Hz?
+
+\item 
+To calculate the total acoustical power $P_{\rm acoustical}$ 
+radiated by the loudspeaker, we need to know the area into which 
+the power is radiated.
+Assume that this area is the base of a cone in front of the speaker
+with area $A = 0.6\pi r^2$, where $r=1~{\rm m}$.
+Given this area, calculate the acoustical power using the formula 
+$P_{\rm acoustical} = IA$.
+
+\item 
+Using the above answer for $P_{\rm acoustical}$ and your result 
+from Part III, Question 1 for the electrical power $P_{\rm electrical}$ 
+to the speaker, calculate the {\em loudspeaker efficiency}
+$(P_{\rm acoustical}/P_{\rm electrical})\times 100\%$.
+
+\item 
+Based on your answer to the previous question, 
+comment on the conversion of electrical power to acoustical power.
+
+\item 
+Compare the acoustical power output from a speaker with the 
+light power output from a CFL. 
+Do this by assuming that the same electrical power 
+(e.g., 9~W) goes into both the speaker and the CFL. 
+For the CFL assume a conversion efficiency of 20\% from 
+electrical power to light power, so 
+$P_{\rm light} = 0.20\,P_{\rm electrical}$. 
+For the acoustical power, you will need to increase the 
+value that you found in Question 2 above by a factor of 
+$9/1.5=6$ to take in account the increase in electrical 
+power from 1.5~W to 9~W.
+(You should find that the emitted acoustical power is
+much lower than the light power output from a CFL.)
+
+\een
+
+\end{document}
+

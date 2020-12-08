@@ -1,0 +1,210 @@
+\documentclass[11pt]{NSF}
+\sloppy
+
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{draftcopy}
+\usepackage{longtable}
+\usepackage{hyperref}
+
+% some definitions
+ 
+% begin equation, itemize, etc.
+
+\def\be{\begin{equation}}
+\def\ee{\end{equation}}
+\def\bi{\begin{itemize}}
+\def\ei{\end{itemize}}
+\def\ben{\begin{enumerate}}
+\def\een{\end{enumerate}}
+\def\i{\item{}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            
+\begin{document}
+
+\section{6. Spectrum Analysis of Instruments and Voice}
+
+PURPOSE AND BACKGROUND
+
+We continue with our discussion of harmonics. 
+All musical instruments produce tones that
+are unique and have a characteristic {\em timbre} or quality of sound. The
+frequency spectra tell the harmonic content of a tone and how it can
+be synthesized. Electronic keyboards make use of this to reproduce
+sounds. We analyze the sound from a variety of string instruments, 
+wind instruments, and the human voice.
+
+\subsection{String Instruments}
+
+All musical instruments use a driving force to set an oscillator into
+motion. Stringed instruments use a bow or plucking for exciting the
+vibrations. 
+The strings of a violin are tuned to the notes G3, D4, A4, and E5;
+for the guitar, they are E2, A2, D3, G3, B3 and E4. You see that the
+note G3 is common to both instruments. 
+Figure~\ref{f:1} shows an example of a frequency spectrum from the 
+open G3 strings of a guitar (top) and violin (bottom).
+%
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.6\textwidth]{fig6_1}
+\caption{Frequency spectra of the plucked open G3 strings of a guitar
+(top) and violin (bottom). The fundamental frequency
+(pitch) and frequencies of the harmonics are the same. But the timbre
+(quality of sound) is very different because of the different relative
+amplitudes of the harmonics.}
+\label{f:1}
+\end{center}
+\end{figure}
+
+
+\ben
+\item 
+What differences do you see in the frequency spectra for the guitar
+and the violin?
+
+\item Placing a finger down on the fingerboard reduces the effective 
+length of the string and increases the pitch.
+How do you think the two spectra would change if you increase the 
+pitch of the G3 strings on the guitar and violin?
+What will be similar?
+
+\item How do you think the spectrum for the violin would change if 
+the violin string were {\em bowed} instead of plucked?
+
+\item The lowest and highest notes on a violin have fundamental
+frequencies of 196~Hz (open G3 string) and 2093~Hz (C7 played on 
+the E3 string).  
+Approximately how many octaves apart are these two notes?
+\een
+
+\subsection{Wind Instruments} 
+Wind instruments use air as the vibrating medium. Brass instruments
+have closed pipes, with the closed end near the mouth. Woodwinds such
+as the clarinet, oboe and bassoon also are closed pipes, with a reed
+at the closed end. The lowest harmonics of these instruments are
+primarily the odd harmonics, as is expected for closed pipes. This
+applies especially to the clarinet due to its straight cylindrical
+bore. For other wind instruments, all harmonics are present without a
+special dominance of odd or even harmonics. Flutes, piccolos,
+recorders and, more exotically, an ocarina, are open pipes with even
+and odd harmonics.  
+
+Figure~\ref{f:2} shows the simple, almost purely sinusoidal, frequency
+spectrum from a slide whistle.
+%
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.6\textwidth]{fig6_2}
+\caption{Frequency spectrum of a slide whistle with 
+$f =880~\textrm{Hz}$.}
+\label{f:2}
+\end{center}
+\end{figure}
+
+\ben
+\item
+How does the frequency spectrum of the slide whistle compare to that 
+of the guitar or violin?
+
+\item Since a slide whistle is closed at one end, what harmonics might 
+you produce if you ``over-blow" the lowest note?
+
+\een
+
+\subsection{Voice}
+
+The human vocal tract is an intricate system for producing sound. The
+voice of each person is unique. The sound is produced, and its quality
+determined, by the vocal tract consisting of throat, nasal cavity, and
+mouth. Each of these components acts as a resonator with
+characteristic resonant frequencies. The different vowel sounds come
+from different regions of the vocal tract. This allows for a large
+variety of sounds, but some general characteristics exist.
+
+The frequency regions where several neighboring harmonics have high
+amplitudes are called {\em vocal formants}. Most people have similar
+formants because of the similar size and shape of their vocal tracts. 
+The individual resonators of the tract produce the different formants.
+They can be adjusted by a change in size and shape of the throat,
+nasal cavity, and mouth. How this is done distinguishes a great singer
+from a bad one. Vocal formants are what we listen to in order to
+recognize persons. Adjusting the cavities of the vocal tract changes
+the formant regions. Adjusting the tension in the vocal cords changes
+the pitch and associated harmonics.
+
+Figure~\ref{f:4} shows the frequency spectra of a male voice (top) 
+and female voice (bottom) making the vowel sound ``ee".
+Note the dominant formant regions.
+%
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.6\textwidth]{fig6_4}
+\caption{Vowel sound ``ee” from a male voice (top) and 
+female voice (bottom). 
+The female voice has purer harmonics. 
+Note the formant regions.}
+\label{f:4}
+\end{center}
+\end{figure}
+
+\ben
+
+\item The human throat has a typical overall length of 17 cm. Consider
+it as a simple pipe, with one end closed at the vocal folds and the
+other open at the mouth. What is the fundamental resonance frequency?
+What are the frequencies of the next three harmonics?
+
+\item Identify any formant regions in the male and female voice in
+Figure~\ref{f:4}, where the amplitudes are pronounced.
+Are they located around similar freqeuncies?
+
+\item How can you effectively change the resonant frequencies of the
+vocal tract (formant regions)?
+How can you change the frequencies of the vocal folds?
+
+\item Telephones transmit frequencies only in the approximate range
+300-3000~Hz. Why do you think this frequency range is 
+sufficient for most purposes?
+
+\een
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%
+\begin{table}[hbtp]
+\begin{center}
+\begin{tabular}{ |p{0.8in} | p{0.8in} | p{0.9in}|}
+\hline
+Sound & 1st formant region (Hz) & 2nd formant region (Hz) \\
+\hline
+oo & & \\  
+\hline
+ah & & \\  
+\hline
+ee & & \\  
+\hline
+\end{tabular}
+\caption{}
+\label{t:}
+\end{center}
+\end{table}
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.6\textwidth]{fig6_3}
+\caption{}
+\label{f:}
+\end{center}
+\end{figure}
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.6\textwidth]{fig6_5}
+\caption{}
+\label{f:}
+\end{center}
+\end{figure}
+
+
