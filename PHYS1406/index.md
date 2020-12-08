@@ -8,7 +8,7 @@
 
 ## Course guide
 
-## Modified labs
+## Labs
 
 - [lab 1](labs/F2020/modified/lab1.pdf)
 - [lab 2](labs/F2020/modified/lab2.pdf)
