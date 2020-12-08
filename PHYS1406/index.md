@@ -19,7 +19,7 @@
 - [lab 7](labs/S2021/modified/lab7.pdf)
 - [lab 8](labs/S2021/modified/lab8.pdf)
 - [lab 9](labs/S2021/modified/lab9.pdf)
-- [lab 10](labs/S2021/modified/lab10.pdf), [Chladni patters](labs/S2021/modified/Chladni_patterns.mov)
+- [lab 10](labs/S2021/modified/lab10.pdf), [Chladni patterns](labs/S2021/modified/Chladni_patterns.mov)
 - [lab 11](labs/S2021/modified/lab11.pdf)
 
 ## Extra resources
