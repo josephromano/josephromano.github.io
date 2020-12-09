@@ -22,13 +22,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
      
-\section{1. Topic}
+\section{1. Simple Harmonic Motion (SHM)}
 
 PURPOSE AND BACKGROUND
 
 In order to understand sound and music, we need to understand periodic motion
 and how it gives rise to sound. Periodic motion is any sort of movement that
-repeats itself after an amount of time called the period. For example, a violin
+repeats itself after an amount of time called the {\em period}. 
+For example, a violin
 string or the reed of a bassoon exhibit periodic motion when playing a
 sustained tone. A grandfather clock exhibits periodic motion as the pendulum
 swings back and forth, and so does a Ferris wheel that rotates at a constant
@@ -37,62 +38,67 @@ speed.
 Simple harmonic motion (SHM) is the purest form of periodic motion. Two
 conditions have to be met:
 
-1) There exists a stable equilibrium position. If the system is at rest it will
+1) There exists a stable {\em equilibrium position}. 
+If the system is at rest it will
 stay at rest there. It will tend to return to that position if displaced from
 it.
 
-2) There exists a restoring force towards the equilibrium position. This force
+2) There exists a {\em restoring force} towards the equilibrium position. 
+This force
 is proportional to the amount of displacement from equilibrium. For example, if
 a mass hanging from a spring originally is at rest and then pulled down a small
 distance, the mass will oscillate up and down with SHM when let go. The spring
 provides a restoring force to bring the mass back to the equilibrium position.
 If the mass instead is pulled twice as far, the spring provides twice the force
-to bring it back. In this manner, the system is linear and it is said to obey
-Hooke’s Law.
+to bring it back. In this manner, the system is {\em linear} 
+and it is said to obey {\bf Hooke’s Law}.
 
 Much of music and sound is generated from periodic vibrations of the air or
 solid material in musical instruments. Examples are the vibrating strings of a
 violin and the reeds of woodwind instruments. In practice, however, very few
 musical tones come from pure SHM. That sound actually would be rather boring.
-Instead, musical tones consist of a combination of harmonics - see a tone from
+Instead, musical tones consist of a combination of harmonics---see a tone from
 a plucked violin string in Figure 1. The lowest frequency corresponding to the
-first peak is called the fundamental frequency. This is the only frequency
-present in SHM. The peaks at the higher frequencies in Figure 1 are the higher
-harmonics or overtones that make up the tone. We shall discuss this in more
-detail in later laboratories.
-
-\subsection{XXX}
-
-text
-
-\ben
-\item
-question 1?
-
-\item
-question 2?
-\een
-
-text
-
-\subsection{YYY}
-
-\ben
-\item
-question 1?
-
-\een
-
+first peak is called the {\em fundamental frequency}. 
+This is the only frequency present in SHM. 
+The peaks at the higher frequencies in Figure 1 are the higher
+harmonics or {\em overtones} that make up the tone. 
+We shall discuss this in more detail in later laboratories.
 %
 \begin{figure}[hbtp]
 \begin{center}
-\includegraphics[width=.95\textwidth]{fig1_1}
+\includegraphics[width=.75\textwidth]{fig1_1}
 \caption{Frequency spectrum of a plucked string showing the 
 fundamental frequency and higher harmonics (overtones).}
 \label{f:1}
 \end{center}
 \end{figure}
 %
+
+%\newpage
+THEORY AND EXPERIMENT
+
+A basic property of simple harmonic motion and any periodic motion is the
+{\em period} $T$ and directly related to it the {\em frequency} $f$. 
+The period is the time for one complete cycle of motion. 
+The frequency is the number of cycles during that time. 
+These two quantities are inversely related. 
+For example, if it takes a mass on the spring two seconds to complete a 
+cycle, then $T = {\rm period} = 2~{\rm s}$, 
+and the frequency is one cycle per two seconds. As a formula we can
+write 
+\be
+f = \frac{1}{T} = \frac{1}{2~{\rm s}} = 0.5~{\rm Hz}\,.
+\ee
+The unit of frequency is {\em Hertz}, abbreviated Hz, and is the number of cycles per second. 
+A cycle can be one revolution, a completion of a periodic process, or one oscillation.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Pendula}
+
+For the first part of this lab, we make a pendulum using a 
+string and either a lead (Pb) or aluminum (Al) ball as the
+mass (see Figure~\ref{f:2}).
 %
 \begin{figure}[hbtp]
 \begin{center}
@@ -102,17 +108,19 @@ fundamental frequency and higher harmonics (overtones).}
 \end{center}
 \end{figure}
 %
+The length of the string is initially $L = 20.0~{\rm cm}$ 
+from the support to the center of the mass ball. 
+To obtain the time it takes for one period of 
+oscillation using a small displacement, we find the 
+time it takes for ten oscillations, and then divide 
+the total by 10 to get the average time for one period. 
+We repeat this process three times and record the average time. 
+We repeat the whole process for the other mass using 
+the same length of $L = 20.0~{\rm cm}$, and 
+then repeat for both the lead and aluminum balls for a
+string on length $L=80.0~{\rm cm}$.
+The results are given in Table 1:
 %
-\begin{figure}[hbtp]
-\begin{center}
-\includegraphics[width=.75\textwidth]{fig1_3}
-\caption{Sonometer with two vibrating strings.}
-\label{f:3}
-\end{center}
-\end{figure}
-%
-%
-
 \begin{table}[hbtp]
 \begin{center}
 Pendulum Period $T$ (seconds)\\
@@ -123,19 +131,46 @@ Pendulum Period $T$ (seconds)\\
 \hline
 Trial & \phantom{ }Pb\phantom{ } & Al & \phantom{ }Pb\phantom{ }\  & Al \\
 \hline
-\# 1 &  &  &  &  \\
+\# 1 & 0.91 & 0.89 & 1.77 & 1.76 \\
 \hline
-\# 2 &  &  &  &  \\
+\# 2 & 0.89 & 0.91 & 1.76 & 1.76 \\
 \hline
-\# 3 &  &  &  &  \\
+\# 3 & 0.88 & 0.87 & 1.78 & 1.77 \\
 \hline
-avg  &  &  &  &  \\
+avg  & 0.89 & 0.89 & 1.77 & 1.76 \\
 \hline
 \end{tabular}
 %\caption{Table}
 \label{t:1}
 \end{center}
 \end{table}
+
+\ben
+\i Compare your results for the different masses and lengths. 
+Which variable had an effect on the period? Which had no effect? 
+(This might puzzle you and is different from the spring below.)
+
+\i Note that the long pendulum was four times longer than the shorter one. 
+Compare the periods of the longer and shorter pendulums.
+
+\i If the length of the long pendulum were $9\times$ longer 
+than the short pendulum (i.e., $L=180~{\rm cm}$), what do you think
+the period would be?
+\een
+
+We know from basic mechanics that the period $T$ is proportional 
+to the square root of the length of the pendulum according to the formula
+\be
+T=2\pi\sqrt{\frac{L}{g}}\propto L\,.
+\ee
+So, if the long pendulum is four times as long as the short one, 
+the period $T$ is only twice as long. 
+(The quantity $g$ is the acceleration in Earth’s gravitational field, 
+given by $g = 980~{\rm cm/s}^2$.)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Springs}
+
 
 %
 \begin{table}[hbtp]
@@ -159,6 +194,20 @@ avg  &  &  &  &  \\
 \end{center}
 \end{table}
 %
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Strings}
+
+%
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.75\textwidth]{fig1_3}
+\caption{Sonometer with two vibrating strings.}
+\label{f:3}
+\end{center}
+\end{figure}
+%
+
 
 %
 \begin{table}[hbtp]
