@@ -94,7 +94,7 @@ The unit of frequency is {\em Hertz}, abbreviated Hz, and is the number of cycle
 A cycle can be one revolution, a completion of a periodic process, or one oscillation.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Pendula}
+\subsection{Pendulum}
 
 For the first part of this lab, we make a pendulum using a 
 string and either a lead (Pb) or aluminum (Al) ball as the
@@ -102,7 +102,7 @@ mass (see Figure~\ref{f:2}).
 %
 \begin{figure}[hbtp]
 \begin{center}
-\includegraphics[width=.4\textwidth]{fig1_2}
+\includegraphics[width=.5\textwidth]{fig1_2}
 \caption{Pendulum and spring.}
 \label{f:2}
 \end{center}
@@ -119,7 +119,7 @@ We repeat the whole process for the other mass using
 the same length of $L = 20.0~{\rm cm}$, and 
 then repeat for both the lead and aluminum balls for a
 string on length $L=80.0~{\rm cm}$.
-The results are given in Table 1:
+The results are given in the following table:
 %
 \begin{table}[hbtp]
 \begin{center}
@@ -145,6 +145,8 @@ avg  & 0.89 & 0.89 & 1.77 & 1.76 \\
 \end{center}
 \end{table}
 
+\subsubsection{Questions}
+%
 \ben
 \i Compare your results for the different masses and lengths. 
 Which variable had an effect on the period? Which had no effect? 
@@ -169,35 +171,63 @@ the period $T$ is only twice as long.
 given by $g = 980~{\rm cm/s}^2$.)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Springs}
+\subsection{Spring}
 
-
+For spring oscillations, we start by attaching a 
+$50~{\rm g}$ mass to the spring (see Figure~\ref{f:2}).
+Pulling down slightly on the spring, we let go, and record the time for ten 
+oscillations, dividing by 10 again to obtain the average period.
+We repeat this process three times and record the average.
+We then repeat with a mass of 200~g.
+The results are given in the following table:
 %
 \begin{table}[hbtp]
 \begin{center}
-Spring Period\\
-\begin{tabular}{| c | c | c | c | c | }
+Spring Period $T$ (seconds)\\
+\begin{tabular}{| c | c | c | }
 \hline
-Trial & Mass $m$ (g) & Period $T$ (s) & Mass $m$ (g) & Period $T$ (s) \\
+Trial & $m=50~{\rm g}$ & $m=200~{\rm g}$ \\
 \hline
-\# 1 &  &  &  &  \\
+\# 1 & 0.59 & 1.07 \\
 \hline
-\# 2 &  &  &  &  \\
+\# 2 & 0.58 & 1.05  \\
 \hline
-\# 3 &  &  &  &  \\
+\# 3 & 0.59 & 1.06 \\
 \hline
-avg  &  &  &  &  \\
+avg  & 0.59 & 1.06 \\
 \hline
 \end{tabular}
 %\caption{Table}
-\label{t:1}
+\label{t:2}
 \end{center}
 \end{table}
 %
+\subsubsection{Questions}
+%
+\ben
+\item 
+How does the period $T$ of oscillation of a spring depend 
+on the mass suspended from it? 
+Write a simple proportionality to describe your observation.
+\een
+
+For a mass attached to a spring, the formula for the period of 
+oscillation is
+\be
+T=2\pi\sqrt{\frac{m}{k}}\,,
+\ee
+where $m$ is the mass suspended from the spring and $k$ is the so-called
+{\em spring constant}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Strings}
+\subsection{Vibrating Strings}
 
+We can also study the simple harmonic motion of a vibrating string. 
+Guitars and other string instruments have strings under tension. 
+We use a so-called {\em sonometer},
+which is an apparatus with strings whose tension can be adjusted. 
+A string is fastened at one end to a tension meter and led over a 
+bridge near the other end (see Figure~\ref{f:3}).
 %
 \begin{figure}[hbtp]
 \begin{center}
@@ -208,18 +238,37 @@ avg  &  &  &  &  \\
 \end{figure}
 %
 
+The tension meter on the sonometer measures the equivalent of ``mass”. 
+For instance, when the tension scale reads 6~kg, it is the equivalent 
+of having the string attached to a 6~kg mass hanging over the edge 
+of the table.
 
+We use the microphone connected to the Mac mini-computer and 
+record the frequency spectrum of the vibrating string with the 
+spectrum analyzer in our ``Electroacoustics Toolbox" software. 
+See Figure~\ref{f:1} again, which shows the fundamental frequency 
+but also the frequency spectrum from the vibrating string. 
+(In this figure, the sound intensity from the microphone is
+displayed on the $y$-axis, versus the frequency on the $x$-axis.) 
+Several frequencies are present when a string is plucked, namely 
+the fundamental and the higher harmonics.
+
+For two different tension masses, 500~g and 2000~g, we record the 
+fundamental frequency from the spectrum analyzer mode on the computer.
+We also calculate the period of the string oscillation using the 
+formula $T= 1/f$.
+The results are given in the following table:
 %
 \begin{table}[hbtp]
 \begin{center}
-String Period\\
+String Frequency and Period\\
 \begin{tabular}{| c | c | c | }
 \hline
-Tension mass $m$ (g) & Frequency $f$ (Hz) & Period $T$ (s) \\
+Tension mass $m$ (g) & Frequency $f$ (Hz) & Period $T=1/f$ (s) \\
 \hline
-500 & 94 & \\
+500 & 94 & 0.011 \\
 \hline
-2000 & 181 & \\
+2000 & 181 & 0.0055 \\
 \hline
 \end{tabular}
 %\caption{Table}
@@ -227,6 +276,57 @@ Tension mass $m$ (g) & Frequency $f$ (Hz) & Period $T$ (s) \\
 \end{center}
 \end{table}
 %
+\subsubsection{Questions}
+%
+\ben
+\i How does the period change with increasing mass? Is this similar or 
+different from the spring?
+
+\i How does the fundamental frequency (pitch) change as the mass increases?
+\een
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Pythagorean Intervals and String Division}
+
+For the last part, we use the sonometer again and divide its 
+strings with a wedge.
+We move the wedge under the string.
+We pluck the two sections of the string and listen when the two
+resulting tones sound consonant.
+We do this for three different string divisions.
+We write down the lengths of the two string sections, $L_1$ and 
+$L_2$, and take their ratio, written as a decimal fraction with 
+3 significant digits.
+The results are given in the following table:
+%
+\begin{table}[h!btp]
+\begin{center}
+\begin{tabular}{| c | c | c | }
+\hline
+$L_1$ (cm) & $L_2$ (cm) & ratio $L_2/L_1$ \\
+\hline
+400 & 400 & 1.00 \\
+\hline
+355 & 445 & 1.25 \\
+\hline
+319 & 481 & 1.51 \\
+\hline
+201 & 399 & 1.99 \\ 
+\hline
+\end{tabular}
+%\caption{Table}
+\label{t:4}
+\end{center}
+\end{table}
+%
+
+\subsubsection{Questions}
+%
+\ben
+\i What fraction of two integers are these ratios closest to?
+
+\i What musical intervals do these ratios correspond to?
+\een
 
 \end{document}
 
