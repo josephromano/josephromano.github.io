@@ -74,6 +74,7 @@ two corresponding points having the same {\em phase}---see Figure 2.
 If we call $v$ the wave speed, then we have
 \be
 v = \frac{\lambda}{T} = f\lambda\,.
+\label{e:v=f*lambda}
 \ee
 %
 \begin{figure}[hbtp]
@@ -92,8 +93,25 @@ the medium and horizontal direction the position of the wave.}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Wave Velocity}
 
-\subsubsection*{Questions}
+We can use the PASCO ripple tank to produce plane waves in the ``strobe
+light" setting.
+The direction of the traveling waves is perpendicular to the straight
+crests and troughs of the waves.
+For a frequency setting of $f=20~{\rm Hz}$, we measure the
+length of 5 consecutive crests and determine the wavelength $\lambda$
+by dividing that distance by 5.
 
+\subsubsection*{Questions}
+\ben
+
+\i 
+If the distance between 5 consecutive crests is 11~cm, what is the 
+velocity $v$ of the waves according to equation (\ref{e:v=f*lambda})?
+Write your answer in units of $m/s$.
+\een
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Reflection}
 %
 \begin{figure}[hbtp]
 \begin{center}
@@ -103,7 +121,43 @@ the medium and horizontal direction the position of the wave.}
 \end{center}
 \end{figure}
 %
+When sound waves hit a barrier such as a wall, some of the sound is reflected
+(with the rest absorbed by the wall). 
+Waves obey the {\em law of reflection}. 
+A line
+drawn perpendicular to a point on the wall is called the ``surface normal”---see
+Figure 3. The angle that the incoming wave makes with the normal is called the
+{\em angle of incidence}. The law of reflection states that for a wave approaching a
+barrier, the wave will be reflected from the surface at an angle equal to the
+angle of incidence. For the law of reflection to hold, the surface roughness
+must be small compared to the size of the wavelength. In other words, we need a
+smooth, or optically speaking, a ``mirror- like” surface. This is the case in
+our experiments with the ripple tank.
 
+\subsubsection*{Questions}
+\ben
+\i Suppose a traveling plane water wave is incident 
+on a concave piece of plastic which acts as a 
+``mirror" for the water waves.
+Draw a diagram showing the direction of the incident and 
+reflected waves for different locations on the concave surface.
+You should see focusing of the waves in analogy to
+an optical mirror.
+
+\een
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Refraction}
+
+Refraction means a change in the direction in which a wave travels 
+(see Figure~\ref{f:4}). 
+This happens for instance in water where the depth changes, and the wave
+speed changes as a consequence. Although refraction has only limited
+applications to sound propagation in enclosed rooms such as our laboratory, it
+accounts for some interesting atmospheric phenomena (see below). Refraction
+also occurs with light waves, where it accounts for the action of optical
+lenses. In all cases where refraction occurs, the wave speed and direction of
+propagation change.
 %
 \begin{figure}[hbtp]
 \begin{center}
@@ -114,6 +168,30 @@ the medium and horizontal direction the position of the wave.}
 \end{figure}
 %
 
+REFRACTION OF SOUND WAVES IN THE ATMOSPHERE
+
+The speed of sound depends on the temperature of the air. Cooler, denser air
+will transmit sound more slowly than warmer air. Under normal conditions, the
+air near the ground is warmer than the air above it. This is the reason why you
+may not always hear the thunder from a lightning strike several miles away: The
+sound traveling through the cold air higher up travels more slowly than through
+the warm air closer to the ground. The sound therefore is refracted upwards and
+may not reach you. In contrast, a {\em temperature inversion}, where the air is
+cooler closer to the ground, produces the opposite effect. A cool lake at night
+and in the morning hours can cause such a temperature inversion: Sound is
+refracted downwards towards the listener, effectively amplifying the direct
+sound across the lake. This makes the sound, for instance from people on the
+opposite shore, sound louder and closer than it actually is.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Interference of Waves}
+
+When two or more wave trains move through the same region of space, the waves
+interfere with each other at any given spot. 
+{\em Constructive interference} occurs
+when two waves with the same phase, such as two wave crests, align at the same
+location. The two amplitudes add together to create a ``hotspot” of twice the
+amplitude and thus a maximum in intensity---see Figure~\ref{f:5}.
 %
 \begin{figure}[hbtp]
 \begin{center}
@@ -127,10 +205,53 @@ shows {\em constructive} interference and on the right
 \end{figure}
 %
 
+On the other hand, if the wave crest of one wave meets with a wave trough of
+another wave, the two waves are completely out-of-phase and suffer 
+{\em destructive interference}. The resultant amplitude is nearly zero, and so is the wave
+intensity---again see Figure~\ref{f:5}.
+
+\subsubsection*{Questions}
+\ben
+
+\i Draw a diagram similar to Figure~\ref{f:5} 
+showing the interference of two sine waves that are 90~degrees
+out of phase with one another 
+(so that the crest of one wave occurs at the zero of the other wave, etc.)
+
+\een
+
+INTERFERENCE OF WATER WAVES
+
+We can study the interference maxima and minima with water waves in the 
+``ripple tank” using the wave generator with two small point-like dippers, 
+each producing circular waves. 
+If we space the plungers a few wavelengths apart, and choose a 
+frequency between 15 and 20 Hz, we observe the interference pattern
+similar to that shown in Figure~\ref{f:6}.
+The radial lines correspond to regions of destructive interference
+where the two circular waves cancel each other out (e.g., the 
+top black top in Figure~\ref{f:6}).
+Between those radial lines are regions of constructive interference
+(e.g.,the bottom black dot in Figure~\ref{f:6}).
 %
 \begin{figure}[hbtp]
 \begin{center}
-\includegraphics[width=.95\textwidth]{fig2_6}
+\includegraphics[width=.6\textwidth]{fig2_6}
+\caption{Interference of circular water waves.
+Image from {\tt chegg.com}.}
+\label{f:6}
+\end{center}
+\end{figure}
+%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Diffraction of Waves}
+
+
+%
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.95\textwidth]{fig2_7}
 \caption{Diffraction of sound waves after passing through an opening, 
 around a barrier, and around an edge.}
 \label{f:6}
