@@ -6,6 +6,7 @@
 \usepackage{draftcopy}
 \usepackage{longtable}
 \usepackage{hyperref}
+\usepackage{amsmath}
 
 % some definitions
  
@@ -26,8 +27,25 @@
 
 PURPOSE AND BACKGROUND
 
+Standing waves on stretched strings and in pipes offer a convenient way to
+study vibrations, including the fundamental frequency and harmonics
+(overtones). For strings in particular, the frequency depends on the tension,
+the mass of the string per length ({\em linear mass density}), and the total length.
+In wind instruments, with air as the vibrating medium, the frequency is defined
+by the {\em speed of sound} and the effective length of the pipe. Once the
+fundamental frequency is known the higher harmonics are found as simple integer
+multiples of that frequency.
+
 THEORY AND EXPERIMENT
 
+When a string is plucked, a {\em transverse} standing wave is 
+created on the string---see Figure 1. 
+In the simplest case, we have only one {\em anti-node} with maximum
+movement in the center. The points at the two ends of the string do not move
+and are called {\em nodes}. 
+The standing waves result from two waves traveling in {\em opposite}
+directions along the string. The superposition of the two waves yields
+a standing wave, provided that the {\em resonance conditions} are met.
 %
 \begin{figure}[hbtp]
 \begin{center}
@@ -41,6 +59,87 @@ and $f_1$ the fundamental frequency.}
 \end{center} 
 \end{figure}
 %
+
+The first 3 vibrational modes of a string are shown in Figure 1. For the
+fundamental mode (harmonic number $N = 1$), the wavelength is 
+$\lambda = 2L$, where $L$ is the length of the string. 
+For the next higher mode, the first overtone or
+second harmonic ($N = 2$), the wavelength $\lambda = L$.
+
+The velocity $v$ of the wave on the string 
+(not the speed of sound in air!) is given by
+%
+\be
+v = \sqrt{\frac{F}{\mu}}\,,
+\ee
+%
+where $F$ is the {\em tension} on the string and $\mu$ its 
+{\em linear mass density} (mass per unit length or kg/m).
+
+For example, a typical metal guitar string has a mass per 
+unit length of $\mu = 6.3\times 10^{-3}~{\rm kg/m}$. 
+For a tension $F =73.3~{\rm N}$, the velocity of the wave 
+along the string is
+%
+\be
+v=\sqrt{\frac{73.3~{\rm N}}{6.3\times 10^{-3}~{\rm kg/m}}}
+=108.0~\frac{{\rm m}}{{\rm s}}\,.
+\ee
+%
+The {\em fundamental frequency} $f$ is given by
+%
+\be
+f=\frac{v}{\lambda} = \frac{v}{2L}
+\quad\Rightarrow\quad
+f=\frac{1}{2L}\sqrt{\frac{F}{\mu}}
+\quad(\text{Mersenne's Law})\,.
+\ee
+%
+Note that this frequency also defines the {\em pitch} of 
+the sound from the string. Strings on a classical
+guitar have a length of $L= 0.65~{\rm m}$. 
+With the velocity known, the fundamental frequency is
+$f= 108.0/(2\times 0.65)=83.0~{\rm Hz}$.
+This is close to the frequency of the E-string of a guitar.
+
+\subsubsection*{Questions}
+\ben
+\i Discuss how the tension, mass, material, diameter, and 
+length of the string affect the fundamental frequency and 
+the wave velocity on the string.
+
+\een
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{String Vibration Experiments}
+
+It is possible to illustrate  standing waves by stretching 
+a horizontal string made of flexible fabric over a pulley. 
+We place a suitable weight on the vertical end of the string,
+and fasten the horizontal end of the string to a vibrator. 
+The vibrator is connected to a frequency generator. 
+By tuning the frequency of the vibrator to the 
+frequency of the fundamental vibrational mode,
+we can produce the fundamental (1st harmonic) oscillation
+of the string. 
+Then by increasing the frequency of the vibrator,
+we can produce the higher
+vibrational modes (2nd, 3rd, $\cdots$ harmonics).
+
+\subsubsection*{Questions}
+\ben
+\i Suppose we change the weight attached to the end of 
+the string.
+How would that change the fundamental frequency?
+
+\i Suppose we keep the weight the same but change
+the length of the string.
+How would that change the fundamental frequency?
+\een
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Sonometer Experiments}
+
 %
 \begin{figure}[hbtp] 
 \begin{center} 
