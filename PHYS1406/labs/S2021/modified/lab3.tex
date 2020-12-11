@@ -140,6 +140,12 @@ How would that change the fundamental frequency?
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Sonometer Experiments}
 
+We can also study the resonance modes and frequencies of a 
+stretched string using a sonometer.
+As shown in Figure~\ref{f:2}, 
+the string is excited with a driver coil 
+and the vibrational modes are analyzed with a detector coil.
+A sample frequency spectrum is shown in Figure~\ref{f:3}.
 %
 \begin{figure}[hbtp] 
 \begin{center} 
@@ -148,8 +154,8 @@ How would that change the fundamental frequency?
 string is excited with a Driver Coil and the vibrational modes are analyzed
 with a Detector Coil. The sine wave generator activates the Driver Coil. The
 vibrating string induces a voltage in the Detector Coil. The latter is
-connected to the Mac computer. The``Oscilloscope Tool” in the
-Electroacoustics Toolbox is used to observe the signal.} 
+connected to the Mac computer. The``Oscilloscope Tool” and ``FFT Analyzer
+Tool" in the Electroacoustics Toolbox are used to observe the signal.}
 \label{f:2} 
 \end{center} 
 \end{figure}
@@ -157,18 +163,39 @@ Electroacoustics Toolbox is used to observe the signal.}
 %
 \begin{figure}[hbtp] 
 \begin{center} 
-\includegraphics[width=.8\textwidth]{fig3_3}
+\includegraphics[width=.7\textwidth]{fig3_3}
 \caption{Sonometer string excited with a driver coil placed near one of the 
 two bridges and harmonics recorded with an electromagnetic detector coil.}
 \label{f:3} 
 \end{center} 
 \end{figure}
 %
+
+\subsubsection*{Questions}
+\ben
+\i From Figure~\ref{f:3}, estimate the fundamental frequency (1st harmonic)
+and the first three overtones (2nd, 3rd, and 4th harmonic) of the vibrating
+string.
+Is there a simple relationship between these frequencies?
+
+\i If the length of the string is $L=68.6~{\rm cm}$, what is the wave velocity $v$?
+Express your answer in m/s.
+
+\i If the string has a linear mass density of $\mu = 1.5\times 10^{-3}~{\rm kg/m}$,
+calculate the tension $F$ in the string needed to 
+produce that wave velocity? 
+\een
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Plucked versus Bowed String}
+
+Figure~\ref{f:4} shows the sound  spectrum of the G3 open string of a violin
+when it is bowed (top plot) and plucked (bottom plot).
 %
 \begin{figure}[hbtp] 
 \begin{center} 
-\includegraphics[width=.75\textwidth]{fig3_4}
-\caption{Sound spectrum form the G3 open string of a violin. 
+\includegraphics[width=.7\textwidth]{fig3_4}
+\caption{Sound spectrum from the G3 open string of a violin. 
 Top figure: Spectrum from bowed string. 
 Bottom figure: Spectrum from plucked string. 
 Note that the bowed string has more pronounced higher harmonics 
@@ -178,25 +205,19 @@ resulting in a richer sound.}
 \end{figure}
 %
 
-%
-\begin{table}[hbtp]
-\begin{center}
-\includegraphics[width=.65\textwidth]{tab3_1}
-%\caption{}
-\label{t:1}
-\end{center}
-\end{table}
-%
-%
-\begin{table}[hbtp]
-\begin{center}
-Table 2: Standing waves on a string\\
-\includegraphics[width=.95\textwidth]{tab3_2}
-%\caption{}
-\label{t:2}
-\end{center}
-\end{table}
-%
+\subsubsection*{Questions}
+\ben
+
+\i How many harmonics can you see for the bowed string (Figure~\ref{f:4}, top)? 
+Note the relative amplitudes of the harmonics and the 
+overall shape of the spectrum.
+
+\i Same as the previous question for the plucked string (Figure~\ref{f:4}, bottom).
+Discuss the similarities and differences in the spectra of the plucked and bowed string. 
+
+\i List some reasons why the spectra from the plucked and bowed string are different.
+
+\een
 
 \end{document}
 
