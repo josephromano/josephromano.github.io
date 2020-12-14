@@ -72,14 +72,41 @@ f_1 = \frac{v}{\lambda} = \frac{v}{4L}
 %
 where $v$ is the velocity of sound.
 
-%
 \subsubsection*{Questions}
+\ben
+\i For a pipe with both ends open, what are the formulas for the fundamental
+frequency and the frequencies $f_2$, $f_3$, $f_4$ of the next three overtones or harmonics?
+(Hint: Higher harmonics have frequencies that are integer multiples of the
+fundamental, and all integers are allowed for a pipe with both ends open.)
 
+\i
+For a pipe with one end closed and one end open, we have $L = \lambda/4$ 
+according to Figure~\ref{f:1}. 
+Write down the equations for the fundamental frequency and for the
+first three existing overtones. 
+(Hint: {\em Only odd integers are allowed} as you can see by extending 
+the drawings in Figure~\ref{f:1} to higher harmonics.)
+
+\een
+
+EXPERIMENTAL PROCEDURE
+
+In the lab, we can record the frequency spectrum of sound in a pipe
+using the setup shown in Figure~\ref{f:2}.
+(This figure is specifically for a tube that is open at both ends.)
+The speaker produces {\em white noise} and the ``Electroacoustic Toolbox"
+can be used to record spectrum.
+Figure~\ref{f:3} shows sample recorded frequency spectra for both 
+types of tubes.
 %
 \begin{figure}[hbtp]
 \begin{center}
 \includegraphics[width=.65\textwidth]{fig4_2}
-\caption{}
+\caption{Set up of the resonance tube in the ``open tube” configuration. White
+noise from the Mac mini is applied to the speaker. The sound
+enters the tube on the left and excites the resonances. The microphone on the
+right records them for display in the computer. In the ``closed tube” 
+configuration the speaker and microphone must be on the same (right) side.}
 \label{f:2} 
 \end{center} 
 \end{figure}
@@ -88,25 +115,72 @@ where $v$ is the velocity of sound.
 \begin{figure}[hbtp]
 \begin{center}
 \includegraphics[width=.7\textwidth]{fig4_3}
-\caption{}
+\caption{Resonances of a PASCO resonance tube excited with white noise.
+Upper figure: Tube open at both ends with an effective length 
+$L_{\rm eff,\ open} = 1.18~{\rm m}$.
+Lower figure: Tube closed at one end with an effective length 
+$L_{\rm eff,\ closed} = L_{\rm eff,\ open}/2 = 0.59~{\rm m}$ 
+(with a plug in the tube to shorten its length). 
+The fundamental frequency for both tubes is $f_1 = 146~{\rm Hz}$, 
+but only the odd harmonics are observed in the tube closed at one end.}
 \label{f:3} 
 \end{center} 
 \end{figure}
 %
+
+\subsection{Pipe Length Correction}
+
+If you were to compare the calculated and observed
+fundamental frequencies from an actual experiment,
+you would find that they do not agree very well.
+This has to do with the fact that in pipes, waves 
+reflect from the ends of the tube by sticking out a little bit. 
+There is an end correction that increases the wavelength. 
+This correction is proportional to the radius of the tube. 
+Therefore, the larger the tube radius, the more the wave 
+will ``stick out” and cause an increase in wavelength. 
+The correction results in an extra length $\Delta L$, 
+given from theory by $\Delta L = 0.61 R$ for each open end, 
+where $R$ is the radius of the pipe. 
+Thus for a closed pipe and open pipe of length $L$ and 
+radius $R$, the effective lengths are, respectively,
+%
+\be
+L_{\rm eff,\ closed} = L + 0.61 R\,,
+\qquad
+L_{\rm eff,\ open} = L + 1.22 R\,.
+\ee
+
+\subsubsection*{Questions}
+\ben
+\i Calculate the effective lengths of a closed and open
+tube if $L=131~{\rm cm}$ and the diameter of the tube
+is $D=14.4~{\rm cm}$.  
+(Recall: The diameter  $D$ equals twice the radius $R$.)
+\een
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Determination of the Velocity of Sound}
+
 %
 \begin{figure}[hbtp]
 \begin{center}
 \includegraphics[width=.7\textwidth]{fig4_4}
-\caption{}
+\caption{Frequency spectrum from a cylindrical PASCO packing tube, 
+tapped on the floor with the closed end. 
+The large peak is the $N =1$ harmonic (fundamental frequency), 
+the small peak is the $N =3$ harmonic. 
+The $N =2$ harmonic is missing, as is to be expected for a tube closed at one end.}
 \label{f:4} 
 \end{center} 
 \end{figure}
 %
+
 %
 \begin{figure}[hbtp]
 \begin{center}
 \includegraphics[width=.7\textwidth]{fig4_5}
-\caption{}
+\caption{Decaying waveform of the packing tube.}
 \label{f:5} 
 \end{center} 
 \end{figure}
@@ -115,16 +189,19 @@ where $v$ is the velocity of sound.
 \begin{figure}[hbtp]
 \begin{center}
 \includegraphics[width=.65\textwidth]{fig4_6}
-\caption{}
+\caption{Experimental setup for spherical Helmholtz resonator.}
 \label{f:6} 
 \end{center} 
 \end{figure}
 %
+
 %
 \begin{figure}[hbtp]
 \begin{center}
 \includegraphics[width=.7\textwidth]{fig4_7}
-\caption{}
+\caption{Helmholtz resonance curve from a large aluminum sphere. The measured
+and calculated values of the resonance frequency at the peak are 92 Hz and 93
+Hz, respectively.}
 \label{f:7} 
 \end{center} 
 \end{figure}
@@ -133,7 +210,7 @@ where $v$ is the velocity of sound.
 \begin{figure}[hbtp]
 \begin{center}
 \includegraphics[width=.7\textwidth]{fig4_8}
-\caption{}
+\caption{Helmholtz resonance from a 0.75 liter wine bottle.}
 \label{f:8} 
 \end{center} 
 \end{figure}
