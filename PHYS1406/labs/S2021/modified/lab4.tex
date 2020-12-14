@@ -94,8 +94,8 @@ EXPERIMENTAL PROCEDURE
 In the lab, we can record the frequency spectrum of sound in a pipe
 using the setup shown in Figure~\ref{f:2}.
 (This figure is specifically for a tube that is open at both ends.)
-The speaker produces {\em white noise} and the ``Electroacoustic Toolbox"
-can be used to record spectrum.
+The speaker produces {\em white noise} and the software 
+Electroacoustic Toolbox can be used to record spectrum.
 Figure~\ref{f:3} shows sample recorded frequency spectra for both 
 types of tubes.
 %
@@ -128,7 +128,7 @@ but only the odd harmonics are observed in the tube closed at one end.}
 \end{figure}
 %
 
-\subsection{Pipe Length Correction}
+\subsection{Pipe Length Correction and Determination of the Speed of Sound}
 
 If you were to compare the calculated and observed
 fundamental frequencies from an actual experiment,
@@ -157,11 +157,39 @@ L_{\rm eff,\ open} = L + 1.22 R\,.
 tube if $L=131~{\rm cm}$ and the diameter of the tube
 is $D=14.4~{\rm cm}$.  
 (Recall: The diameter  $D$ equals twice the radius $R$.)
+
+\i Determine the velocity of sound using the data in 
+Figure~\ref{f:3} for the resonance tube open at both ends.
+The fundamental frequency is $f_1 = 146~{\rm Hz}$ and 
+corrected pipe length is $L_{\rm eff,\ open}=1.18~{\rm m}$.
+
+\i How does your value compare with the value of 
+$346~{\rm m/s}$ expected for the speed of sound at
+at a temperature of 25~Celsius?
+If there is a discrepancy, what might be the reasons?
+
 \een
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Determination of the Velocity of Sound}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Experiments with the Large Cardboard PASCO Packing Tube}
 
+We can do additional experiments with the large brown cardboard packing 
+tube from PASCO in order to study resonance and the decay of sound intensity. 
+We close one end of the tube with a plug. 
+Just by holding a microphone near the top of the tube, 
+we can see a peak in the acquired FFT frequency spectrum. 
+This peak corresponds to the resonating fundamental, which gets excited just from
+the broadband background noise in the room. The tube acts as a resonator that
+picks out its resonance frequency from the ambient noise and responds much less
+to the other frequencies in noise.
+
+We can also tap the tube with its closed end on the floor to excite the 
+tube resonances more strongly than just from the ambient noise. 
+We can listen to the resulting resonance and record the
+frequency spectrum with the microphone and the FFT mode in the Electroacoustics
+Toolbox as usual. 
+An example of such a resonance curve is shown in Figure~\ref{f:4}.
+Note the absence of the even harmonics for a tube closed at one end.
 %
 \begin{figure}[hbtp]
 \begin{center}
@@ -176,6 +204,11 @@ The $N =2$ harmonic is missing, as is to be expected for a tube closed at one en
 \end{figure}
 %
 
+Finally, we can record the {\em waveform} of the damped oscillation using 
+the Oscilloscope Tool in Electroacoustics Toolbox.
+Figure~\ref{f:5} shows the decay of the signal as a function of
+time after tapping the tube on the floor at time t = 400 ms. The waveform
+closely resembles a {\em damped sine wave}.
 %
 \begin{figure}[hbtp]
 \begin{center}
@@ -185,6 +218,26 @@ The $N =2$ harmonic is missing, as is to be expected for a tube closed at one en
 \end{center} 
 \end{figure}
 %
+
+\subsubsection*{Questions}
+\ben
+\i Look at the observed waveform in Figure~\ref{f:5} and 
+estimate the so-called {\em exponential decay time}. 
+This is the time it takes for the signal to decrease to
+37\% of its original value.
+
+\i An aboriginal {\em didgeridoo} has a length $L=120.5~{\rm cm}$
+and a diameter $D=4.2~{\rm cm}$.
+When you blow into a didgeridoo, it behaves like a tube closed at one end.
+Calculate the expected fundamental frequency of the didgeridoo
+using the appropriate corrected pipe length and $v=346~{\rm m/s}$
+for the speed of sound.
+
+\een
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Helmholtz Resonator}
+
 %
 \begin{figure}[hbtp]
 \begin{center}
@@ -206,6 +259,17 @@ Hz, respectively.}
 \end{center} 
 \end{figure}
 %
+
+\subsubsection{Calculation of the Resonance Frequency of a Helmholtz Resonator}
+
+
+\subsubsection*{Questions}
+\ben
+\i  
+\een
+
+\subsubsection{Helmholtz Resonance in Bottles}
+
 %
 \begin{figure}[hbtp]
 \begin{center}
@@ -216,6 +280,10 @@ Hz, respectively.}
 \end{figure}
 %
 
+\subsubsection*{Questions}
+\ben
+\i   
+\een
 
 \end{document}
 
