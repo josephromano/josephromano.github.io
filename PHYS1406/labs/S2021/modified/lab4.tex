@@ -28,13 +28,13 @@
 PURPOSE AND BACKGROUND
 
 The concept of {\em resonance} in a pipe is similar to that of a string. The waves in
-pipes consist of compressions and rarefactions of the air, with back-and-forth
+a pipe consist of compressions and rarefactions of the air, with back-and-forth
 motion of the air molecules in the direction of propagation or against it. The
-waves in air thus are {\em longitudinal} waves. In this laboratory we study standing
+waves in air are thus {\em longitudinal} waves. In this laboratory we study standing
 waves in a pipe. They are the result of two waves traveling in opposite
 directions inside the pipe, with each wave being reflected at the ends of the
 pipe. In this way the superposition of two waves yields a standing wave,
-provided that in addition the {\em resonance conditions} are met.
+provided that, in addition, the {\em resonance conditions} are met.
 
 For a pipe with both ends open, resonance at the {\em lowest} frequency 
 ({\em fundamental frequency} or {\em first harmonic}) 
@@ -94,8 +94,8 @@ EXPERIMENTAL PROCEDURE
 In the lab, we can record the frequency spectrum of sound in a pipe
 using the setup shown in Figure~\ref{f:2}.
 (This figure is specifically for a tube that is open at both ends.)
-The speaker produces {\em white noise} and the software 
-Electroacoustic Toolbox can be used to record spectrum.
+The speaker produces {\em white noise} and the FFT Analyzer
+of Electroacoustic Toolbox can be used to record the spectrum.
 Figure~\ref{f:3} shows sample recorded frequency spectra for both 
 types of tubes.
 %
@@ -105,7 +105,7 @@ types of tubes.
 \caption{Set up of the resonance tube in the ``open tube” configuration. White
 noise from the Mac mini is applied to the speaker. The sound
 enters the tube on the left and excites the resonances. The microphone on the
-right records them for display in the computer. In the ``closed tube” 
+right records them for display on the computer. In the ``closed tube” 
 configuration the speaker and microphone must be on the same (right) side.}
 \label{f:2} 
 \end{center} 
@@ -139,7 +139,7 @@ There is an end correction that increases the wavelength.
 This correction is proportional to the radius of the tube. 
 Therefore, the larger the tube radius, the more the wave 
 will ``stick out” and cause an increase in wavelength. 
-The correction results in an extra length $\Delta L$, 
+This correction results in an extra length $\Delta L$, 
 given from theory by $\Delta L = 0.61 r$ for each open end, 
 where $r$ is the radius of the pipe. 
 Thus for a closed pipe and open pipe of length $L$ and 
@@ -156,12 +156,12 @@ L_{\rm eff,\ open} = L + 1.22 r\,.
 \ben
 \i Calculate the effective lengths of a closed and open
 tube if $L=131~{\rm cm}$ and the diameter of the tube
-is $D=14.4~{\rm cm}$.  
-(Recall: The diameter  $D$ equals twice the radius $r$.)
+is $d=14.4~{\rm cm}$.  
+(Recall: The diameter  $d$ equals twice the radius $r$.)
 
 \i Determine the velocity of sound using the data in 
 Figure~\ref{f:3} for the resonance tube open at both ends.
-The fundamental frequency is $f_1 = 146~{\rm Hz}$ and 
+The fundamental frequency is $f_1 = 146~{\rm Hz}$ and the
 corrected pipe length is $L_{\rm eff,\ open}=1.18~{\rm m}$.
 
 \i How does your value compare with the value of 
@@ -182,7 +182,7 @@ we can see a peak in the acquired FFT frequency spectrum.
 This peak corresponds to the resonating fundamental, which gets excited just from
 the broadband background noise in the room. The tube acts as a resonator that
 picks out its resonance frequency from the ambient noise and responds much less
-to the other frequencies in noise.
+to the other frequencies in the noise.
 
 We can also tap the tube with its closed end on the floor to excite the 
 tube resonances more strongly than just from the ambient noise. 
@@ -232,7 +232,7 @@ and a diameter $D=4.2~{\rm cm}$.
 When you blow into a didgeridoo, it behaves like a tube closed at one end.
 Calculate the expected fundamental frequency of the didgeridoo
 using the appropriate corrected pipe length and $v=346~{\rm m/s}$
-for the speed of sound.
+for the velocity of sound.
 
 \een
 
@@ -241,12 +241,22 @@ for the speed of sound.
 
 We can also do experiments with a simple spherical cavity 
 called a {\em Helmholtz Resonator}. 
-We have a large hollow metal sphere, with a tube protruding 
+In the lab, 
+we have a large hollow metal sphere, with a tube protruding 
 from one side for admitting white noise from a computer speaker. 
 It has another smaller tube on the opposite side for 
 listening to the resonance frequency or for recording the 
 frequency spectrum with a shotgun microphone on a long shaft 
-that can be inserted into this tubing.
+that can be inserted into this tubing---see Figure~\ref{f:6}.
+%
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.65\textwidth]{fig4_6}
+\caption{Experimental setup for a spherical Helmholtz resonator.}
+\label{f:6} 
+\end{center} 
+\end{figure}
+%
 
 Even without any white noise excitation, one can listen to 
 the sound from the Helmholtz resonator when exposed to ambient 
@@ -259,21 +269,9 @@ Hermann Helmholtz (1821-1894) used a series of such
 frequency spectrum of sounds and musical instruments, 
 all before the advent of electronic tools!
 
-A more sophisticated setup for the Helmholtz resonator is 
-shown in Figure~\ref{f:6}.
-A speaker is connected (via a stero receiver) to the Mac mini.
 A resonance frequency spectrum from the Helmholtz resonator
 using a white noise excitation is shown in Figure~\ref{f:7}.
 It has one prominent peak.
-%
-\begin{figure}[hbtp]
-\begin{center}
-\includegraphics[width=.65\textwidth]{fig4_6}
-\caption{Experimental setup for a spherical Helmholtz resonator.}
-\label{f:6} 
-\end{center} 
-\end{figure}
-%
 %
 \begin{figure}[hbtp]
 \begin{center}
@@ -303,7 +301,8 @@ P.S: If you have a Helmholtz resonator such as a box with just a hole in it,
 rather than a ``bottle neck”, you can still use formula~(\ref{e:helmholtz}). 
 For the actual length we have $L = 0$. 
 But $L_{\rm eff}$ is not zero. 
-The hole is open at both ends. So use 
+The hole is open at both ends. 
+So we can use 
 $L = 0$ in equation~(\ref{e:Leff}) and obtain 
 $L_{\rm eff} = 1.22r$ for the hole.
 
@@ -311,9 +310,10 @@ $L_{\rm eff} = 1.22r$ for the hole.
 \ben
 \i The radius of the sphere is $R=0.150~{\rm m}$, the length of the ``bottle neck" is 
 $L=0.080~{\rm m}$ and its inner radius $r=0.041~{\rm m}$.
-Given these values calculate the values for the area $A$, $V$, 
-and $L_{\rm effective}=L+1.22 r$ needed in equation~\ref{e:helmholtz}.
-Then calculate the resonance freqeuncy $f$.
+Given these values calculate the values for 
+$A$, $V$, and $L_{\rm effective}=L+1.22 r$ needed in equation~\ref{e:helmholtz}.
+Then calculate the resonance freqeuncy $f$ using $v=346~{\rm m/s}$ for the 
+velocity of sound.
 
 \een
 
@@ -322,21 +322,22 @@ Then calculate the resonance freqeuncy $f$.
 Distinct Helmholtz resonances can be obtained by blowing 
 gently across the opening of different bottles. 
 The resonance frequency can be measured from a 
-frequency as in Figure~\ref{f:7} or Figure~\ref{f:8},
-for a 0.75-liter wine bottle.
+frequency spectrum as in Figure~\ref{f:7} (for the 
+large aluminum sphere) or 
+Figure~\ref{f:8} (for a 0.75-liter wine bottle).
 It can also be calculated from equation~(\ref{e:helmholtz})
 once we determine $A$, $L_{\rm eff}$, and $V$.
 For $A$ we use the measured inside diameter of the
 bottle neck.
 For $L_{\rm eff}$ we use the measured length $L$ of the 
 bottle neck with a correction for the tube being open at 
-both ends (see below).
+both ends.
 The volume $V$ can be read off from the label on the bottle.
 %
 \begin{figure}[hbtp]
 \begin{center}
 \includegraphics[width=.7\textwidth]{fig4_8}
-\caption{Helmholtz resonance from a 0.75 liter wine bottle.}
+\caption{Helmholtz resonance from a 0.75-liter wine bottle.}
 \label{f:8} 
 \end{center} 
 \end{figure}
@@ -352,14 +353,15 @@ is $r_{\rm avg} = 10.53~{\rm mm} = 0.01053~{\rm m}$.
 The actual length of the bottle neck is
 $L = 8.5~{\rm cm} = 0.085~{\rm m}$. 
 For the length correction at the un-baffled outside opening 
-at top of the bottle neck take $0.61 r_{\rm avg}$, 
+at the top of the bottle neck take $0.61 r_{\rm avg}$, 
 and for the baffled opening inside the bottle take 
 $0.85 r_{\rm avg}$ (from physics theory). 
 Thus the effective length of bottle neck is given by 
 $L_{\rm eff} = L +(0.61 + 0.85) r_{\rm avg} = 
 0.085 + 1.46 \times 0.01053 = 0.1004~{\rm m}$. 
 
-Given all these values calculate the resonance frequency.
+Given all these values calculate the resonance frequency
+for the wine bottle.
 
 \i By how much does the calculated resonance frequency
 differ from the measured frequency shown in Figure~\ref{f:8}?
@@ -371,8 +373,8 @@ Express the difference as a percent difference
 \ee
 
 \i   Derive the frequency ratio $f_{\rm 1~liter}/f_{\rm 2~liter}$
-for a 1-liter and 2-liter wine bottle, assuming the only thing 
-that changes is the volume $V$ of the bottle.
+for a 1-liter and 2-liter wine bottle, assuming that the only thing 
+that differs for the two bottles is their volume.
 This frequency interval is called a ``tritone" or ``devil's tone".
 \een
 
