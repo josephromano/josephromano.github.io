@@ -140,15 +140,16 @@ This correction is proportional to the radius of the tube.
 Therefore, the larger the tube radius, the more the wave 
 will ``stick out” and cause an increase in wavelength. 
 The correction results in an extra length $\Delta L$, 
-given from theory by $\Delta L = 0.61 R$ for each open end, 
-where $R$ is the radius of the pipe. 
+given from theory by $\Delta L = 0.61 r$ for each open end, 
+where $r$ is the radius of the pipe. 
 Thus for a closed pipe and open pipe of length $L$ and 
-radius $R$, the effective lengths are, respectively,
+radius $r$, the effective lengths are, respectively,
 %
 \be
-L_{\rm eff,\ closed} = L + 0.61 R\,,
+L_{\rm eff,\ closed} = L + 0.61 r\,,
 \qquad
-L_{\rm eff,\ open} = L + 1.22 R\,.
+L_{\rm eff,\ open} = L + 1.22 r\,.
+\label{e:Leff}
 \ee
 
 \subsubsection*{Questions}
@@ -156,7 +157,7 @@ L_{\rm eff,\ open} = L + 1.22 R\,.
 \i Calculate the effective lengths of a closed and open
 tube if $L=131~{\rm cm}$ and the diameter of the tube
 is $D=14.4~{\rm cm}$.  
-(Recall: The diameter  $D$ equals twice the radius $R$.)
+(Recall: The diameter  $D$ equals twice the radius $r$.)
 
 \i Determine the velocity of sound using the data in 
 Figure~\ref{f:3} for the resonance tube open at both ends.
@@ -238,16 +239,41 @@ for the speed of sound.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Helmholtz Resonator}
 
+We can also do experiments with a simple spherical cavity 
+called a {\em Helmholtz Resonator}. 
+We have a large hollow metal sphere, with a tube protruding 
+from one side for admitting white noise from a computer speaker. 
+It has another smaller tube on the opposite side for 
+listening to the resonance frequency or for recording the 
+frequency spectrum with a shotgun microphone on a long shaft 
+that can be inserted into this tubing.
+
+Even without any white noise excitation, one can listen to 
+the sound from the Helmholtz resonator when exposed to ambient 
+room noise.
+It is a deep rumbling tone, corresponding to the resonant 
+frequency of the spherical cavity. 
+The resonance is excited from the broad noise spectrum in the room. 
+Hermann Helmholtz (1821-1894) used a series of such 
+``Helmholtz Resonators” of different sizes to analyze the 
+frequency spectrum of sounds and musical instruments, 
+all before the advent of electronic tools!
+
+A more sophisticated setup for the Helmholtz resonator is 
+shown in Figure~\ref{f:6}.
+A speaker is connected (via a stero receiver) to the Mac mini.
+A resonance frequency spectrum from the Helmholtz resonator
+using a white noise excitation is shown in Figure~\ref{f:7}.
+It has one prominent peak.
 %
 \begin{figure}[hbtp]
 \begin{center}
 \includegraphics[width=.65\textwidth]{fig4_6}
-\caption{Experimental setup for spherical Helmholtz resonator.}
+\caption{Experimental setup for a spherical Helmholtz resonator.}
 \label{f:6} 
 \end{center} 
 \end{figure}
 %
-
 %
 \begin{figure}[hbtp]
 \begin{center}
@@ -262,14 +288,50 @@ Hz, respectively.}
 
 \subsubsection{Calculation of the Resonance Frequency of a Helmholtz Resonator}
 
+The resonance frequency of a Helmholtz resonator is given by the formula%
+\be
+f=\frac{v}{2\pi}\sqrt{\frac{A}{L_{\rm eff} V}}\,,
+\label{e:helmholtz}
+\ee
+%
+where $v$ is the velocity of sound, $A$ is the area of the opening of the 
+resonator, $L_{\rm eff}$ is the effective length of the cylindrical neck, and 
+$V$ is the volume. 
+This formula is quite general and can by used for spheres, bottles, etc.
+
+P.S: If you have a Helmholtz resonator such as a box with just a hole in it,
+rather than a ``bottle neck”, you can still use formula~(\ref{e:helmholtz}). 
+For the actual length we have $L = 0$. 
+But $L_{\rm eff}$ is not zero. 
+The hole is open at both ends. So use 
+$L = 0$ in equation~(\ref{e:Leff}) and obtain 
+$L_{\rm eff} = 1.22r$ for the hole.
 
 \subsubsection*{Questions}
 \ben
-\i  
+\i The radius of the sphere is $R=0.150~{\rm m}$, the length of the ``bottle neck" is 
+$L=0.080~{\rm m}$ and its inner radius $r=0.041~{\rm m}$.
+Given these values calculate the values for the area $A$, $V$, 
+and $L_{\rm effective}=L+1.22 r$ needed in equation~\ref{e:helmholtz}.
+Then calculate the resonance freqeuncy $f$.
+
 \een
 
 \subsubsection{Helmholtz Resonance in Bottles}
 
+Distinct Helmholtz resonances can be obtained by blowing 
+gently across the opening of different bottles. 
+The resonance frequency can be measured from a 
+frequency as in Figure~\ref{f:7} or Figure~\ref{f:8},
+for a 0.75-liter wine bottle.
+It can also be calculated from equation~(\ref{e:helmholtz})
+once we determine $A$, $L_{\rm eff}$, and $V$.
+For $A$ we use the measured inside diameter of the
+bottle neck.
+For $L_{\rm eff}$ we use the measured length $L$ of the 
+bottle neck with a correction for the tube being open at 
+both ends (see below).
+The volume $V$ can be read off from the label on the bottle.
 %
 \begin{figure}[hbtp]
 \begin{center}
@@ -282,7 +344,36 @@ Hz, respectively.}
 
 \subsubsection*{Questions}
 \ben
-\i   
+\i Calculate the expected resonance frequency for a 
+0.75~liter wine bottle given the following data:
+The volume $V= 0.75~{\rm liter} = 0.75\times10^{-3}~{\rm m}^3$.
+The average radius at the middle of the bottle neck 
+is $r_{\rm avg} = 10.53~{\rm mm} = 0.01053~{\rm m}$.
+The actual length of the bottle neck is
+$L = 8.5~{\rm cm} = 0.085~{\rm m}$. 
+For the length correction at the un-baffled outside opening 
+at top of the bottle neck take $0.61 r_{\rm avg}$, 
+and for the baffled opening inside the bottle take 
+$0.85 r_{\rm avg}$ (from physics theory). 
+Thus the effective length of bottle neck is given by 
+$L_{\rm eff} = L +(0.61 + 0.85) r_{\rm avg} = 
+0.085 + 1.46 \times 0.01053 = 0.1004~{\rm m}$. 
+
+Given all these values calculate the resonance frequency.
+
+\i By how much does the calculated resonance frequency
+differ from the measured frequency shown in Figure~\ref{f:8}?
+Express the difference as a percent difference
+%
+\be
+\text{percent difference} = 
+\frac{|f_{\rm calculated}-f_{\rm measured}|}{f_{\rm measured}}\,.
+\ee
+
+\i   Derive the frequency ratio $f_{\rm 1~liter}/f_{\rm 2~liter}$
+for a 1-liter and 2-liter wine bottle, assuming the only thing 
+that changes is the volume $V$ of the bottle.
+This frequency interval is called a ``tritone" or ``devil's tone".
 \een
 
 \end{document}
