@@ -27,38 +27,164 @@
 
 PURPOSE AND BACKGROUND
 
-THEORY AND EXPERIMENT
+The simplest sound is a pure sine wave with a single frequency and amplitude.
+Most sound sources and instruments do not produce such simple waves. Usually
+their sound contains many sine waves with higher frequencies, called {\em harmonics.}
+These act together according to the {\em superposition principle} to produce a
+complex tone. This addition of sine waves with suitable amplitudes and phases
+is called {\em Fourier synthesis of sound}. 
+The opposite, the decomposition of sound
+into its sine-wave components, is called {\em Fourier analysis}. 
+Periodic sound can
+be synthesized or analyzed with a sufficient number of sine waves. 
+A {\em pure} tone is a sine wave with a single frequency. 
+Many sine waves added together form a
+complex tone and waveform periodic in time. This laboratory is about the
+analysis and synthesis of sound and how electronic 
+{\em synthesizers} can mimic real instruments.
 
+\subsection{Fourier Synthesis of Waveforms}
 
+For our experiment, we will use the 
+Fourier Series Applet, which is available online at 
+\url{https://www.falstad.com/fourier/}.
+Listen to several available wave forms (e.g.,  sine, triangle, 
+square, and sawtooth waves) at a fundamental frequency of 
+$f_1 = 500~{\rm Hz}$.
+To do so, you will need to adjust the ``Playing Frequency" 
+slider as close as you can to 500~Hz,  
+and the check the ``Sound" box to listen to the sounds.
+
+\subsubsection*{Questions}
+\ben
+\i Draw sketches of the four waveforms.
+
+\i Which waveform most resembles a pure sine wave?
+
+\i Which waveform least resembles a pure sine wave?
+
+\i Which tone sounds least like the pure sine wave?
+\een
+
+Complex waveforms are produced by adding sine waves of different frequencies
+and amplitudes. The tone heard in all four cases has the same {\em pitch} or
+fundamental frequency $f_1= 500~{\rm Hz}$. For a pure tone (sine wave), the fundamental
+is the only frequency present. For complex tones, sine waves with integer
+multiples of the fundamental frequency and suitable amplitudes are added
+together. For example, the next integer multiples of the fundamental 
+$f_1 = 500~{\rm Hz}$ are 
+$f_2 = 2 f_1= 1000~{\rm Hz}$, 
+$f_3 = 3 f_1 = 1500~{\rm Hz}$, and so on.
+
+These higher frequencies are called {\em overtones} or {\em harmonics}. 
+Just like the
+fundamental, each overtone has a single frequency. A complex waveform can be
+produced with the fundamental plus higher harmonics of suitable amplitudes.
+This process is called {\em superposition} of waves or, mathematically speaking,
+{\em Fourier synthesis} of waves. Conversely, you can take a complex waveform apart
+by decomposing it with a spectrum analyzer into its individual harmonics. This is
+called {\em Fourier analysis} of waves.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Sawtooth Waveform}
+
+The harmonics of the sawtooth wave follow a simple pattern. All harmonics
+exist from $N=1$ to $N=\infty$, with amplitudes given by 
+$A_N = A_1/N$.
+Thus all integer multiples of the fundamental frequency
+contribute to the waveform. 
+Since in practice we cannot add an infinite number
+of harmonics, we shall only use the first five or six harmonics
+and add them up.
+
+Using the online app, start by clicking the ``Sine" box.
+You should see a single white dot, sticking up above the rest,
+at a height corresponding to the amplitude of the first harmonic.
+The second harmonic $N=2$, $f_2=1000~{\rm Hz}$ should have an 
+amplitude $A_2=A_1/2$ for a sawtooth wave. 
+Add this harmonic to the fundamental by adjusting the height 
+of the second white dot to half the height of the first white dot. 
+Take a look at and listen to the waveform generated.
+
+\subsubsection*{Questions}
+\ben
+\i Find the frequencies of the next three higher harmonics 
+and their relative amplitudes in percent. 
+Complete the entries in Table 1.
 %
 \begin{table}[hbtp]
 \begin{center}
 \includegraphics[width=.35\textwidth]{tab5_1}
-%\caption{Table}
+\caption{Sawtooth waveform: Harmonic numbers, frequencies, and relative
+amplitudes.}
 \label{t:1}
 \end{center}
 \end{table}
 %
 
+\i What would be the frequency and amplitude of the $N = 10$ 
+harmonic for a sawtooth waveform of fundamental frequency 
+$f_1 = 500~{\rm Hz}$.
+\een
+
+Continue adding harmonics (3rd, 4th, 5th, etc.) by adjusting the
+heights of their white dots appropriately.
+Note the changes in the tone and the waveform.
+With each addition of a harmonic, the wave should look more and 
+more like a sawtooth.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Square Wave}
+
+A square or rectangular waveform is similar to the sawtooth 
+in that the amplitudes of the harmonics follow the 
+$A_N=A_1/N$ dependence. 
+However, the major difference is that only the {\em odd}
+harmonics $N=1$, $N=3$, $N=5$, etc., contribute.
+
+\subsubsection*{Questions}
+\ben
+
+\i Use this information and complete the entries in Table~2
+for the square wave.
 %
 \begin{table}[hbtp]
 \begin{center}
 \includegraphics[width=.35\textwidth]{tab5_2}
-%\caption{Table}
+\caption{Square wave: Harmonic numbers, frequencies, and relative amplitudes.}
 \label{t:2}
 \end{center}
 \end{table}
 %
+\een
 
+Synthesize a square wave using the online app by starting as
+before with just a ``Sine", and then successively adding the
+higher harmonics with amplitudes given in Table~2.
+Note the changes in tone and shape of the waveform as more
+harmonics are added.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Triangular Waveform}
+
+\subsubsection*{Questions}
+
+\ben
+\i 
 %
 \begin{table}[hbtp]
 \begin{center}
 \includegraphics[width=.35\textwidth]{tab5_3}
-%\caption{Table}
+\caption{Triangular waveform: Harmonic numbers, frequencies, and relative amplitudes.}
 \label{t:3}
 \end{center}
 \end{table}
 %
+\een
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Fourier Analysis of Waveforms}
+
 
 %
 \begin{figure}[hbtp]
