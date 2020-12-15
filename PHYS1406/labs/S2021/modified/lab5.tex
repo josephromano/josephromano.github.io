@@ -48,12 +48,12 @@ analysis and synthesis of sound and how electronic
 For our experiment, we will use the 
 Fourier Series Applet, which is available online at 
 \url{https://www.falstad.com/fourier/}.
-Listen to several available wave forms (e.g.,  sine, triangle, 
+Listen to several available waveforms (e.g.,  sine, triangle, 
 square, and sawtooth waves) at a fundamental frequency of 
 $f_1 = 500~{\rm Hz}$.
 To do so, you will need to adjust the ``Playing Frequency" 
 slider as close as you can to 500~Hz,  
-and the check the ``Sound" box to listen to the sounds.
+and then check the ``Sound" box to listen to the sounds.
 
 \subsubsection*{Questions}
 \ben
@@ -90,7 +90,7 @@ called {\em Fourier analysis} of waves.
 
 The harmonics of the sawtooth wave follow a simple pattern. All harmonics
 exist from $N=1$ to $N=\infty$, with amplitudes given by 
-$A_N = A_1/N$.
+$A_N = A_1/N$, where $A_1$ is the amplitude of the fundamental frequency.
 Thus all integer multiples of the fundamental frequency
 contribute to the waveform. 
 Since in practice we cannot add an infinite number
@@ -112,7 +112,7 @@ Complete the entries in Table 1.
 %
 \begin{table}[hbtp]
 \begin{center}
-Sawtooth waveform\\
+Table 1: Sawtooth waveform\\
 \includegraphics[width=.35\textwidth]{tab5_1}
 %\caption{Sawtooth waveform: Harmonic numbers, frequencies, and relative amplitudes.}
 \label{t:1}
@@ -123,16 +123,16 @@ Sawtooth waveform\\
 %harmonic for a sawtooth waveform of fundamental frequency 
 %$f_1 = 500~{\rm Hz}$.
 
-Continue adding harmonics (3rd, 4th, 5th, etc.) by adjusting the
-heights of their white dots appropriately.
+Continue adding harmonics (3rd, 4th, 5th, etc.) by appropriately
+adjusting the heights of the white dots.
 Note the changes in the tone and the waveform.
-With each addition of a harmonic, the wave should look more and 
+With each addition of a harmonic, the waveform should look more and 
 more like a sawtooth.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Square Wave}
 
-A square or rectangular waveform is similar to the sawtooth 
+The square or rectangular waveform is similar to the sawtooth 
 in that the amplitudes of the harmonics follow the 
 $A_N=A_1/N$ dependence. 
 However, the major difference is that only the {\em odd}
@@ -143,7 +143,7 @@ for the square wave.
 %
 \begin{table}[hbtp]
 \begin{center}
-Square wave\\
+Table 2: Square wave\\
 \includegraphics[width=.35\textwidth]{tab5_2}
 %\caption{Square wave: Harmonic numbers, frequencies, and relative amplitudes.}
 \label{t:2}
@@ -152,7 +152,7 @@ Square wave\\
 
 Synthesize a square wave using the online app by starting as
 before with just a ``Sine", and then successively adding the
-higher harmonics with amplitudes given in Table~2.
+higher harmonics with the amplitudes given in Table~2.
 Note the changes in tone and shape of the waveform as more
 harmonics are added.
 
@@ -173,7 +173,7 @@ Complete the entries in Table 3 for the triangular waveform.
 %
 \begin{table}[hbtp]
 \begin{center}
-Triangular waveform\\
+Table 3: Triangular waveform\\
 \includegraphics[width=.35\textwidth]{tab5_3}
 %\caption{Triangular waveform: Harmonic numbers, frequencies, and relative amplitudes.}
 \label{t:3}
@@ -196,7 +196,7 @@ noticeable contributions from its overtones?
 sawtooth waveform than those created with just five or six
 harmonics?
 
-\i Question: Why can you hear a 1~Hz square wave.
+\i Why can you hear a 1~Hz square wave?
 \een
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -208,26 +208,28 @@ called a {\em Fast Fourier Transform} (FFT) to
 identify the different frequencies in the signal. 
 The display is a frequency spectrum.
 For a sine wave, the FFT tool will show a frequency spectrum with one peak for
-the only frequency present, with the amplitude being the height of the peak.
+the only frequency present (the fundamental), 
+with the amplitude being the height of the peak.
 For non-sinusoidal periodic waveforms you will see many peaks.
 The location of the peaks and their relative amplitudes 
-follow the theoretical values that we used above to synthesize
-sawtooth, square wave, and triangular waveforms.
+follow the theoretical expressions that we used above to synthesize
+sawtooth, square, and triangular waveforms.
 
 \subsubsection{Musical Synthesizers}
 
 Modern keyboards are capable of simulating sounds from real 
 instruments quite well. 
 They work on the basis of {\em Fourier analysis and synthesis}. 
-Every tone from a given instrument has its own timbre and Fourier spectrum. 
-The fundamental frequency determines the pitch of the tone. 
+Every tone from a given instrument has its own {\em timbre} 
+and Fourier spectrum. 
+The fundamental frequency determines the {\em pitch} of the tone. 
 Often the fundamental does not have the highest amplitude. 
 Some higher harmonics may be stronger. 
 Nonetheless, the ear discerns the frequency of the fundamental 
 as the pitch of the tone. 
 Musical instruments produce sound with complex Fourier spectra. 
 These change with every note. 
-For example, the Fourier spectra of “middle C” ($f = 261.63~{\rm Hz}$) 
+For example, the Fourier spectra of ``middle C” ($f = 261.63~{\rm Hz}$) 
 from a violin and a viola or bassoon look quite different.
 
 \subsubsection{Real and Synthesized Sound of a Didgeridoo}
