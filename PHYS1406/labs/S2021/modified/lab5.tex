@@ -106,26 +106,22 @@ Add this harmonic to the fundamental by adjusting the height
 of the second white dot to half the height of the first white dot. 
 Take a look at and listen to the waveform generated.
 
-\subsubsection*{Questions}
-\ben
-\i Find the frequencies of the next three higher harmonics 
+Find the frequencies of the next three higher harmonics 
 and their relative amplitudes in percent. 
 Complete the entries in Table 1.
 %
 \begin{table}[hbtp]
 \begin{center}
+Sawtooth waveform\\
 \includegraphics[width=.35\textwidth]{tab5_1}
-\caption{Sawtooth waveform: Harmonic numbers, frequencies, and relative
-amplitudes.}
+%\caption{Sawtooth waveform: Harmonic numbers, frequencies, and relative amplitudes.}
 \label{t:1}
 \end{center}
 \end{table}
 %
-
-\i What would be the frequency and amplitude of the $N = 10$ 
-harmonic for a sawtooth waveform of fundamental frequency 
-$f_1 = 500~{\rm Hz}$.
-\een
+%\i What would be the frequency and amplitude of the $N = 10$ 
+%harmonic for a sawtooth waveform of fundamental frequency 
+%$f_1 = 500~{\rm Hz}$.
 
 Continue adding harmonics (3rd, 4th, 5th, etc.) by adjusting the
 heights of their white dots appropriately.
@@ -142,21 +138,17 @@ $A_N=A_1/N$ dependence.
 However, the major difference is that only the {\em odd}
 harmonics $N=1$, $N=3$, $N=5$, etc., contribute.
 
-\subsubsection*{Questions}
-\ben
-
-\i Use this information and complete the entries in Table~2
+Use this information and complete the entries in Table~2
 for the square wave.
 %
 \begin{table}[hbtp]
 \begin{center}
+Square wave\\
 \includegraphics[width=.35\textwidth]{tab5_2}
-\caption{Square wave: Harmonic numbers, frequencies, and relative amplitudes.}
+%\caption{Square wave: Harmonic numbers, frequencies, and relative amplitudes.}
 \label{t:2}
 \end{center}
 \end{table}
-%
-\een
 
 Synthesize a square wave using the online app by starting as
 before with just a ``Sine", and then successively adding the
@@ -167,33 +159,100 @@ harmonics are added.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Triangular Waveform}
 
-\subsubsection*{Questions}
+The triangular wave is similar to the square wave in that 
+it too consists of odd harmonics only. However, 
+the amplitudes no longer follow the $A_N=A_1/N$ dependence, 
+but rather a $A_N = (-1)^{(N-1)/2} A_1/N^2$ dependence. 
+The sign of the amplitude alternates +, $-$, +, $-$, etc.,
+for the 1st, 3rd, 5th, 7th harmonics, etc.
+For instance, given an amplitude of the first harmonic of 100\%, 
+the amplitude of the third harmonic now is
+$A_3 = -A_1/3^2 = -11.11\%$.
 
-\ben
-\i 
+Complete the entries in Table 3 for the triangular waveform.
 %
 \begin{table}[hbtp]
 \begin{center}
+Triangular waveform\\
 \includegraphics[width=.35\textwidth]{tab5_3}
-\caption{Triangular waveform: Harmonic numbers, frequencies, and relative amplitudes.}
+%\caption{Triangular waveform: Harmonic numbers, frequencies, and relative amplitudes.}
 \label{t:3}
 \end{center}
 \end{table}
 %
+
+Use the completed Table 3 to synthesize a triangular 
+waveform using the online app and listen to the result.
+
+\subsubsection*{Questions}
+\ben
+\i Of the three waveforms, which had the least noticeable 
+contributions from its overtones to the overall form and tone?
+
+\i Which of the three waveforms had the most 
+noticeable contributions from its overtones?
+
+\i How could you get sharper ``edges” on the square and 
+sawtooth waveform than those created with just five or six
+harmonics?
+
+\i Question: Why can you hear a 1~Hz square wave.
 \een
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Fourier Analysis of Waveforms}
 
+The FFT Analyzer tool in the Electroacoustic Toolbox 
+analyzes an incoming signal with a mathematical operation 
+called a {\em Fast Fourier Transform} (FFT) to 
+identify the different frequencies in the signal. 
+The display is a frequency spectrum.
+For a sine wave, the FFT tool will show a frequency spectrum with one peak for
+the only frequency present, with the amplitude being the height of the peak.
+For non-sinusoidal periodic waveforms you will see many peaks.
+The location of the peaks and their relative amplitudes 
+follow the theoretical values that we used above to synthesize
+sawtooth, square wave, and triangular waveforms.
 
+\subsubsection{Musical Synthesizers}
+
+Modern keyboards are capable of simulating sounds from real 
+instruments quite well. 
+They work on the basis of {\em Fourier analysis and synthesis}. 
+Every tone from a given instrument has its own timbre and Fourier spectrum. 
+The fundamental frequency determines the pitch of the tone. 
+Often the fundamental does not have the highest amplitude. 
+Some higher harmonics may be stronger. 
+Nonetheless, the ear discerns the frequency of the fundamental 
+as the pitch of the tone. 
+Musical instruments produce sound with complex Fourier spectra. 
+These change with every note. 
+For example, the Fourier spectra of “middle C” ($f = 261.63~{\rm Hz}$) 
+from a violin and a viola or bassoon look quite different.
+
+\subsubsection{Real and Synthesized Sound of a Didgeridoo}
+
+An example of the spectrum from a didgeridoo and the 
+corresponding synthesized tone is shown in Figure~\ref{f:1} below. 
+The synthesized tone sounds similar to the actual one, but not quite the same.
 %
 \begin{figure}[hbtp]
 \begin{center}
 \includegraphics[width=.7\textwidth]{fig5_1}
-\caption{}
-\label{f:} 
+\caption{Top: Actual sound spectrum of the note D2 from a didgeridoo. 
+The odd harmonics dominate, as expected for a ``closed tube”. 
+Bottom: Synthesized sound spectrum, using only the first four odd harmonics 
+$N = 1$, 3, 5, 7.}
+\label{f:1} 
 \end{center} 
 \end{figure}
 %
+
+\subsubsection*{Questions}
+\ben
+\i Why does the synthesized tone not sound
+exactly like the real tone from a didgeridoo?
+\een
+
 \end{document}
 
