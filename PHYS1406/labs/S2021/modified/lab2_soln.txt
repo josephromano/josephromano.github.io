@@ -1,0 +1,56 @@
+Lab 2 solutions
+
+Part I
+------
+1) v = f*wavelength where f=20 Hz and wavelength = 0.11 m/5; so 
+   v = 20*0.11/5 = 0.44 m/s
+
+Part II
+-------
+1) Using angle of incidence = angle of reflection, the incident
+parallel rays will be reflected through a focal point (like for a 
+converging mirror)
+
+Part III
+--------
+1) Sound propagation is refracted downward (away from the normal) as 
+sound travels from lower elevations (cooler air) to higher elevations 
+(hotter air).  This looks like an upside-down U-shaped curve.
+
+Part IV
+-------
+1) Adding two sine waves that are 90 degrees out of phase with one 
+another produces another sine wave with same frequency, but with an
+amplitude sqrt(2)x larger and phase shifted by 45 degrees
+
+Part IV.A
+---------
+1) Increasing the frequency will increase the number of radial lines.
+The wave velocity is unchanged, so the wavelength decreases.
+
+Part IV.B
+---------
+1) Constructive interference, because the sound waves travel the same
+distance from the two speakers.
+
+2) If the frequency is increased, the number of audible maxima and 
+minima would increase.
+
+3) Interference of sound waves is undesirable in rooms and concert 
+halls since you don't want regions of enhanced or diminished sound.
+By adding many reflecting surfaces between the sources of the sound
+and the listener, the sound field becomes more homogeneous, making it
+less likely to have regions of total constructive or destructive
+interference.
+
+Part V
+------
+An opening can be thought of as two barriers placed next to one 
+another.
+
+1) For wavelengths << the size of the opening, the waves pass through
+with very little spreading into the shadow regions of the opening.
+
+2) For wavelengths comparable to the size of the opening, the waves 
+spread into the shadow regions of the opening.
+
