@@ -18,7 +18,7 @@
 - [part 8](course_guide/S2020/part8.pdf)
 - [part 9](course_guide/S2020/part9.pdf)
 
-## Labs
+## Labs (modified)
 
 - [lab 1](labs/S2021/modified/lab1.pdf)
 - [lab 2](labs/S2021/modified/lab2.pdf)
