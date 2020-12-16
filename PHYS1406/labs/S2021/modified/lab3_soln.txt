@@ -1,0 +1,40 @@
+Lab 3 solutions
+
+1) Increasing the tension F increases v and f.
+
+   Increasing the mass of the string (for fixed L) decreases v and f.
+
+   A denser material for the string decreases v and f.
+
+   Increasing the diameter of the string (for fixed L and mass 
+   density) decreases v and f.
+
+   Increasing the length of the string L (for fixed mass density) 
+   leaves v unchanged but decreases f.
+
+Part I
+-------
+1) Increasing the weight attached to the end of the string increases
+the tension, which increases both v and f.
+
+Part II
+-------
+1) f1 = 165 Hz (approx)
+   fN = N*f1 -> f2 = 330 Hz, f3 = 495 Hz, f4 = 660 Hz
+   The harmonic frequencies are integer multiples of the fundamental.
+
+2) f1 = v/2L -> v = f1*2L = 226 m/s
+
+3) v = sqrt(F/mu) -> F = mu v^2 = 76.9 N
+ 
+Part III
+--------
+1) ~25 harmonics. The amplitude of the 3rd harmonic is largest.
+
+2) ~15 harmonics. The amplitudes of the harmonics are much less for
+the plucked string than the bowed string, especially for the higher
+harmonics.
+
+3) Bowing excites the higher harmonics, while plucking excites only 
+the lower harmonics. Bowing transfers more energy to the strings.
+
