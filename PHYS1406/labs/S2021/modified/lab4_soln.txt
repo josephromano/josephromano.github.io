@@ -1,0 +1,55 @@
+Lab 4 solutions
+
+1) f_1 =  v/2L
+   f_2 = 2v/2L = v/L
+   f_3 = 3v/2L 
+   f_4 = 4v/2L = 2v/L
+
+   f_N = N f_1 for N=1, 2, 3, ...
+
+2) f_1 =  v/4L
+   f_3 = 3v/4L
+   f_5 = 5v/4L
+   f_7 = 7v/4L
+
+   f_N = N f_1 for N=1, 3, 5, ...
+
+Part I
+------
+1) closed tube: L_eff = L + 0.61 r = 1.35 m
+   open tube:   L_eff = L + 1.22 r = 1.40 m
+
+2) f_1 = v/2L_eff -> v = f_1 * 2L_eff = 339 m/s
+
+3) percent difference = |346-339|/346 * 100 = 2%
+Slightly lower than 346 m/s due in part to slightly lower temperature
+in the room  
+
+Part II
+-------
+1) 0.37*4.2 = 1.55 corresponding to t=750 ms
+   Exponential decay time = 750 ms -400 ms = 350 ms
+
+2) L_eff = L + 0.61 r = 1.22 m
+   f = v/4L = 346/(4*1.22) = 71.8 Hz
+
+Part III.A
+---------- 
+1) A = pi * r^2 = 0.0053 m^2
+   vol = (4/3)pi R^3 = 0.0141 m^3
+   L_eff = L + 1.22*r = 0.13 m
+
+-> f = (v/(2 pi)) * sqrt( A/(L_eff* vol)) = 93.3 Hz
+
+Part III.B
+----------
+1) L_eff = L + (0.61+0.85)r_avg = 0.1004 m
+   A = pi * r_avg^2 = 3.48e-4 m^2
+   vol = 0.75e-3 m^3
+
+-> f = (v/(2 pi)) * sqrt( A/(L_eff* vol)) = 118.4 Hz
+
+2) percent difference = |113-118|/118 * 100 = 4.2%
+
+3) f \propto 1/sqrt{vol}
+   f_1-liter/f_2-liter = sqrt{2} = 1.414
