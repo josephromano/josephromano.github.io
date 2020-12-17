@@ -48,7 +48,7 @@ analysis and synthesis of sound and how electronic
 For our experiment, we will use the 
 Fourier Series Applet, which is available online at 
 \url{https://www.falstad.com/fourier/}.
-Listen to several available waveforms (e.g.,  sine, triangle, 
+Listen to several available waveforms (e.g.,  sine, triangular, 
 square, and sawtooth waves) at a fundamental frequency of 
 $f_1 = 500~{\rm Hz}$.
 To do so, you will need to adjust the ``Playing Frequency" 
@@ -94,8 +94,8 @@ $A_N = A_1/N$, where $A_1$ is the amplitude of the fundamental frequency.
 Thus all integer multiples of the fundamental frequency
 contribute to the waveform. 
 Since in practice we cannot add an infinite number
-of harmonics, we shall only use the first five or six harmonics
-and add them up.
+of harmonics, we shall use only the first five non-zero
+harmonics and add them up.
 
 Using the online app, start by clicking the ``Sine" box.
 You should see a single white dot, sticking up above the rest,
@@ -162,7 +162,8 @@ harmonics are added.
 The triangular wave is similar to the square wave in that 
 it too consists of odd harmonics only. However, 
 the amplitudes no longer follow the $A_N=A_1/N$ dependence, 
-but rather a $A_N = (-1)^{(N-1)/2} A_1/N^2$ dependence. 
+%but rather a $A_N = (-1)^{(N-1)/2} A_1/N^2$ dependence. 
+but rather a $A_N = \pm A_1/N^2$ dependence. 
 The sign of the amplitude alternates +, $-$, +, $-$, etc.,
 for the 1st, 3rd, 5th, 7th harmonics, etc.
 For instance, given an amplitude of the first harmonic of 100\%, 
@@ -193,7 +194,7 @@ contributions from its overtones to the overall form and tone?
 noticeable contributions from its overtones?
 
 \i How could you get sharper ``edges” on the square and 
-sawtooth waveform than those created with just five or six
+sawtooth waveform than those created with just five non-zero
 harmonics?
 
 \i Why can you hear a 1~Hz square wave?
@@ -202,11 +203,11 @@ harmonics?
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Fourier Analysis of Waveforms}
 
-The FFT Analyzer tool in the Electroacoustic Toolbox 
+The ``FFT Analyzer Tool" in the Electroacoustic Toolbox 
 analyzes an incoming signal with a mathematical operation 
 called a {\em Fast Fourier Transform} (FFT) to 
 identify the different frequencies in the signal. 
-The display is a frequency spectrum.
+The display is a frequency spectrum---see Figure 1.
 For a sine wave, the FFT tool will show a frequency spectrum with one peak for
 the only frequency present (the fundamental), 
 with the amplitude being the height of the peak.
@@ -235,7 +236,7 @@ from a violin and a viola or bassoon look quite different.
 \subsubsection{Real and Synthesized Sound of a Didgeridoo}
 
 An example of the spectrum from a didgeridoo and the 
-corresponding synthesized tone is shown in Figure~\ref{f:1} below. 
+corresponding synthesized tone is shown in Figure~\ref{f:1}. 
 The synthesized tone sounds similar to the actual one, but not quite the same.
 %
 \begin{figure}[hbtp]

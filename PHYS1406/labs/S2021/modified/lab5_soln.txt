@@ -1,0 +1,46 @@
+Lab 5 solutions
+
+Part I
+------
+1) sketches of sine, triangular, square, and sawtooth waves
+2) triangular wave
+3) sawtooth wave
+4) sawtooth wave
+
+Part I.A
+--------
+Table 1: sawtooth waveform
+N=1 f_1 =  500 Hz A_1 = 100%
+N=2 f_2 = 1000 Hz A_2 = 50%
+N=3 f_3 = 1500 Hz A_3 = 33%
+N=4 f_4 = 2000 Hz A_4 = 25%
+N=5 f_5 = 2500 Hz A_5 = 20%
+
+Part I.B
+--------
+Table 2: square wave
+N=1 f_1 =  500 Hz A_1 = 100%
+N=3 f_3 = 1500 Hz A_2 = 33%
+N=5 f_5 = 2500 Hz A_3 = 20%
+N=7 f_7 = 3500 Hz A_4 = 14%
+N=9 f_9 = 4500 Hz A_5 = 11%
+
+Part I.C
+--------
+Table 3: triangular waveform
+N=1 f_1 =  500 Hz A_1 =  100%
+N=3 f_3 = 1500 Hz A_2 = -11%
+N=5 f_5 = 2500 Hz A_3 =  4%
+N=7 f_7 = 3500 Hz A_4 = -2%
+N=9 f_9 = 4500 Hz A_5 =  1.2%
+
+1) triangular wave
+2) sawtooth waveform
+3) add more harmonics
+4) you hear the contribution from the harmonics of the 1 Hz 
+fundamental that have frequencies greater than 20 Hz
+
+Part II.B
+---------
+1) The synthesized tone only uses a few harmonics.  Also, a real 
+didgeridoo has small contributions from even harmonics as well.
