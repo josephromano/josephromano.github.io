@@ -1,9 +1,10 @@
 # Three-point Perspective
 
 ## Code
-- [threePointPerspective.ipynb](threePointPerspective.ipynb)
 
-## Examples:
+- [.pdf](threePointPerspective.pdf], [.ipynb](threePointPerspective.ipynb)
+
+## Example output
 
 - shifted: 
 [1](threepoint_shifted1.png), 
