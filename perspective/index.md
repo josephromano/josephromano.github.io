@@ -1,4 +1,4 @@
-# Three-point Perspective
+# 3-point perspective
 
 ## Code
 
