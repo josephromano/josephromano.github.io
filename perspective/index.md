@@ -1,8 +1,9 @@
-# Code
+# Three-point Perspective
 
+## Code
 - [threePointPerspective.ipynb](threePointPerspective.ipynb)
 
-# Examples:
+## Examples:
 
 - shifted: 
 [1](threepoint_shifted1.png), 
