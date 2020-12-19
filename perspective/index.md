@@ -2,7 +2,7 @@
 
 ## Code
 
-- [.pdf](threePointPerspective.pdf], [.ipynb](threePointPerspective.ipynb)
+- [.pdf](threePointPerspective.pdf), [.ipynb](threePointPerspective.ipynb)
 
 ## Example output
 
