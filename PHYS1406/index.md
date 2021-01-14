@@ -6,18 +6,6 @@
 - [course calendar](info/calendar.pdf)
 - [course topics](info/topics.pdf)
 
-## Course guide (old)
-
-- [part 1](course_guide/S2020/part1.pdf)
-- [part 2](course_guide/S2020/part2.pdf)
-- [part 3](course_guide/S2020/part3.pdf)
-- [part 4](course_guide/S2020/part4.pdf)
-- [part 5](course_guide/S2020/part5.pdf)
-- [part 6](course_guide/S2020/part6.pdf)
-- [part 7](course_guide/S2020/part7.pdf)
-- [part 8](course_guide/S2020/part8.pdf)
-- [part 9](course_guide/S2020/part9.pdf)
-
 ## Labs (modified)
 
 - [lab 1](labs/S2021/modified/lab1.pdf)
