@@ -2,8 +2,9 @@
 
 ## Basic information
 
-- [course syllabus](info/syllabus_with_attachments.pdf)
-- [course calendar](info/calendar.pdf)
+- [welcome](info/welcome.pdf)
+- [syllabus](info/syllabus_with_attachments.pdf)
+- [calendar](info/calendar.pdf)
 
 ## Labs (modified)
 
