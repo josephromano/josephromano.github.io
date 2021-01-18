@@ -3,6 +3,7 @@
 ## Basic information
 
 - [welcome](info/welcome.pdf)
+- [textbook](info/book.pdf)
 - [syllabus](info/syllabus_with_attachments.pdf)
 - [calendar](info/calendar.pdf)
 
