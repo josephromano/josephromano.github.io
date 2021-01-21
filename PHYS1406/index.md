@@ -21,6 +21,10 @@
 - [lab 10](labs/S2021/modified/lab10.pdf), [Chladni patterns](labs/S2021/modified/Chladni_patterns.mov)
 - [lab 11](labs/S2021/modified/lab11.pdf)
 
+## Lectures
+
+- [slides](slides/S2021/slides.pdf)
+
 ## Extra resources
 
 - [supplemental lecture notes](notes/notes.pdf)
