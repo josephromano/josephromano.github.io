@@ -23,7 +23,8 @@
 
 ## Lectures
 
-- [slides](slides/S2021/slides.pdf)
+- [slides - part 1](slides/S2021/slides1.pdf)
+- [slides - part 2](slides/S2021/slides2.pdf)
 
 ## Extra resources
 
