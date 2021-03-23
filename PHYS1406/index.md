@@ -25,6 +25,7 @@
 
 - [slides - part 1](slides/S2021/slides1.pdf)
 - [slides - part 2](slides/S2021/slides2.pdf)
+- [slides - part 3](slides/S2021/slides3.pdf)
 
 ## Extra resources
 
