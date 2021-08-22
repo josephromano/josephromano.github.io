@@ -2,7 +2,7 @@
 
 ## Basic information
 
-- [syllabus](info/syllabus_with_attachments.pdf)
+- [syllabus](info/syllabus.pdf)
 - [course calendar](info/calendar.pdf)
 - [course topics](info/topics.pdf)
 - [why should you learn this stuff?](info/why.pdf)
