@@ -16,6 +16,7 @@
 
 ## Extra resources
 
+- [lecture notes](notes/LectureNotes2021.pdf)
 - [mathematical appendices from Benacquista & Romano](benacquista_romano/appendices.pdf)
 - workbook: [.ipnyb](workbook/workbook.ipynb), [.pdf](workbook/workbook.pdf)
 - miscellaneous animations: [simple pendulum](code/simple_pendulum.py), [oscillating orbit](code/oscillating_orbit.py), [frisbee](code/frisbee.avi), [football](code/football.avi), [sphere](code/sphere.avi)
