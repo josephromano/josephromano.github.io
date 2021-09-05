@@ -11,7 +11,7 @@
 ## Problems and solutions
 
 - [suggested problems from Landau & Lifshitz](info/problems.pdf)
-- [solutions to problems in Landau & Lifshitz](landau_lifshitz/solutions/solutions.pdf)
+- [solutions to problems in Landau & Lifshitz](landau_lifshitz/solutions/solutions2021.pdf)
 - [solutions to problems in Benacquista & Romano](benacquista_romano/solutions/index.md)
 
 ## Extra resources
