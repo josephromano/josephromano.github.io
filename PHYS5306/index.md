@@ -19,9 +19,9 @@
 - [lecture notes](notes/LectureNotes2021.pdf)
 - [mathematical appendices from Benacquista & Romano](benacquista_romano/appendices.pdf)
 - workbook: [.ipnyb](workbook/workbook.ipynb), [.pdf](workbook/workbook.pdf)
-- simple pendulum animation: [code](python code/simple_pendulum.py), [animation](code/simple_pendulum.mp4) 
+- simple pendulum animation: [python code](code/simple_pendulum.py), [animation](code/simple_pendulum.mp4) 
 - oscillating orbit animation: [python code](code/oscillating_orbit.py), [animation](code/oscillating_orbit.mp4)
-- rigid-body animations: [code](matlab code/rigidbody.m), [frisbee](code/frisbee.mp4), [football](code/football.mp4), [sphere](code/sphere.mp4)
+- rigid-body animations: [matlab code](code/rigidbody.m), [frisbee](code/frisbee.mp4), [football](code/football.mp4), [sphere](code/sphere.mp4)
 - merry-go-round animations: [matlab code](code/merrygoround.m),
 [merrygoround_0.328_1.5708_5.mp4](code/merrygoround_0.328_1.5708_5.mp4),
 [merrygoround_0.328_1.5708_5.pdf](code/merrygoround_0.328_1.5708_5.pdf),
