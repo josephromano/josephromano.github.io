@@ -1,8 +1,31 @@
+function rigidbody(rbtype)
+%
+% rbtype = 'sphere', 'football', or 'frisbee"
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+close all
+
 % ellipsoid parameters
 a=1; b=1;
-c=2; % football
-c=0.2; % frisbee
-%c=1; % sphere
+
+switch rbtype
+  case 'sphere'
+    c=1;
+    fname = 'sphere';
+
+  case 'frisbee'
+    c=0.2;
+    fname = 'frisbee';
+
+  case 'football'
+    c=2;
+    fname = 'football';
+
+  otherwise
+    error('unknown rigidbody type');
+end
+
+% plot limits
 plotlim = max([a b c]);
 xmax=plotlim; ymax=plotlim; zmax=plotlim;
 
@@ -62,6 +85,10 @@ phi = phi0 + phidot*t;
 psi = psi0 + psidot*t;
 theta = theta0*ones(length(t),1);
 
+% open VideoWriter for .mp4 file 
+vw = VideoWriter (fname, 'MPEG-4');
+open(vw);
+
 for ii=1:length(t)
   % euler-angle rotation matrix (CW passive rotation = CCW active rotation)
   R1 = [cos(-phi(ii)) sin(-phi(ii)) 0; ...
@@ -92,13 +119,13 @@ for ii=1:length(t)
   lighting phong
   view(120, 20)
   pause(.01)
-  %F(ii) = getframe;
- 
+
+  frame = getframe;
+  writeVideo(vw, frame);
+  
+
 end
 
-fname = ['football.avi'];
-fname = ['frisbee.avi'];
-fname = ['sphere.avi'];
-%movie2avi(F,fname)
+close(vw)
 
 return
