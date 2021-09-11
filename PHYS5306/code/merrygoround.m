@@ -42,8 +42,8 @@ xlos = -sin(w*t);
 ylos = cos(w*t);
 
 % Prepare the new file.
-filename = ['merrygoround_' num2str(v0) '_' num2str(theta0) '_' num2str(T) '.avi'];
-vidObj = VideoWriter(filename);
+filename = ['merrygoround_' num2str(v0) '_' num2str(theta0) '_' num2str(T)];
+vidObj = VideoWriter(filename, 'MPEG-4');
 
 % Set and view the frame rate (frames/sec)
 vidObj.FrameRate = 25;
@@ -63,7 +63,7 @@ for ii=1:length(t)
   ylabel('Y-axis (inertial)')
   pause(.01)
   hold off
-  currFrame = getframe(gca);
+  currFrame = getframe(gcf);
   writeVideo(vidObj,currFrame);
 end
 
@@ -84,7 +84,7 @@ ylabel('y-axis (rotating)')
 
 axis square
 title(['v0 = ' num2str(v0) '; theta0 = ' num2str(theta0) '; T = ' num2str(T)]);
-filename = ['merrygoround_' num2str(v0) '_' num2str(theta0) '_' num2str(T) '.eps'];
-print('-depsc2', filename)
+filename = ['merrygoround_' num2str(v0) '_' num2str(theta0) '_' num2str(T) '.pdf'];
+print('-dpdf', '-fillpage', filename)
 
 return
