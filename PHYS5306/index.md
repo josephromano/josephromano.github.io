@@ -19,17 +19,17 @@
 - [lecture notes](notes/LectureNotes2021.pdf)
 - [mathematical appendices from Benacquista & Romano](benacquista_romano/appendices.pdf)
 - workbook: [.ipnyb](workbook/workbook.ipynb), [.pdf](workbook/workbook.pdf)
-- simple pendulum animation: [code](code/simple_pendulum.py), [animation](code/simple_pendulum.mp4) 
-- oscillating orbit animation: [code](code/oscillating_orbit.py), [animation](code/oscillating_orbit.mp4)
-- rigid-body animations: [code](code/rigidbody.m), [frisbee](code/frisbee.mp4), [football](code/football.mp4), [sphere](code/sphere.mp4)
-- merry-go-round animations: [merry-go-round matlab code](code/merrygoround.m),
-[merrygoround_0.328_1.5708_5.avi](code/merrygoround_0.328_1.5708_5.avi),
-[merrygoround_0.328_1.5708_5.eps](code/merrygoround_0.328_1.5708_5.eps),
-[merrygoround_0.5_1.5708_2.9.avi](code/merrygoround_0.5_1.5708_2.9.avi),
-[merrygoround_0.5_1.5708_2.9.eps](code/merrygoround_0.5_1.5708_2.9.eps),
-[merrygoround_0.8_1.5708_2.9.avi](code/merrygoround_0.8_1.5708_2.9.avi),
-[merrygoround_0.8_1.5708_2.9.eps](code/merrygoround_0.8_1.5708_2.9.eps),
-[merrygoround_0.47_0.7854_3.83.avi](code/merrygoround_0.47_0.7854_3.83.avi),
-[merrygoround_0.47_0.7854_3.83.eps](code/merrygoround_0.47_0.7854_3.83.eps),
-[merrygoround_0.283_0.7854_3.3.avi](code/merrygoround_0.283_0.7854_3.3.avi),
-[merrygoround_0.283_0.7854_3.3.eps](code/merrygoround_0.283_0.7854_3.3.eps)
+- simple pendulum animation: [code](python code/simple_pendulum.py), [animation](code/simple_pendulum.mp4) 
+- oscillating orbit animation: [python code](code/oscillating_orbit.py), [animation](code/oscillating_orbit.mp4)
+- rigid-body animations: [code](matlab code/rigidbody.m), [frisbee](code/frisbee.mp4), [football](code/football.mp4), [sphere](code/sphere.mp4)
+- merry-go-round animations: [matlab code](code/merrygoround.m),
+[merrygoround_0.328_1.5708_5.mp4](code/merrygoround_0.328_1.5708_5.mp4),
+[merrygoround_0.328_1.5708_5.pdf](code/merrygoround_0.328_1.5708_5.pdf),
+[merrygoround_0.5_1.5708_2.9.mp4](code/merrygoround_0.5_1.5708_2.9.mp4),
+[merrygoround_0.5_1.5708_2.9.pdf](code/merrygoround_0.5_1.5708_2.9.pdf),
+[merrygoround_0.8_1.5708_2.9.mp4](code/merrygoround_0.8_1.5708_2.9.mp4),
+[merrygoround_0.8_1.5708_2.9.pdf](code/merrygoround_0.8_1.5708_2.9.pdf),
+[merrygoround_0.47_0.7854_3.83.mp4](code/merrygoround_0.47_0.7854_3.83.mp4),
+[merrygoround_0.47_0.7854_3.83.pdf](code/merrygoround_0.47_0.7854_3.83.pdf),
+[merrygoround_0.283_0.7854_3.3.mp4](code/merrygoround_0.283_0.7854_3.3.mp4),
+[merrygoround_0.283_0.7854_3.3.pdf](code/merrygoround_0.283_0.7854_3.3.pdf)
