@@ -102,20 +102,15 @@ def update(num, x, y, line):
 
 ani = animation.FuncAnimation(fig, update, len(phi), fargs=[x, y, line], interval=1, blit=True, repeat=False)
 
+# uncomment the following two lines to save the animation
+#writervideo = animation.FFMpegWriter(fps=500)
+#ani.save('oscillating_orbit.mp4', writer=writervideo)
+
 plt.show()
 
+##################################################################
 # old code that doesn't using animation function
 #for ii in range(N):     
 #	line.set_data([0, x[ii]],[0,y[ii]])
 #	plt.pause(0.001)
 
-# To save the animation, use e.g.
-#
-# ani.save("movie.mp4")
-#
-# or
-#
-# writer = animation.FFMpegWriter(
-#     fps=15, metadata=dict(artist='Me'), bitrate=1800)
-# ani.save("movie.mp4", writer=writer)
-##############################################

@@ -18,7 +18,7 @@ k = np.sin(phi0/2)
 m = k**2
 
 # discrete times	
-t = np.linspace(0, 4*P0, 10000)
+t = np.linspace(0, 4*P0, 4000)
 
 # small angle approx
 phi_approx = phi0 *np.cos(omega0*t)
@@ -49,17 +49,12 @@ def update(num, phi_approx, phi, line1, line2):
 
 ani = animation.FuncAnimation(fig, update, len(t), fargs=[phi_approx, phi, line1, line2], interval=1, blit=True, repeat=False)
 
+# uncomment the following two lines to save the animation,
+#writervideo = animation.FFMpegWriter(fps=500)
+#ani.save('simple_pendulum.mp4', writer=writervideo)
+
 plt.show()
 
-# To save the animation, use e.g.
-#
-# ani.save("movie.mp4")
-#
-# or
-#
-# writer = animation.FFMpegWriter(
-#     fps=15, metadata=dict(artist='Me'), bitrate=1800)
-# ani.save("movie.mp4", writer=writer)
 ##############################################
 # old code that doesn't using animation function
 #for ii in range(len(t)):
