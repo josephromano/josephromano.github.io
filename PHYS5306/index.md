@@ -23,8 +23,8 @@
 - oscillating orbit animation: [python code](code/oscillating_orbit.py), [animation](code/oscillating_orbit.mp4)
 - rigid-body animations: [matlab code](code/rigidbody.m), [frisbee](code/frisbee.mp4), [football](code/football.mp4), [sphere](code/sphere.mp4)
 - small-oscillations:
- - double-pendulum: [matlab code](code/doublependulum.m), [animation](code/doublependulum.mp4)
- - triatomic molecule: [matlab code](code/triatomic.m), [animation](code/triatomic.mp4)
+  - double-pendulum: [matlab code](code/doublependulum.m), [animation](code/doublependulum.mp4)
+  - triatomic molecule: [matlab code](code/triatomic.m), [animation](code/triatomic.mp4)
 - merry-go-round animations: [matlab code](code/merrygoround.m),
 [merrygoround_0.328_1.5708_5.mp4](code/merrygoround_0.328_1.5708_5.mp4),
 [merrygoround_0.328_1.5708_5.pdf](code/merrygoround_0.328_1.5708_5.pdf),
