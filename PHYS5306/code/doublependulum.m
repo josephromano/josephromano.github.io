@@ -1,4 +1,4 @@
-function  doublependulum(thetai, thetadoti, r)
+%function  doublependulum(thetai, thetadoti, r)
 %
 % Inputs:
 %
@@ -9,10 +9,12 @@ function  doublependulum(thetai, thetadoti, r)
 % small oscillations of coplanar double pendulum
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+close all
+
 % sample inputs
-%thetai = [5 -5];
-%thetadoti = [0 0];
-%r = 50; 
+thetai = [5 -5];
+thetadoti = [0 0];
+r = 50; 
 
 % assign certain parameter values
 l = 1; % pendula length (assumed equal)
@@ -70,6 +72,14 @@ y1 = -l*cos(theta1);
 x2 =  x1 + l*sin(theta2);
 y2 =  y1 - l*cos(theta2);
 
+% prepare the video file
+filename = 'doublependulum';
+vidObj = VideoWriter(filename, 'MPEG-4');
+
+% Set the frame rate (frames/sec)
+vidObj.FrameRate = 25;
+open(vidObj);
+
 % make movie
 for ii=1:numT
 
@@ -82,14 +92,16 @@ for ii=1:numT
   axis equal
   ylim([-2.5 0])
   xlim([-0.75 0.75]);
-  %F(ii) = getframe;
-
+  hold off
+  currFrame = getframe(gcf);
+  writeVideo(vidObj,currFrame);
 end
+
+% Close the file.
+close(vidObj);
 
 % plot angles
 figure(2)
 plot(t, theta1*180/pi, 'b', t, theta2*180/pi, 'r');
 
-%fname = ['doublependulum.avi'];
-%movie2avi(F,fname)
-
+return

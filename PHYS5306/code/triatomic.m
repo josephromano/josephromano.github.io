@@ -1,4 +1,4 @@
-function  triatomic(qi, vi, r, k)
+%function  triatomic(qi, vi, r, k)
 %
 % Inputs:
 %
@@ -10,19 +10,21 @@ function  triatomic(qi, vi, r, k)
 % linear triatomic molecule
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+close all
+
 % sample inputs
 %qi = [-1.5 0 1.5];
 %qi = [-0.5 0 1.5];
 %qi = [-1 0.5 1];
-%qi = [-1 0.5 1];
-%vi = [0 0 0];
+qi = [-1.25 0.25 1];
+vi = [0 0 0];
 
 %qi = [-1 0 1];
 %vi = [-0.1 0 0.1];
 %vi = [0 0.5 0];
 
-%r = 1; 
-%k= 1;
+r = 2; 
+k= 1;
 
 % assign certain parameter values
 m = 1;
@@ -63,9 +65,9 @@ ImC = [0; temp];
 C = ReC + i * ImC;
 
 % discrete times
-% choose Tmax = 4 periods of w3 (this is arbitrary)
-numT = 100;
-Tmax = 4 * 2*pi/w3; 
+% choose Tmax = 10 periods of w3 (this is arbitrary)
+numT = 500;
+Tmax = 10 * 2*pi/w3; 
 t = linspace(0, Tmax, numT);
 
 % normal coords
@@ -83,6 +85,14 @@ q1 = q1_0 + real(eta1);
 q2 = q2_0 + real(eta2);
 q3 = q3_0 + real(eta3);
 
+% prepare the video file
+filename = 'triatomic';
+vidObj = VideoWriter(filename, 'MPEG-4');
+
+% Set the frame rate (frames/sec)
+vidObj.FrameRate = 25;
+open(vidObj);
+
 % make movie
 for ii=1:numT
 
@@ -92,10 +102,17 @@ for ii=1:numT
   axis equal
   ylim([-1 1])
   xlim([-2 2]);
-  F(ii) = getframe;
+  
+  vline(q1_0, 'k');
+  vline(q2_0, 'k');
+  vline(q3_0, 'k');
 
+  hold off
+  currFrame = getframe(gcf);
+  writeVideo(vidObj,currFrame);
 end
 
-fname = ['triatomic.avi'];
-movie2avi(F,fname)
+% Close the file.
+close(vidObj);
 
+return
