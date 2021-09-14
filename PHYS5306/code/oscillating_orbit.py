@@ -53,6 +53,7 @@ plt.axvline(rmin, color='grey')
 plt.axvline(rmax, color='grey')
 plt.xlabel('r')
 plt.ylabel('Ueff')
+plt.savefig('Ueff.pdf')
 
 # integrate equations of motion
 sign = 1
@@ -77,6 +78,7 @@ plt.figure()
 plt.plot(phi, r)
 plt.xlabel('phi')
 plt.ylabel('r')
+plt.savefig('r_vs_phi.pdf')
 
 # cartesian coordinates
 x = r*np.cos(phi)
@@ -89,6 +91,7 @@ plt.xlabel('x')
 plt.ylabel('y')
 plt.xlim(-1,1)
 plt.ylim(-1,1)
+plt.savefig('orbit.pdf')
 
 # define figure
 fig = plt.figure()
