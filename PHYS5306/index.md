@@ -19,6 +19,7 @@
 - [lecture notes](notes/LectureNotes2021.pdf)
 - [mathematical appendices from Benacquista & Romano](benacquista_romano/appendices.pdf)
 - workbook: [.ipnyb](workbook/workbook.ipynb), [.pdf](workbook/workbook.pdf)
+- [rotating hoop calculation](notes/rotating_hoop.pdf) 
 - simple pendulum animation: [python code](code/simple_pendulum.py), [animation](code/simple_pendulum.mp4) 
 - oscillating orbit animation: [python code](code/oscillating_orbit.py), [animation](code/oscillating_orbit.mp4),
 [Ueff](code/Ueff.pdf), [r vs phi](code/r_vs_phi.pdf), [orbit](code/orbit.pdf)
