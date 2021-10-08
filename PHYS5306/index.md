@@ -16,7 +16,7 @@
 
 ## Extra resources
 
-- [lecture notes](notes/LectureNotes2021.pdf)
+- lecture notes: [part a](notes/LectureNotes2021a.pdf), [part b](notes/LectureNotes2021b.pdf)
 - [mathematical appendices from Benacquista & Romano](benacquista_romano/appendices.pdf)
 - workbook: [.ipnyb](workbook/workbook.ipynb), [.pdf](workbook/workbook.pdf)
 - [rotating hoop calculation](notes/rotating_hoop.pdf) 
