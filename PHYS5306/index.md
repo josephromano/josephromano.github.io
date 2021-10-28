@@ -24,6 +24,16 @@
 - oscillating orbit animation: [python code](code/oscillating_orbit.py), [animation](code/oscillating_orbit.mp4),
 [Ueff](code/Ueff.pdf), [r vs phi](code/r_vs_phi.pdf), [orbit](code/orbit.pdf)
 - small-oscillations:
+  - oscillating orbit (precessing): [python code](code/oscillating_orbit_small_oscillations.py), 
+    [animation](code/oscillating_orbit_small_oscillations.mp4),
+    [Ueff](code/Ueff_small_oscillations.pdf), 
+    [r vs phi](code/r_vs_phi_small_oscillations.pdf), 
+    [orbit](code/orbit_small_oscillations.pdf)
+  - oscillating orbit (closed): [python code](code/oscillating_orbit_small_oscillations_closed.py), 
+    [animation](code/oscillating_orbit_small_oscillations_closed.mp4),
+    [Ueff](code/Ueff_small_oscillations_closed.pdf), 
+    [r vs phi](code/r_vs_phi_small_oscillations_closed.pdf), 
+    [orbit](code/orbit_small_oscillations_closed.pdf)
   - double-pendulum: [matlab code](code/doublependulum.m), [animation](code/doublependulum.mp4)
   - triatomic molecule: [matlab code](code/triatomic.m), [animation](code/triatomic.mp4)
 - rigid-body animations: [matlab code](code/rigidbody.m), [frisbee](code/frisbee.mp4), [football](code/football.mp4), [sphere](code/sphere.mp4)
