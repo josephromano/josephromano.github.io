@@ -9,8 +9,8 @@ import scipy.optimize as optimize
 
 # set parameters
 g = 9.8 # m/s^2
-m1 = 0.5 # kg (on table) (closed orbit)
-#m1 = 0.65 # kg (on table)
+#m1 = 0.5 # kg (on table) (closed orbit)
+m1 = 0.65 # kg (on table)
 m2 = 1.0 # kg (below table)
 r0 = 0.5 # m  (radius for stable circular orbit)
 Mz = np.sqrt(m1*m2*g*r0**3) # (angular momentum needed for r=r0)
@@ -53,7 +53,7 @@ plt.axvline(rmin, color='grey')
 plt.axvline(rmax, color='grey')
 plt.xlabel('r')
 plt.ylabel('Ueff')
-plt.savefig('Ueff_small_oscillations_closed.pdf')
+plt.savefig('Ueff_small_oscillations.pdf')
 
 # integrate equations of motion
 sign = 1
@@ -78,7 +78,7 @@ plt.figure()
 plt.plot(phi, r)
 plt.xlabel('phi')
 plt.ylabel('r')
-plt.savefig('r_vs_phi_small_oscillations_closed.pdf')
+plt.savefig('r_vs_phi_small_oscillations.pdf')
 
 # cartesian coordinates
 x = r*np.cos(phi)
@@ -91,7 +91,7 @@ plt.xlabel('x')
 plt.ylabel('y')
 plt.xlim(-1,1)
 plt.ylim(-1,1)
-plt.savefig('orbit_small_oscillations_closed.pdf')
+plt.savefig('orbit_small_oscillations.pdf')
 
 # define figure
 fig = plt.figure()
@@ -107,7 +107,7 @@ ani = animation.FuncAnimation(fig, update, len(phi), fargs=[x, y, line], interva
 
 # uncomment the following two lines to save the animation
 writervideo = animation.FFMpegWriter(fps=500)
-ani.save('oscillating_orbit_small_oscillations_closed.mp4', writer=writervideo)
+ani.save('oscillating_orbit_small_oscillations.mp4', writer=writervideo)
 
 plt.show()
 
