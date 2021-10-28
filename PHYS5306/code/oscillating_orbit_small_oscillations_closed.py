@@ -26,7 +26,8 @@ phi = np.zeros(N)
 
 # initial value of r, phi
 rmin = 0.90*r0 # minimum r value
-r[0] = rmin
+eps = 1e-6 # need slight perturbation away from turning point
+r[0] = rmin+eps
 phi[0] = 0
 
 # total energy for the system
