@@ -7,26 +7,11 @@
 - [syllabus](info/syllabus_with_attachments.pdf)
 - [calendar](info/calendar.pdf)
 
-## Labs (modified)
-
-- [lab 1](labs/S2021/modified/lab1.pdf)
-- [lab 2](labs/S2021/modified/lab2.pdf)
-- [lab 3](labs/S2021/modified/lab3.pdf)
-- [lab 4](labs/S2021/modified/lab4.pdf)
-- [lab 5](labs/S2021/modified/lab5.pdf)
-- [lab 6](labs/S2021/modified/lab6.pdf)
-- [lab 7](labs/S2021/modified/lab7.pdf)
-- [lab 8](labs/S2021/modified/lab8.pdf)
-- [lab 9](labs/S2021/modified/lab9.pdf)
-- [lab 10](labs/S2021/modified/lab10.pdf), [Chladni patterns](labs/S2021/modified/Chladni_patterns.mov)
-- [lab 11](labs/S2021/modified/lab11.pdf)
-
-## Lectures
-
-- [slides - part 1](slides/S2021/slides1.pdf)
-- [slides - part 2](slides/S2021/slides2.pdf)
-- [slides - part 3](slides/S2021/slides3.pdf)
-
 ## Extra resources
+
+- slides from 2021: 
+[part 1](slides/S2021/slides1.pdf), 
+[part 2](slides/S2021/slides2.pdf), 
+[part 3](slides/S2021/slides3.pdf)
 
 - [supplemental lecture notes](notes/notes.pdf)
