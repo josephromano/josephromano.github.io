@@ -3,7 +3,7 @@
 ## Basic information
 
 - [welcome](info/welcome.pdf)
-- [syllabus](info/syllabus_with_attachments.pdf)
+- [syllabus](info/syllabus.pdf)
 - [calendar](info/calendar.pdf)
 
 ## Extra resources
