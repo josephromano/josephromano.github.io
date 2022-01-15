@@ -8,8 +8,5 @@
 
 ## Extra resources
 
-- slides from 2021 
-([part 1](slides/S2021/slides1.pdf), 
-[part 2](slides/S2021/slides2.pdf), 
-[part 3](slides/S2021/slides3.pdf))
+- [slides from 2021](slides/S2021/slides.pdf) 
 - [supplemental lecture notes](notes/notes.pdf)
