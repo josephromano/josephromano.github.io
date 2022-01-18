@@ -31,4 +31,5 @@
 - [Chladni patterns](https://josephromano.github.io/PHYS1406/labs/S2021/modified/Chladni_patterns.mov)
 - [The Anechoic Chamber at BRE - quietest place in the UK? - YouTube](https://www.youtube.com/watch?v=BYBSA9v8IRE)
 - [One Man's Quest To Find The 'Sonic Wonders Of The World' : NPR](https://www.npr.org/2014/02/19/279628642/one-mans-quest-to-find-the-sonic-wonders-of-the-world)
+- [GRAND PIANO ACTION MODEL - YouTube](https://www.youtube.com/watch?v=95hnnb7KLAg)
 
