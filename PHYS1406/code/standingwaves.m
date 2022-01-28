@@ -34,7 +34,7 @@ f0 = n*v/(2*L);
 
 % discrete times
 t_tot = 15*L/v;
-delta_t = (L/v)/100; % 100 delta_T to travel down the arm
+delta_t = (L/v)/25; % 25 delta_T to travel down the arm
 num_t = 1+floor(t_tot/delta_t);
 t = transpose(linspace(0, t_tot, num_t));
 
