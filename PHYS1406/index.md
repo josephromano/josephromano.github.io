@@ -21,6 +21,7 @@
 - [Waves Intro](https://phet.colorado.edu/sims/html/waves-intro/latest/waves-intro_en.html)
 - [Wave on a String 1.1.24](https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_en.html)
 - [Wave Interference](https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_en.html)
+- [Bending Light 1.1.22](https://phet.colorado.edu/sims/html/bending-light/latest/bending-light_en.html)
 - [Motion of Plucked String - YouTube](https://www.youtube.com/watch?v=_X72on6CSL0)
 - [The bowed string](https://newt.phys.unsw.edu.au/jw/Bows.html)
 - [Bowed violin string in slow motion - YouTube](https://www.youtube.com/watch?v=6JeyiM0YNo4)
