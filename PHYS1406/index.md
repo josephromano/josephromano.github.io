@@ -8,6 +8,7 @@
 
 ## Extra resources
 
+- [slides from 2022](slides/S2022/slides1.pdf) 
 - [slides from 2021](slides/S2021/slides.pdf) 
 - [supplemental lecture notes](notes/notes.pdf)
 
