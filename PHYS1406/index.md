@@ -8,7 +8,6 @@
 
 ## Extra resources
 
-- [handwritten notes](slides/S2022/handwritten_notes.pdf)
 - [slides from 2021](slides/S2021/slides.pdf) 
 - [supplemental lecture notes](notes/notes.pdf)
 
