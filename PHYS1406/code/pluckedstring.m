@@ -20,7 +20,7 @@ v = 2*L/T; % velocity of wave on string
 h = 0.1; % max displacement of string at location of plucking
 
 % x-values 
-N = 251;
+N = 125;
 x = linspace(0,L,N);
 ndx = floor(alpha*N);
 x0 = x(ndx);
