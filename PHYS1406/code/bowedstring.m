@@ -22,7 +22,7 @@ y0 = h*(1-(alpha*L-L/2).^2/((L/2)^2));
 amp = 2*y0/(pi^2*alpha*(1-alpha));
 
 % x-values 
-N = 251;
+N = 125;
 x = linspace(0,L,N);
 ndx = floor(alpha*N);
 x0 = x(ndx);
