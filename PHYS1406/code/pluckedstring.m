@@ -22,7 +22,7 @@ h = 0.1; % max displacement of string at location of plucking
 % x-values 
 N = 125;
 x = linspace(0,L,N);
-ndx = floor(alpha*N);
+ndx = ceil(alpha*N);
 x0 = x(ndx);
 amp = 2*h/(pi^2*alpha*(1-alpha));
 
