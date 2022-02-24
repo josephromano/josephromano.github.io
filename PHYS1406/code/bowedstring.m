@@ -24,7 +24,7 @@ amp = 2*y0/(pi^2*alpha*(1-alpha));
 % x-values 
 N = 125;
 x = linspace(0,L,N);
-ndx = floor(alpha*N);
+ndx = ceil(alpha*N);
 x0 = x(ndx);
 
 % discrete time steps
