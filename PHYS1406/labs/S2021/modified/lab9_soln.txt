@@ -65,7 +65,7 @@ Part V
 inefficient as only 0.25% of the electrical power is convert to sound
 
 5) P_electrical = 9 W
-   P_light - 0.2*P_electrical = 1.8 W
+   P_light = 0.2*P_electrical = 1.8 W
    P_acoustical = (9/1.5)*3.8e-3 W = 0.023 W
    percentage = (P_acoustical/P_light)*100% = 1.3% 
    
