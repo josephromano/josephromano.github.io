@@ -2,9 +2,9 @@
 
 ## Basic information
 
-- [welcome](info/welcome.pdf)
 - [syllabus](info/syllabus.pdf)
-- [calendar](info/calendar.pdf)
+- [lecture notes](notes/notes.pdf)
+- labs (TO APPEAR!!)
 
 ## Extra resources
 
@@ -12,8 +12,6 @@
 [slides1](slides/S2022/slides1.pdf), 
 [slides2](slides/S2022/slides2.pdf),
 [slides3](slides/S2022/slides3.pdf)  
-- [slides from 2021](slides/S2021/slides.pdf) 
-- [supplemental lecture notes](notes/notes.pdf)
 - [waves - by David Griffiths](misc/waves-griffiths.pdf)
 
 ## Useful links
