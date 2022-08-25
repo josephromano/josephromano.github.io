@@ -4,11 +4,11 @@
 
 - [syllabus](info/syllabus.pdf)
 - [lecture notes](notes/notes.pdf)
-- labs (TO APPEAR!!)
+- [labs from previous semesters](labs/labs.pdf)
 
 ## Extra resources
 
-- slides from 2022: 
+- slides from Spring 2022: 
 [slides1](slides/S2022/slides1.pdf), 
 [slides2](slides/S2022/slides2.pdf),
 [slides3](slides/S2022/slides3.pdf)  
