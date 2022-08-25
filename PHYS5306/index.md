@@ -2,8 +2,8 @@
 
 ## Basic information
 
-- [syllabus](info/syllabus.pdf)
-- [course calendar](info/calendar.pdf)
+[//]: # - [syllabus](info/syllabus.pdf)
+[//]: # - [course calendar](info/calendar.pdf)
 - [course topics](info/topics.pdf)
 - [why should you learn this stuff?](info/why.pdf)
 - [what should you know how to do by the end of this course?](info/what.pdf)
@@ -21,6 +21,7 @@
 - workbook: [.ipnyb](workbook/workbook.ipynb), [.pdf](workbook/workbook.pdf)
 - [rotating hoop calculation](notes/rotating_hoop.pdf) 
 - simple pendulum animation: [python code](code/simple_pendulum.py), [animation](code/simple_pendulum.mp4) 
+- elliptic functions: [.ipynb](code/elliptic_functions.ipynb)
 - oscillating orbit animation: [python code](code/oscillating_orbit.py), [animation](code/oscillating_orbit.mp4),
 [Ueff](code/Ueff.pdf), [r vs phi](code/r_vs_phi.pdf), [orbit](code/orbit.pdf)
 - small-oscillations:
