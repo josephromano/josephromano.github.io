@@ -2,21 +2,21 @@
 
 ## Basic information
 
-[//]: # - [syllabus](info/syllabus.pdf)
-[//]: # - [course calendar](info/calendar.pdf)
-- [course topics](info/topics.pdf)
+- [syllabus](info/syllabus.pdf)
+- [course calendar](info/calendar.pdf)
+[//]: # - [course topics](info/topics.pdf)
 - [why should you learn this stuff?](info/why.pdf)
 - [what should you know how to do by the end of this course?](info/what.pdf)
 
 ## Problems and solutions
 
-- [suggested problems from Landau & Lifshitz](info/problems.pdf)
+- [suggested problems from Landau & Lifshitz](info/problems.pdf) (NEED TO UPDATE!!)
 - [solutions to problems in Landau & Lifshitz](landau_lifshitz/solutions/solutions.pdf)
 - [solutions to problems in Benacquista & Romano](benacquista_romano/solutions/index.md)
 
 ## Extra resources
 
-- lecture notes: [part a](notes/LectureNotes2021a.pdf), [part b](notes/LectureNotes2021b.pdf)
+[//]: # - lecture notes: [part a](notes/LectureNotes2021a.pdf), [part b](notes/LectureNotes2021b.pdf)
 - [mathematical appendices from Benacquista & Romano](benacquista_romano/appendices.pdf)
 - workbook: [.ipnyb](workbook/workbook.ipynb), [.pdf](workbook/workbook.pdf)
 - [rotating hoop calculation](notes/rotating_hoop.pdf) 
