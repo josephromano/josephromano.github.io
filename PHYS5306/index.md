@@ -3,10 +3,7 @@
 ## Basic information
 
 - [syllabus](info/syllabus.pdf)
-- [course calendar](info/calendar.pdf)
-<!---
 - [course topics](info/topics.pdf)
--->
 - [why should you learn this stuff?](info/why.pdf)
 - [what should you know how to do by the end of this course?](info/what.pdf)
 
