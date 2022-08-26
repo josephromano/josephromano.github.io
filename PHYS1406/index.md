@@ -3,6 +3,7 @@
 ## Basic information
 
 - [syllabus](info/syllabus.pdf)
+- [course calendar](info/calendar.pdf)
 - [lecture notes](notes/notes.pdf)
 - [labs from previous semesters](labs/labs.pdf)
 
