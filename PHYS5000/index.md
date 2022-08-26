@@ -1,4 +1,4 @@
-# PHYS 5300 - Stochastic GW backgrounds
+# PHYS 5000 - Stochastic GW backgrounds
 
 ## Basic information
 
