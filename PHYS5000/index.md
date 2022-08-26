@@ -1,4 +1,4 @@
-# PHYS 5300 - Independent study: Stochastic gravitational-wave backgrounds
+# PHYS 5300 - Stochastic GW backgrounds
 
 ## Basic information
 
@@ -11,13 +11,11 @@
 
 ## Presentations
 
-- Les Houches lecture 1:
-
--- [slides](presentations/leshouches/gwb_lecture1.pdf)
--- [Youtube](https://www.youtube.com/watch?v=B54OwjcXKpc&t=1146s) 
+- Les Houches lecture 1: 
+[slides](presentations/leshouches/gwb_lecture1.pdf), 
+[Youtube presentation](https://www.youtube.com/watch?v=B54OwjcXKpc&t=1146s) 
 
 - Les Houches lecture 2:
-
--- [slides](presentations/leshouches/gwb_lecture2.pdf)
--- [Youtube](https://www.youtube.com/watch?v=vDPrd48Acn8)
+[slides](presentations/leshouches/gwb_lecture2.pdf),
+[Youtube](https://www.youtube.com/watch?v=vDPrd48Acn8)
 
