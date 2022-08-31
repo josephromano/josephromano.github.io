@@ -18,6 +18,7 @@
 
 [//]: # - lecture notes: [part a](notes/LectureNotes2021a.pdf), [part b](notes/LectureNotes2021b.pdf)
 - [mathematical appendices from Benacquista & Romano](benacquista_romano/appendices.pdf)
+- [chpt 1 from Benacquista & Romano](benacquista_romano/chpt1.pdf)
 - workbook: [.ipnyb](workbook/workbook.ipynb), [.pdf](workbook/workbook.pdf)
 - [rotating hoop calculation](notes/rotating_hoop.pdf) 
 - simple pendulum animation: [python code](code/simple_pendulum.py), [animation](code/simple_pendulum.mp4) 
