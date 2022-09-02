@@ -16,7 +16,7 @@
 
 ## Extra resources
 
-[//]: # - lecture notes: [part a](notes/LectureNotes2021a.pdf), [part b](notes/LectureNotes2021b.pdf)
+- [lecture notes](notes/LectureNotes2022.pdf)
 - [mathematical appendices from Benacquista & Romano](benacquista_romano/appendices.pdf)
 - [chpt 1 from Benacquista & Romano](benacquista_romano/chpt1.pdf)
 - workbook: [.ipnyb](workbook/workbook.ipynb), [.pdf](workbook/workbook.pdf)
