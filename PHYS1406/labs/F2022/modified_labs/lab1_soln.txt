@@ -1,0 +1,28 @@
+Lab 1 solutions
+
+Part I
+------
+1) the length of the pendulum; the mass of the ball
+
+2) the period for the longer pendulum is approximately 2x larger than 
+than for the shorter pendulum
+
+3) 3x larger
+
+Part II
+-------
+1) Period is proportional to square root of the mass
+
+Part III
+--------
+1) the period decreases by a factor of 2 for 4x tension
+
+2) the fundamental frequency increases by a factor of 2 for 4x tension
+
+Part IV
+-------
+1) 1:1 - unison
+   5:4 - major third
+   3:2 - fifth
+   2:1 - octave
+

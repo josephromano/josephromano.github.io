@@ -1,0 +1,335 @@
+\documentclass[11pt]{NSF}
+\sloppy
+
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{draftcopy}
+\usepackage{longtable}
+\usepackage{hyperref}
+
+% some definitions
+ 
+% begin equation, itemize, etc.
+
+\def\be{\begin{equation}}
+\def\ee{\end{equation}}
+\def\bi{\begin{itemize}}
+\def\ei{\end{itemize}}
+\def\ben{\begin{enumerate}}
+\def\een{\end{enumerate}}
+\def\i{\item{}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+     
+\section{1. Simple Harmonic Motion (SHM)}
+
+PURPOSE AND BACKGROUND
+
+In order to understand sound and music, we need to understand periodic motion
+and how it gives rise to sound. Periodic motion is any sort of movement that
+repeats itself after an amount of time called the {\em period}. 
+For example, a violin
+string or the reed of a bassoon exhibits periodic motion when playing a
+sustained tone. A grandfather clock exhibits periodic motion as the pendulum
+swings back and forth, and so does a Ferris wheel that rotates at a constant
+speed.
+
+Simple harmonic motion (SHM) is the purest form of periodic motion. Two
+conditions have to be met:
+
+1) There exists a stable {\em equilibrium position}. 
+If the system is at rest it will
+stay at rest there. It will tend to return to that position if displaced from
+it.
+
+2) There exists a {\em restoring force} towards the equilibrium position. 
+This force
+is proportional to the amount of displacement from equilibrium. For example, if
+a mass hanging from a spring originally is at rest and then pulled down a small
+distance, the mass will oscillate up and down with SHM when let go. The spring
+provides a restoring force to bring the mass back to the equilibrium position.
+If the mass instead is pulled twice as far, the spring provides twice the force
+to bring it back. In this manner, the system is {\em linear} 
+and it is said to obey {\bf Hooke’s Law}.
+
+Much of music and sound is generated from periodic vibrations of the air or
+solid material in musical instruments. Examples are the vibrating strings of a
+violin and the reeds of woodwind instruments. In practice, however, very few
+musical tones come from pure SHM. That sound actually would be rather boring.
+Instead, musical tones consist of a combination of harmonics---see a tone from
+a plucked violin string in Figure 1. The lowest frequency corresponding to the
+first peak is called the {\em fundamental frequency}. 
+This is the only frequency present in SHM. 
+The peaks at the higher frequencies in Figure 1 are the higher
+harmonics or {\em overtones} that make up the tone. 
+We shall discuss this in more detail in later laboratories.
+%
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.75\textwidth]{fig1_1}
+\caption{Frequency spectrum of a plucked string showing the 
+fundamental frequency and higher harmonics (overtones).}
+\label{f:1}
+\end{center}
+\end{figure}
+%
+
+%\newpage
+THEORY AND EXPERIMENT
+
+A basic property of simple harmonic motion and any periodic motion is the
+{\em period} $T$ and directly related to it the {\em frequency} $f$. 
+The period is the time for one complete cycle of motion. 
+The frequency is the number of cycles during that time. 
+These two quantities are inversely related. 
+For example, if it takes a mass on the spring two seconds to complete a 
+cycle, then $T = {\rm period} = 2~{\rm s}$, 
+and the frequency is one cycle per two seconds. As a formula we can
+write 
+\be
+f = \frac{1}{T} = \frac{1}{2~{\rm s}} = 0.5~{\rm Hz}\,.
+\ee
+The unit of frequency is {\em Hertz}, abbreviated Hz, and is the number of cycles per second. 
+A cycle can be one revolution, a completion of a periodic process, or one oscillation.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Pendulum}
+
+For the first part of this lab, we make a pendulum using a 
+string and either a lead (Pb) or aluminum (Al) ball as the
+mass (see Figure~\ref{f:2}).
+%
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.5\textwidth]{fig1_2}
+\caption{Pendulum (left) and spring (right).}
+\label{f:2}
+\end{center}
+\end{figure}
+%
+The length of the string is initially $L = 20.0~{\rm cm}$ 
+from the support to the center of the ball. 
+To obtain the time it takes for one period of 
+oscillation using a small displacement, we measure the 
+time it takes for ten oscillations, and then divide 
+the total time by 10 to get the average time for one period. 
+We repeat this process three times and record the average 
+of the three trials. 
+We repeat the whole process for the other mass using 
+the same length of $L = 20.0~{\rm cm}$, and 
+then repeat for both the lead and aluminum balls for a
+string of length $L=80.0~{\rm cm}$.
+The results are given in the following table:
+%
+\begin{table}[hbtp]
+\begin{center}
+Pendulum Period $T$ (seconds)\\
+\begin{tabular}{| c | c | c | c | c | }
+\hline
+&\multicolumn{2}{c}{$L=20.0~{\rm cm}$} \vrule
+&\multicolumn{2}{c}{$L=80.0~{\rm cm}$} \vrule\\
+\hline
+Trial & \phantom{ }Pb\phantom{ } & Al & \phantom{ }Pb\phantom{ }\  & Al \\
+\hline
+\# 1 &  &  &  &  \\
+\hline
+\# 2  &  &  &  &  \\
+\hline
+\# 3  &  &  &  &  \\
+\hline
+avg   &  &  &  &  \\
+\hline
+\end{tabular}
+%\caption{Table}
+\label{t:1}
+\end{center}
+\end{table}
+
+\subsubsection*{Questions}
+%
+\ben
+\i Compare the results for the different masses and lengths. 
+Which variable had an effect on the period? Which had no effect? 
+(This might puzzle you and is different from the spring below.)
+
+\i Note that the long pendulum was four times longer than the shorter one. 
+Compare the periods of the longer and shorter pendulums, ie what is the relationship between the period and the length of the string?
+
+\i If the length of the long pendulum were $9\times$ longer 
+than the short pendulum (i.e., $L=180~{\rm cm}$), what do you think
+the period would be?
+\een
+
+We know from basic mechanics that the period $T$ is proportional 
+to the square root of the length $L$ of the pendulum according to the formula
+\be
+T=2\pi\sqrt{\frac{L}{g}}\propto \sqrt{L}\,.
+\ee
+So, if the long pendulum is four times as long as the short one, 
+the period $T$ is twice as long. 
+(The quantity $g$ is the acceleration in Earth’s gravitational field, 
+given by $g = 980~{\rm cm/s}^2$.)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Spring}
+
+For spring oscillations, we start by attaching a 
+$50~{\rm g}$ mass to the spring (see Figure~\ref{f:2}).
+Pulling down slightly on the spring, we let go, and measure the time for ten 
+oscillations, dividing by 10 again to obtain the average period.
+We repeat this process three times and record the average of the three trials.
+We then repeat with a mass of 200~g.
+The results are given in the following table:
+%
+\begin{table}[hbtp]
+\begin{center}
+Spring Period $T$ (seconds)\\
+\begin{tabular}{| c | c | c | }
+\hline
+Trial & $m=50~{\rm g}$ & $m=200~{\rm g}$ \\
+\hline
+\# 1 &  &  \\
+\hline
+\# 2 &  &  \\
+\hline
+\# 3 &  &  \\
+\hline
+avg  &  &  \\
+\hline
+\end{tabular}
+%\caption{Table}
+\label{t:2}
+\end{center}
+\end{table}
+%
+\subsubsection*{Questions}
+%
+\ben
+\item 
+How does the period $T$ of oscillation of a spring depend 
+on the mass $m$ suspended from it? 
+Write a simple proportionality to describe the observed behavior.
+\een
+
+For a mass attached to a spring, the formula for the period of 
+oscillation is
+\be
+T=2\pi\sqrt{\frac{m}{k}}\,,
+\ee
+where $m$ is the mass suspended from the spring and $k$ is the so-called
+{\em spring constant}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Vibrating Strings}
+
+We can also study the simple harmonic motion of a vibrating string. 
+Guitars and other string instruments have strings under tension. 
+We use a so-called {\em sonometer},
+which is an apparatus with strings whose tension can be adjusted. 
+A string is fastened at one end to a tension meter and led over a 
+bridge near the other end (see Figure~\ref{f:3}).
+%
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.75\textwidth]{fig1_3}
+\caption{Sonometer with two vibrating strings.}
+\label{f:3}
+\end{center}
+\end{figure}
+%
+
+The tension meter on the sonometer measures the equivalent of ``mass”. 
+For instance, when the tension scale reads 6~kg, it is the equivalent 
+of having the string attached to a 6~kg mass hanging over the edge 
+of the table.
+
+We use the microphone connected to the Mac mini-computer and 
+record the frequency spectrum of the vibrating string with the 
+spectrum analyzer in our ``Electroacoustics Toolbox" software. 
+See Figure~\ref{f:1} again, which shows the fundamental frequency 
+as well as the full frequency spectrum from the vibrating string. 
+(In this figure, the sound intensity from the microphone is
+displayed on the $y$-axis versus the frequency on the $x$-axis.) 
+Several frequencies are present when a string is plucked, namely 
+the fundamental and the higher harmonics.
+
+For two different tension masses, 500~g and 2000~g, we record the 
+fundamental frequency from the spectrum analyzer mode on the computer.
+We also calculate the period of the string oscillation using the 
+formula $T= 1/f$.
+The results are given in the following table:
+%
+\begin{table}[hbtp]
+\begin{center}
+String Frequency and Period\\
+\begin{tabular}{| c | c | c | }
+\hline
+Tension mass $m$ (g) & Frequency $f$ (Hz) & Period $T=1/f$ (s) \\
+\hline
+500 &  &  \\
+\hline
+2000 &  &  \\
+\hline
+\end{tabular}
+%\caption{Table}
+\label{t:3}
+\end{center}
+\end{table}
+%
+\subsubsection*{Questions}
+%
+\ben
+\i How does the period change with increasing tension? 
+
+\i How does the fundamental frequency (pitch) change as the tension 
+increases?
+\een
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Pythagorean Intervals and String Division}
+
+For the last part of the lab, we use the sonometer again and 
+divide its strings with a wedge.
+We move the wedge under the string, and pluck the two sections 
+of the string, listening for when the two resulting tones sound consonant.
+We do this for four different string divisions.
+We write down the lengths of the two string sections, $L_1$ and 
+$L_2$, and take their ratio, written as a decimal fraction with 
+3 significant digits.
+The results are given in the following table:
+%
+\begin{table}[h!btp]
+\begin{center}
+String Division and Ratio\\
+\begin{tabular}{| c | c | c | }
+\hline
+$L_1$ (cm) & $L_2$ (cm) & ratio $L_2/L_1$ \\
+\hline
+ &  &  \\
+\hline
+ &  &  \\
+\hline
+ &  &  \\
+\hline
+ &  &  \\
+\hline
+\end{tabular}
+%\caption{Table}
+\label{t:4}
+\end{center}
+\end{table}
+%
+
+\subsubsection*{Questions}
+%
+\ben
+\i What fraction of two integers are these ratios closest to,
+and what musical intervals do these ratios correspond to?
+(For example, 1.51 is close to 3/2, which corresponds to a musical 
+fifth.)
+
+\een
+
+\end{document}
+
