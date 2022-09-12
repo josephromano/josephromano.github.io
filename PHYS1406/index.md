@@ -5,9 +5,12 @@
 - [syllabus](info/syllabus.pdf)
 - [course calendar](info/calendar.pdf)
 - [lecture notes](notes/notes.pdf)
+
+## Lab information
+
 - [instructions for labs](labs/F2022/lab_instructions.pdf)
 - [guide for writing lab reports](labs/F2022/lab_guide.pdf)
-- [labs from previous semesters](labs/labs.pdf)
+- [lab 1](labs/F2022/modified_labs/lab1.pdf)
 
 ## Extra resources
 
@@ -16,6 +19,7 @@
 [slides2](slides/S2022/slides2.pdf),
 [slides3](slides/S2022/slides3.pdf)  
 - [waves - by David Griffiths](misc/waves-griffiths.pdf)
+- [labs from previous semesters](labs/labs.pdf)
 
 ## Useful links
 
