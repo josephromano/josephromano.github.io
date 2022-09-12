@@ -5,6 +5,8 @@
 - [syllabus](info/syllabus.pdf)
 - [course calendar](info/calendar.pdf)
 - [lecture notes](notes/notes.pdf)
+- [instructions for labs](labs/F2022/lab_instructions.pdf)
+- [guide for writing lab reports](labs/F2022/lab_guide.pdf)
 - [labs from previous semesters](labs/labs.pdf)
 
 ## Extra resources
