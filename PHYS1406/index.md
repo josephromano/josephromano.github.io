@@ -5,6 +5,7 @@
 - [syllabus](info/syllabus.pdf)
 - [course calendar](info/calendar.pdf)
 - [lecture notes](notes/notes.pdf)
+- [class notes](class_notes/ClassNotesF2022.pdf)
 
 ## Lab information
 
