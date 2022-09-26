@@ -19,6 +19,7 @@
 - lecture notes: [part 1](notes/LectureNotes2022a.pdf), [part 2](notes/LectureNotes2022b.pdf)
 - [mathematical appendices from Benacquista & Romano](benacquista_romano/appendices.pdf)
 - [chpt 1 from Benacquista & Romano](benacquista_romano/chpt1.pdf)
+- [chpt 3 from Griffiths, "Introduction to Elementary Particles"](notes/intro-elementary-particles-griffiths-chpt3.pdf)
 - workbook: [.ipnyb](workbook/workbook.ipynb), [.pdf](workbook/workbook.pdf)
 - [rotating hoop calculation](notes/rotating_hoop.pdf) 
 - simple pendulum animation: [python code](code/simple_pendulum.py), [animation](code/simple_pendulum.mp4) 
