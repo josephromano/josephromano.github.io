@@ -14,6 +14,7 @@
 - [lab 1](labs/F2022/modified_labs/lab1.pdf)
 - [lab 2](labs/F2022/modified_labs/lab2.pdf)
 - [lab 3](labs/F2022/modified_labs/lab3.pdf)
+- [lab 4](labs/F2022/modified_labs/lab4.pdf)
 
 ## Extra resources
 
