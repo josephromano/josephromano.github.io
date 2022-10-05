@@ -18,7 +18,7 @@
 
 ## Extra resources
 
-- slides from Spring 2022: 
+- slides from spring 2022: 
 [slides1](slides/S2022/slides1.pdf), 
 [slides2](slides/S2022/slides2.pdf),
 [slides3](slides/S2022/slides3.pdf)  
