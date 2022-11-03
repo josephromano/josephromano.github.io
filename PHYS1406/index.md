@@ -43,6 +43,7 @@
 - [Bowed violin string in slow motion - YouTube](https://www.youtube.com/watch?v=6JeyiM0YNo4)
 - [Guitar Oscillations Captured with iPhone 4 - YouTube](https://www.youtube.com/watch?v=TKF6nFzpHBU)
 - [Psychoacoustics: beats, missing fundamental, ...](http://www.personal.psu.edu/meb26/INART50/psychoacoustics.html)
+- [The Phenomenon of the Missing Fundamental](https://www.youtube.com/watch?v=AZ8qZCGg4Bk)
 - [Shepard’s Tone Phenomenon on Vimeo](https://vimeo.com/34749558)
 - [Shepard/Penrose Mix-1 - YouTube](https://www.youtube.com/watch?v=PCs1lckF5vI)
 - [Vladimir Horowitz - Chopin - Etude Op.10 No.5 (Black Key) - YouTube](https://www.youtube.com/watch?v=jaMA8LWW3C0)
