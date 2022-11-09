@@ -1,0 +1,323 @@
+\documentclass[11pt]{NSF}
+\sloppy
+
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{draftcopy}
+\usepackage{longtable}
+\usepackage{hyperref}
+
+% some definitions
+ 
+% begin equation, itemize, etc.
+
+\def\be{\begin{equation}}
+\def\ee{\end{equation}}
+\def\bi{\begin{itemize}}
+\def\ei{\end{itemize}}
+\def\ben{\begin{enumerate}}
+\def\een{\end{enumerate}}
+\def\i{\item{}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            
+\begin{document}
+
+\section{7. Sound Intensity, Hearing, Just Noticeable Difference (JND)} 
+
+PURPOSE AND BACKGROUND
+
+We can hear a wide range of sound intensities and frequencies. The
+intensity between the threshold of hearing and the threshold of pain
+varies by a factor of $10^{12}$, i.e., by 12 orders of magnitude or 120
+decibel. The corresponding range in the amplitude of {\em air pressure 
+fluctuations} is a factor of $10^6$. 
+In view of this extreme range in sound intensity level, 
+numbers are most conveniently expressed in power-of-ten
+notation and with a decibel or dB-scale.  
+
+Here we study sound intensity levels (SIL) and the frequency response of
+the human ear. We also discuss ``just noticeable differences” (JND) in
+intensity and frequency that the ear can discern.  
+
+The ear is sensitive to a range in frequencies from about 20~Hz to 20~kHz.  
+This audible range thus covers a factor of 1000 or $10^3$ in frequency, 
+which is not nearly as large as the intensity range of $10^{12}$.  
+In order to cover these large ranges, the ear
+response is compressed or logarithmic with respect to both frequency
+and sound intensity.
+
+\subsection{Theory and Experiment}
+
+The amplitude of a sound wave corresponds to air pressure fluctuations
+(compressions and rarefactions of the air) in a longitudinal wave.
+
+The {\em threshold of hearing} is a sound intensity at the ear of 
+%
+\be
+I_0=1\times 10^{-12}~\textrm{W/m}^2
+\quad{\rm at}\quad
+f = 1000~\textrm{Hz}
+\ee
+%
+This is the reference intensity for sound intensity measurements.
+ 
+The {\em sound intensity level} (SIL) is defined by comparing
+any intensity $I$ to the threshold of hearing $I_0$ 
+according to 
+%
+\be
+\rm{SIL} = 10\,\log({I}/{I_0})~{\rm dB}
+\label{e:SIL}
+\ee
+%
+where the logarithm is taken to the base 10.
+The inverse equation is
+%
+\be
+I=I_0\,10^{({\rm SIL}/10~{\rm dB})}
+\label{e:inverse}
+\ee
+%
+SIL is measured in {\em decibels} or dB.
+
+For example, let the sound intensity in a room be 
+$I = 1\times 10^{-6}~{\rm W/m}^2$. 
+The SIL is then 
+\be
+\rm{SIL} 
+= 10\,\log\left(\frac{1\times 10^{-6}}{1\times 10^{-12}}\right)~{\rm dB}
+=10\, \log 10^6~{\rm dB} = 10\times 6~{\rm dB} = 60~{\rm dB}
+\ee
+
+The SIL also can be used to express a change in intensity from one 
+value to another, without referring to the threshold of hearing $I_0$. 
+We are then dealing with a {\em change} in SIL, denoted by 
+$\Delta\,{\rm SIL}$, and not the SIL itself. 
+
+For instance, if the intensity $I$ doubles to $2I$, we have
+%
+\be
+\Delta\,{\rm SIL} = 10\,\log (2I/I)~{\rm dB}
+= 10\,\log 2~{\rm dB} 
+= 10\times 0.3~{\rm dB} 
+= 3~{\rm dB}
+\ee
+Therefore, a doubling in intensity corresponds to an increase of 3 dB in the SIL.
+
+
+\underline{Question 1} Use a sound level meter and find the SIL of the background noise in the room. There always is
+ambient noise from air conditioners, computer fans etc. The sound intensity level in a typical
+environment generally is much higher than the threshold of hearing. What is the measured SIL of
+the background noise in our laboratory? 
+\[ SIL=\rule{1.5cm}{0.15mm}dB\]
+
+\underline{Question 2} What is the sound intensity I of this background noise, expressed in units of $\frac{W}{m^2}$? Hint: Use equation 3.
+\[I=\rule{1.5cm}{0.15mm}\frac{W}{m^2}\]
+
+\underline{Question 3} Use the FEaT Sound Level Meter software and record the sound intensity level of one student
+clapping
+\[ SIL_1=\rule{1.5cm}{0.15mm}dB\]
+
+\underline{Question 4} Calculate the theoretical increase in sound intensity level, if the intensity $I_10$ for ten students
+clapping is ten times the intensity $I_1$ for one:
+\[ SIL_10 - SIL_1=\rule{1.5cm}{0.15mm}dB\]
+
+\underline{Question 5} Have 10 students clap. Measure the actual value and record it here.
+\[ SIL_10=\rule{1.5cm}{0.15mm}dB\]
+
+\underline{Question 6} At a frequency $f =1000~{\rm Hz}$, an intensity of $I = 1~{\rm W/m}^2$ 
+becomes quite painful to the ear.
+What is the sound intensity level in dB of a 1000~Hz sinusoidal 
+tone at the threshold of pain?
+\[ SIL=\rule{1.5cm}{0.15mm}dB\]
+
+
+
+
+\subsection{Frequency Response of the Ear}
+
+The ear can hear sound over a wide range of frequencies 
+from about 20~Hz to 20~kHz. 
+However, the perceived loudness varies quite dramatically
+with frequency. The so-called {\em Fletcher-Munson curves} in
+Figure~\ref{f:1} show
+lines of equal perceived loudness. 
+%
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.9\textwidth]{fig7_1}
+\caption{Fletcher-Munson curves of equal loudness. 
+(From ``Physics of Sound” by R.A.~Berg and D.G.~Stork.)}
+\label{f:1}
+\end{center}
+\end{figure}
+%
+The curve at the bottom marked 
+``0~phons” represents the threshold of hearing, and the line marked 
+``120~phons” represents the threshold of pain. 
+Each curve has a ``phon” designation and
+indicates equal perceived loudness as a function of frequency. 
+The ``decibel” and ``phon” scales agree by convention at a frequency
+of 1000~Hz (see Figure~\ref{f:1}). For example, if a loudspeaker produces a
+1000~Hz tone with ${\rm SIL} = 60~{\rm dB}$ at your location, 
+you perceive this sound intensity as a loudness  of 60~phon. 
+If on the other hand the speaker produces
+a tone at 100~Hz with the same ${\rm SIL} = 60~{\rm dB}$, 
+you hear this as less loud than the 1000~Hz tone. 
+In order for the two frequencies to sound
+equally loud, the speaker must produce the 100 Hz tone at about 
+${\rm SIL} = 70~{\rm dB}$ instead. 
+Verify this on the curve labeled ``60 phons”.
+
+You can also see from Figure~\ref{f:1} that the human ear is most sensitive to
+sound around 4000 Hz, where the Fletcher-Munson curves dip lowest.
+Therefore, if you follow a Fletcher-Munson curve from 4000 Hz to lower
+frequencies, the sound intensity must be raised to be perceived as
+equally loud. The same applies to higher frequencies above 4000 Hz.
+
+Open three Signal Generator tools in the FEaT software. Set them to frequencies of 100, 1000,
+4000 Hz. Set the Master Volume of all three tools to 20\% maximum. Use the volume knob on
+the stereo receiver to adjust the f =1000 Hz tone to 60 dB on a calibrated Sound Level Meter.
+7-4
+Adjust the Master Volume of the other two tools for a perceived loudness equal to that of the
+1000 Hz tone. 
+
+\underline{Question 7} What is the measured SIL of the 100Hz tone?
+
+\underline{Question 8} What is the measured SIL of the 4000 Hz tone?
+
+\underline{Question 9} From the Fletcher-Munson curve labeled “60 phons” in Figure 1, read the SIL at 100 Hz and
+4000 Hz. How close are your measurements to the dB-values on the 60-phon curve? 
+
+\subsection{Loudness in Sones}
+
+The decibel values that we have discussed above are based on 
+{\em objective} measurements of the sound intensity. 
+There also exists a {\em subjective} ``sone" scale that tells 
+what sounds ``twice as loud” to many persons. 
+Such a ``twice as loud curve” is shown as a straight line in 
+Figure~\ref{f:3}. 
+On the sone scale, 1~sone corresponds to a loudness level of 
+40~phon for a pure sine wave with $f = 1000~{\rm Hz}$. 
+(Recall that for the special case of a pure tone at a frequency 
+of 1000~Hz, the number of phon is the same 
+as the number of dB.)
+%
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.6\textwidth]{fig7_3}
+\caption{Sone scale, with ``twice as loud” meaning a doubling in the
+sone number. The reference is 1~sone at a loudness level of 40~phon.
+The phon scale is the same as the dB scale for a pure tone at 1000~Hz.}
+\label{f:3}
+\end{center}
+\end{figure}
+
+Figure~\ref{f:3} shows that, in order for sound to be perceived as twice as
+loud, the sound intensity level must be higher by 10 phon (or 10~dB at
+1000~Hz).
+For example, for an increase in loudness from 1 sone to 2 sone, the 
+sound intensity increases by 10~phon from 40~phon to 50~phon. 
+Generally, for every increase in sound intensity by 10~phon, the sone 
+number doubles. 
+Example: For a doubling in loudness from 4 to 8 sone, the sound intensity 
+increases from 60 to 70~phon.
+
+\underline{Question 10} Start with a 1000 Hz sine tone at SIL = 60 dB and increase the intensity without looking at
+the sound level meter until you perceive the sound as twice as loud. By how many dB did the
+SIL increase? What would you expect the increase in dB to be according to the theory above?
+
+\underline{Question 11} According to Figure~\ref{f:3}, what is the increase in phon for a doubling in loudness from 10 to 20
+sone? \\
+
+\underline{Question 12} How many times louder does a 90 phon tone sound than a 60 phon tone? 
+
+
+Application:
+The sone scale is used for specifying the loudness of fans and
+appliances. For instance, quiet bathroom fans have a rating of 1 to 
+2~sones; louder ones have a rating of 3 to 4~sones or more.
+
+\subsection{Just Noticeable Difference in Intensity}
+
+The just noticeable difference (JND) in intensity is the smallest
+change in SIL that the ear can discern. Usually a 25\% or 1~dB change in
+intensity is detected. This depends somewhat on sound intensity and
+frequency as can be seen in Figure 2. As the intensity or frequency
+decreases, the ear becomes less sensitive to changes in intensity.
+
+\underline{Question 13} Express a 25\% change in intensity $I$ as a change in dB. 
+Hint: Calculate $\Delta\,{\rm SIL}$ for $I_2 = 1.25 I_1$.
+
+Use an external function generator (without the computer) that produces sine waves and square
+waves. Play the sound through a loudspeaker. Use a portable sound level meter to read the sound
+intensity level in the room. Play a sine wave. Adjust the SIL on the signal generator so that it
+reads 80 dB. Increase the intensity slowly until you hear a change in intensity.
+
+\underline{Question 14} What is your measured JND from the sound level meter readings for a sine wave? 
+
+Use two signal generators at 1000 Hz and switch quickly between them. Keep switching between
+the generators while you change the SIL on one of them.
+
+\underline{Question 15} What is your JND when changing the intensity quickly? Compare with a slow change.
+
+\underline{Question 16} What is the value for the JND in Figure~\ref{f:2} on the 1000 Hz curve at 80 dB? 
+Compare your values for this from questions 14
+and 15 with the value from Figure~\ref{f:2}
+
+\underline{Question 17} Compare the JND of a square wave at f = 1000 Hz with that of a sine wave. Alternate
+quickly between the two types of waves. For which do you get a smaller JND, i.e. for which can
+you hear smaller differences in SIL? Can you give a reason for this? 
+
+Give a reason for your answer. (Hint: Consider the harmonics in the square wave.)
+
+%
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.7\textwidth]{fig7_2}
+\caption{Just noticeable difference curves in intensity 
+for 70~Hz, 200~Hz, and 1000~Hz sinusoidal tones. 
+(From ``Physics of Sound” by R.A.~Berg and D.G.~Stork.)}
+\label{f:2}
+\end{center}
+\end{figure}
+
+\subsection{Just Noticeable Difference in Frequency}
+
+In addition to being able to discern changes in sound intensity, 
+we have an even better ability to notice changes in frequency. 
+Figure~\ref{f:jnd_pitch} shows the JND in frequency, comparing 
+it to the size of the critical bands on the cochlea.
+%
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.4\textwidth]{freqJNDa.jpg}
+\caption{Just noticeable difference in frequency,
+comparing it to the size of the critical bands on the cochlea.
+(From ``Science of Sound," by Rossing, Moore, and Wheeler.)}
+\label{f:jnd_pitch}
+\end{center}
+\end{figure}
+%
+
+To experimentally determine the just noticeable difference in
+frequency, we play two pure tones one right after the other,
+starting with the same frequency. 
+We then increase one frequency slightly and keep playing both tones 
+in succession.
+The JND in frequency is when you can first discern a difference in 
+the frequency (i.e., pitch) of the two tones.
+One can express the JND in frequency as the either the 
+difference between the two frequencies or as a percentage relating
+the frequency difference to the starting frequency.
+
+\underline{Question 18} Play two pure tones sequentially. Start with the same frequency. Increase one frequency
+slightly and keep playing both tones one after another. When do you hear the just noticeable
+difference in frequency? Do this at frequencies of 200 Hz and 800 Hz.
+
+\underline{Question 19} how do your measured JND at these frequencies compare to Figure~\ref{f:jnd_pitch}?
+
+
+\end{document}
+
