@@ -16,7 +16,7 @@
 
 ## Extra resources
 
-- lecture notes: [part 1](notes/LectureNotes2022a.pdf), [part 2](notes/LectureNotes2022b.pdf), [part 3](notes/LectureNotes2022c.pdf)
+- lecture notes: [part 1](notes/LectureNotes2022a.pdf), [part 2](notes/LectureNotes2022b.pdf), [part 3](notes/LectureNotes2022c.pdf), [part 4](notes/LectureNotes2022d.pdf)
 - [mathematical appendices from Benacquista & Romano](benacquista_romano/appendices.pdf)
 - [chpt 1 from Benacquista & Romano](benacquista_romano/chpt1.pdf)
 - [chpt 3 from Griffiths, "Introduction to Elementary Particles"](notes/intro-elementary-particles-griffiths-chpt3.pdf)
