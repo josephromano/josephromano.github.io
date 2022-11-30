@@ -20,6 +20,7 @@
 - [lab 10](labs/F2022/modified_labs/lab10.pdf)
 - [lab 7](labs/F2022/modified_labs/lab7.pdf)
 - [lab 8](labs/F2022/modified_labs/lab8.pdf)
+- [lab 9](labs/F2022/modified_labs/lab9.pdf)
 
 ## Extra resources
 
