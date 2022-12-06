@@ -51,4 +51,4 @@
     [merrygoround_0.47_0.7854_3.83.pdf](code/merrygoround_0.47_0.7854_3.83.pdf)
   - [merrygoround_0.283_0.7854_3.3.mp4](code/merrygoround_0.283_0.7854_3.3.mp4),
     [merrygoround_0.283_0.7854_3.3.pdf](code/merrygoround_0.283_0.7854_3.3.pdf)
-- rolling sphere on rotating turntable: [youtube video](https://www.youtube.com/watch?v=3oM7hX3UUEU), [paper](tilted_rotating_turntable.pdf)
+- rolling sphere on rotating turntable: [youtube video](https://www.youtube.com/watch?v=3oM7hX3UUEU), [paper](notes/tilted_rotating_turntable.pdf)
