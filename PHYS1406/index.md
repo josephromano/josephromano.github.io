@@ -5,6 +5,10 @@
 - [syllabus](info/syllabus.pdf)
 - [course calendar](info/calendar.pdf)
 - [lecture notes](notes/notes.pdf)
+- slides:
+[slides1](slides/S2022/slides1.pdf), 
+[slides2](slides/S2022/slides2.pdf),
+[slides3](slides/S2022/slides3.pdf)  
 
 ## Lab information
 
@@ -23,10 +27,6 @@
 
 ## Extra resources
 
-- slides from spring 2022: 
-[slides1](slides/S2022/slides1.pdf), 
-[slides2](slides/S2022/slides2.pdf),
-[slides3](slides/S2022/slides3.pdf)  
 - [waves - by David Griffiths](misc/waves-griffiths.pdf)
 - [labs from previous semesters](labs/labs.pdf)
 
