@@ -12,7 +12,7 @@
 
 ## Lab information
 
-- [instructions for labs](labs/F2022/lab_instructions.pdf)
+- [instructions for labs](labs/S2023/lab_instructions.pdf)
 - [guide for writing lab reports](labs/F2022/lab_guide.pdf)
 - [lab 1](labs/F2022/modified_labs/lab1.pdf)
 - [lab 2](labs/F2022/modified_labs/lab2.pdf)
