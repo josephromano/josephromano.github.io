@@ -1,0 +1,391 @@
+\documentclass[11pt]{NSF}
+\sloppy
+
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{draftcopy}
+\usepackage{longtable}
+\usepackage{hyperref}
+\usepackage{amsmath}
+
+% some definitions
+ 
+% begin equation, itemize, etc.
+
+\def\be{\begin{equation}}
+\def\ee{\end{equation}}
+\def\bi{\begin{itemize}}
+\def\ei{\end{itemize}}
+\def\ben{\begin{enumerate}}
+\def\een{\end{enumerate}}
+\def\i{\item{}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+     
+\section{4. Air Resonance}
+
+PURPOSE AND BACKGROUND
+
+The concept of {\em resonance} in a pipe is similar to that of a string. The waves in
+a pipe consist of compressions and rarefactions of the air, with back-and-forth
+motion of the air molecules in the direction of propagation or against it. The
+waves in air are thus {\em longitudinal} waves. In this laboratory we study standing
+waves in a pipe. They are the result of two waves traveling in opposite
+directions inside the pipe, with each wave being reflected at the ends of the
+pipe. In this way the superposition of two waves yields a standing wave,
+provided that, in addition, the {\em resonance conditions} are met.
+
+For a pipe with both ends open, resonance at the {\em lowest} frequency 
+({\em fundamental frequency} or {\em first harmonic}) 
+occurs when there are anti-nodes of the air motion
+at the ends – and only there, with a single velocity node at the center, see
+Figure~\ref{f:1}. 
+The motion of air molecules is highest at the anti-nodes and lowest at the nodes.
+%
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.4\textwidth]{fig4_1}
+\caption{Air molecule displacement in an open and closed pipe.}
+\label{f:1} 
+\end{center} 
+\end{figure}
+%
+For a pipe with one end closed and one end open, resonance at the lowest
+frequency occurs when we have a velocity node at the closed end and an
+anti-node at the open end. Plotted in Figure~\ref{f:1} is the displacement or velocity
+of air molecules as a function of position along the pipe. The two curves for
+each pipe in Figure~\ref{f:1} are one-half period of oscillation apart.
+
+For the pipe with both ends open, we have $L = \lambda/2$ according to 
+Figure~\ref{f:1}. 
+For the closed pipe we have $L = \lambda/4$. 
+The fundamental frequency is given by
+%
+\be
+f_1 = \frac{v}{\lambda} = \frac{v}{2L}
+\quad(\text{both ends open})\,,
+\qquad
+f_1 = \frac{v}{\lambda} = \frac{v}{4L} 
+\quad(\text{one end closed})\,,
+\ee
+%
+where $v$ is the velocity of sound.
+
+
+\underline{Question 1}:  For a pipe with both ends open, what are the formulas for the fundamental
+frequency and the frequencies $f_2$, $f_3$, $f_4$ of the next three overtones or harmonics?
+(Hint: Higher harmonics have frequencies that are integer multiples of the
+fundamental, and all integers are allowed for a pipe with both ends open.)
+\\
+\\
+\\
+\\
+\\
+
+\underline{Question 2}: 
+For a pipe with one end closed and one end open, we have $L = \lambda/4$ 
+according to Figure~\ref{f:1}. 
+Write down the equations for the fundamental frequency and for the
+first three existing overtones. 
+(Hint: {\em Only odd integers are allowed} as you can see by extending 
+the drawings in Figure~\ref{f:1} to higher harmonics.) \\
+\\
+\\
+\\
+\\
+\\
+
+EXPERIMENTAL PROCEDURE
+
+In the lab, we can record the frequency spectrum of sound in a pipe
+using the setup shown in Figure~\ref{f:2}. \\
+
+Connect the speaker to the Mac mini. Select white noise from the frequency generator
+in the Faber Acoustic Toolbox. Take a frequency spectrum. Note the large increase in sound intensity from the tube at the fundamental frequency. Figure ~\ref{f:3} shows an example frequency spectrum with the fundamental frequency and harmonics
+(tube open at both ends). Record the fundamental frequency and next three harmonics in Table 1
+table under Observed $f$. Compare the calculated and observed frequencies. \\
+
+Repeat this procedure for the closed pipe. In this case the closed pipe must have the microphone
+and speaker on the same side of the tube. Record the lowest four frequencies in Table 2 under
+Observed f. Compare the calculated and observed frequencies.
+
+Using the equations you found in questions 1 and 2, record the calculated resonant frequencies under Claculated $f$ in Table 1. Notice: do the calculated $f$ match the measured $f$?
+
+%
+\begin{table}[hbtp]
+\caption{} \label{t:1}
+\begin{tabular}{| c | c | c | c | c |}
+\hline
+  & Harmonic Number N & Calculated $f$ & Observed $f$ & Corrected $f$ \\ &  &  &  & \\
+\hline
+ Fundamental &  &  &  &   \\  &  &  &  & \\
+\hline
+ 2nd Harmonic &  &  &  &  \\ &  &  &  & \\
+\hline
+3rd Harmonic  &  &  &  &  \\ &  &  &  & \\
+\hline
+ 4th Harmonic &  &  &  &  \\ &  &  &  & \\
+\hline
+\end{tabular}
+
+\caption{} \label{t:2}
+\begin{tabular}{| c | c | c | c | c |}
+\hline
+  & Harmonic Number N & Calculated $f$ & Observed $f$ & Corrected $f$ \\ &  &  &  & \\
+\hline
+ Fundamental &  &  &  &   \\  &  &  &  & \\
+\hline
+ 3rd Harmonic &  &  &  &  \\ &  &  &  & \\
+\hline
+5th Harmonic  &  &  &  &  \\ &  &  &  & \\
+\hline
+7th Harmonic &  &  &  &  \\ &  &  &  & \\
+\hline
+\end{tabular}
+\end{table}
+%
+
+%
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.65\textwidth]{fig4_2}
+\caption{Set up of the resonance tube in the ``open tube” configuration. White
+noise from the Mac mini is applied to the speaker. The sound
+enters the tube on the left and excites the resonances. The microphone on the
+right records them for display on the computer. In the ``closed tube” 
+configuration the speaker and microphone must be on the same (right) side.}
+\label{f:2} 
+\end{center} 
+\end{figure}
+%
+%
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.7\textwidth]{fig4_3}
+\caption{Resonances of a PASCO resonance tube excited with white noise.
+Upper figure: Tube open at both ends with an effective length 
+$L_{\rm eff,\ open} = 1.40~{\rm m}$.
+Lower figure: Tube closed at one end with an effective length 
+$L_{\rm eff,\ closed} = L_{\rm eff,\ open}/2 = 0.70~{\rm m}$ 
+(with a plug in the tube to shorten its length). 
+The fundamental frequency for both tubes is $f_1 = 121~{\rm Hz}$, 
+but only the odd harmonics are observed in the tube closed at one end.}
+\label{f:3} 
+\end{center} 
+\end{figure}
+%
+
+\subsection{Pipe Length Correction and Determination of the Speed of Sound}
+
+If you were to compare the calculated and observed
+fundamental frequencies from an actual experiment,
+you would find that they do not agree very well.
+This has to do with the fact that, in pipes, waves 
+reflect from the ends of the tube by sticking out a little bit. 
+There is an end correction that increases the wavelength. 
+This correction is proportional to the radius of the tube. 
+Therefore, the larger the tube radius, the more the wave 
+will ``stick out” and cause an increase in wavelength. 
+This correction results in an extra length $\Delta L$, 
+given from theory by $\Delta L = 0.61 r$ for each open end, 
+where $r$ is the radius of the pipe. 
+Thus for a closed pipe and open pipe of length $L$ and 
+radius $r$, the effective lengths are, respectively,
+%
+\be
+L_{\rm eff,\ closed} = L + 0.61 r\,,
+\qquad
+L_{\rm eff,\ open} = L + 1.22 r\,.
+\label{e:Leff}
+\ee
+
+
+\underline{Question 3}: Measure the radius $r$ of the cardboard tube. Calculate the effective lengths of both the closed and open
+tube used in the above experiment. Use this effective length to calculate the corrected frequencies $f$. Record these values under "Corrected $f$" in Table 1.
+\\
+\\
+\\
+\\
+\\
+
+\underline{Question 4}: Determine experimentally the velocity of sound with the resonance tube. Use the observed value
+of the fundamental frequency f1 together with the corrected pipe length Leff in equation (2) for a
+pipe with two open ends or one end closed. 
+\\
+\\
+\\
+\\
+\\
+
+\underline{Question 5}: How does your value compare with the value of 
+$346~{\rm m/s}$ expected for the speed of sound at
+at a temperature of 25~Celsius?
+If there is a discrepancy, what might be the reasons?
+\\
+\\
+\\
+\\
+\\
+
+
+\underline{Question 6}: An aboriginal {\em didgeridoo} behaves like a tube closed at one end.
+Measure the length and the radius of the didgeridoo and calculate the expected fundamental frequency of the instrument
+using the appropriate corrected pipe length and $v=346~{\rm m/s}$
+for the velocity of sound. Compare your calculated frequency to the measured value. Were you able to predict the measured value?
+\\
+\\
+\\
+\\
+\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Helmholtz Resonator}
+
+We can also do experiments with a simple spherical cavity 
+called a {\em Helmholtz Resonator}. 
+In the lab, 
+we have a large hollow metal sphere, with a tube protruding 
+from one side for admitting white noise from a computer speaker. 
+It has another smaller tube on the opposite side for 
+listening to the resonance frequency or for recording the 
+frequency spectrum with a shotgun microphone on a long shaft 
+that can be inserted into this tubing---see Figure~\ref{f:6}.
+%
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.65\textwidth]{fig4_6}
+\caption{Experimental setup for a spherical Helmholtz resonator.}
+\label{f:6} 
+\end{center} 
+\end{figure}
+%
+
+Even without any white noise excitation, one can listen to 
+the sound from the Helmholtz resonator when exposed to ambient 
+room noise.
+It is a deep rumbling tone, corresponding to the resonant 
+frequency of the spherical cavity. 
+The resonance is excited from the broad noise spectrum in the room. 
+Hermann Helmholtz (1821-1894) used a series of such 
+``Helmholtz Resonators” of different sizes to analyze the 
+frequency spectrum of sounds and musical instruments, 
+all before the advent of electronic tools!
+
+A resonance frequency spectrum from the Helmholtz resonator
+using a white noise excitation is shown in Figure~\ref{f:7}.
+It has one prominent peak.
+%
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.7\textwidth]{fig4_7}
+\caption{Helmholtz resonance curve from a large aluminum sphere. The measured
+and calculated values of the resonance frequency at the peak are 92 Hz and 93
+Hz, respectively.}
+\label{f:7} 
+\end{center} 
+\end{figure}
+%
+
+\subsubsection{Calculation of the Resonance Frequency of a Helmholtz Resonator}
+
+The resonance frequency of a Helmholtz resonator is given by the formula%
+\be
+f=\frac{v}{2\pi}\sqrt{\frac{A}{L_{\rm eff} V}}\,,
+\label{e:helmholtz}
+\ee
+%
+where $v$ is the velocity of sound, $A$ is the area of the opening of the 
+resonator, $L_{\rm eff}$ is the effective length of the cylindrical neck, and 
+$V$ is the volume. 
+This formula is quite general and can by used for spheres, bottles, etc.
+
+P.S: If you have a Helmholtz resonator such as a box with just a hole in it,
+rather than a ``bottle neck”, you can still use formula~(\ref{e:helmholtz}). 
+For the actual length we have $L = 0$. 
+But $L_{\rm eff}$ is not zero. 
+The hole is open at both ends. 
+So we can use 
+$L = 0$ in equation~(\ref{e:Leff}) and obtain 
+$L_{\rm eff} = 1.22r$ for the hole. \\
+
+
+\underline{Question 7}: Using the large spherical metal Helmholtz resonator: Measure the length L of the “bottle neck”, and its inner radius r. Radius R of the sphere is givven as $R=0.150~{\rm m}$. Calculate the values for A, V, and  $L_{\rm effective}=L+1.22 r$. (Hint: For a sphere with a cylindrical neck, $A=\pi r^2$ and $V = \frac{4}{3}\pi R^3$.)
+Then using equation (3), calculate the resonant frequency. Use $v=346~{\rm m/s}$ for the 
+velocity of sound. 
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+
+\underline{Question 8}: Excite the Helmholtz resonator with white noise. Capture the frequency spectrum and measure the resonant frequency from the spectrum. How much does your calculated resonance frequency differ from the this measured value? Express the difference as a percent difference.
+\\
+\\
+\\
+\\
+\\
+\\
+
+\be
+\text{percent difference} = 
+\frac{|f_{\rm calculated}-f_{\rm measured}|}{f_{\rm measured}} 
+\times 100\,.\ee
+
+\subsubsection{Helmholtz Resonance in Bottles}
+
+Distinct Helmholtz resonances can be obtained by blowing 
+gently across the opening of different bottles. 
+The resonance frequency can be measured from a 
+frequency spectrum as in Figure~\ref{f:7} (for the 
+large aluminum sphere) or 
+Figure~\ref{f:8} (for a 0.75-liter wine bottle).
+It can also be calculated from equation~(\ref{e:helmholtz})
+once we determine $A$, $L_{\rm eff}$, and $V$.
+For $A$ we use the average cross-sectional area of the
+bottle neck.
+For $L_{\rm eff}$ we use the measured length $L$ of the 
+bottle neck with a correction for the tube being open at 
+both ends.
+The volume $V$ can be read off from the label on the bottle.
+%
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.7\textwidth]{fig4_8}
+\caption{Helmholtz resonance from a 0.75-liter wine bottle.}
+\label{f:8} 
+\end{center} 
+\end{figure}
+%
+
+
+\underline{Question 9}: Calculate the expected resonance frequency for a 
+1~liter soda bottle. Record all the measuements necessary, and show your work for the calculation.
+\\
+\\
+\\
+\\
+\\
+
+\underline{Question 10}: Using the microphone, blow into the bottle and record the frequency spectrum. Use this to record the measured resonance frequency. How much does your calculated resonance frequency differ from the this measured value? Express the difference as a percent difference using equation (4).
+\\
+\\
+\\
+\\
+\\
+
+
+\underline{Question 11}:  Measure the resonant frequency of a 2~liter bottle. Calculate the frequency ratio $f_{\rm 1~liter}/f_{\rm 2~liter}$
+for a 1-liter and 2-liter wine bottle, assuming that the only thing 
+that differs for the two bottles is their volume.
+This frequency interval is called a ``tritone" or ``devil's tone".
+\\
+\\
+\\
+\\
+\\
+
+\end{document}
+
