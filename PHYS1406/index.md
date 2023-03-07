@@ -43,6 +43,7 @@
 - [The bowed string](https://newt.phys.unsw.edu.au/jw/Bows.html)
 - [Bowed violin string in slow motion - YouTube](https://www.youtube.com/watch?v=6JeyiM0YNo4)
 - [Guitar Oscillations Captured with iPhone 4 - YouTube](https://www.youtube.com/watch?v=TKF6nFzpHBU)
+- [MRI | Sehnsucht nach dem Frühlinge (Mozart) | Anna-Maria Hefele](https://www.youtube.com/watch?v=YIUvX7hebBA)
 - [The Phenomenon of the Missing Fundamental](https://www.youtube.com/watch?v=AZ8qZCGg4Bk)
 - [Shepard’s Tone Phenomenon on Vimeo](https://vimeo.com/34749558)
 - [Shepard/Penrose Mix-1 - YouTube](https://www.youtube.com/watch?v=PCs1lckF5vI)
