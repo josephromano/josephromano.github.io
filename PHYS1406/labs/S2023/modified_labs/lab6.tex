@@ -1,0 +1,301 @@
+\documentclass[11pt]{NSF}
+\sloppy
+
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{draftcopy}
+\usepackage{longtable}
+\usepackage{hyperref}
+
+% some definitions
+ 
+% begin equation, itemize, etc.
+
+\def\be{\begin{equation}}
+\def\ee{\end{equation}}
+\def\bi{\begin{itemize}}
+\def\ei{\end{itemize}}
+\def\ben{\begin{enumerate}}
+\def\een{\end{enumerate}}
+\def\i{\item{}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            
+\begin{document}
+
+\section{6. Spectrum Analysis of Instruments and Voice}
+
+PURPOSE AND BACKGROUND
+
+We continue with our discussion of harmonics. 
+All musical instruments produce tones that
+are unique and have a characteristic {\em timbre} or quality of sound. The
+frequency spectra tell the harmonic content of a tone and how it can
+be synthesized. Electronic keyboards make use of this to reproduce
+sounds. We analyze the sound from a variety of string instruments, 
+wind instruments, and the human voice.
+
+\subsection{String Instruments}
+
+All musical instruments use a driving force to set an oscillator into
+motion. Stringed instruments use a bow or plucking for exciting the
+vibrations. 
+The strings of a violin are tuned to the notes G3, D4, A4, and E5;
+for the guitar, they are E2, A2, D3, G3, B3 and E4. You see that the
+note G3 is common to both instruments. 
+Figure~\ref{f:1} shows an example of a frequency spectrum from the 
+open G3 strings of a guitar (top) and violin (bottom). \\
+
+Play G3 on the violin by plucking the lowest string and Observe the different frequency
+spectra in the FFT (Fast Fourier Transform) mode of the Electroacoustics Toolbox.
+Then play the same G3 on the guitar and observe its frequency spectrum. 
+
+\underline{Question 1}: 
+What are some simularties and differences between the tambre and the frequency spectrum from the violin and guitar? 
+\\
+\\
+\\
+\\
+\\
+
+We may also be interested in comparing different frequency spectrums created by the same instrument.
+Play G3, the lowest note on the violin, by bowing and by plucking. 
+
+\underline{Question 2}: 
+What are some simularties and differences between the frequency spectrum from the plucked and the bowed string?
+\\
+\\
+\\
+\\
+\\
+
+Placing a finger down on the fingerboard reduces the effective length of the string and increases
+the pitch. Now repeat the above experiment plucking the violin string at a higher pitch. 
+\\
+\\
+\\
+\\
+
+\underline{Question 3}: 
+How did the frequency spectrums change between the lower and higher pitch.
+\\
+\\
+\\
+\\
+\\
+%
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.6\textwidth]{fig6_1}
+\caption{Frequency spectra of the plucked open G3 strings of a guitar
+(top) and violin (bottom). The fundamental frequency
+(pitch) and frequencies of the harmonics are the same. But the timbre
+(quality of sound) is very different because of the different relative
+amplitudes of the harmonics.}
+\label{f:1}
+\end{center}
+\end{figure}
+
+
+\subsection{Wind Instruments} 
+Wind instruments use air as the vibrating medium. Brass instruments
+have closed pipes, with the closed end near the mouth. Woodwinds such
+as the clarinet, oboe and bassoon also are closed pipes, with a reed
+at the closed end. The lowest harmonics of these instruments are
+primarily the odd harmonics, as is expected for closed pipes. This
+applies especially to the clarinet due to its straight cylindrical
+bore. For other wind instruments, all harmonics are present without a
+special dominance of odd or even harmonics. Flutes, piccolos,
+recorders and, more exotically, an ocarina, are open pipes with even
+and odd harmonics.  \\
+
+Use a slide whistle and obtain the frequency spectrum of its lowest note.
+Figure~\ref{f:2} shows an example of the simple, almost purely sinusoidal, frequency
+spectrum from a slide whistle. Try to over-blow the lowest note and note the next
+harmonic f3 of the closed pipe. Blowing harder may produce f5 and even f7.
+
+\underline{Question 4}: 
+What is the frequency range of the slide whistle by moving its piston?
+How does the frequency spectrum of the slide whistle compare to that of the violin? 
+\\
+\\
+\\
+\\
+\\
+\\
+
+Play and record the sound spectra from a flexible corrugated plastic tube (“whirly”) by swirling
+it around in a circle. \\
+
+\underline{Question 5}: Determine the harmonic numbers N that are active in the spectrum of the corrugated plastic
+tube. Note that the fundamental most likely does not show. What are the musical intervals
+between the harmonics that are present (e.g. octave, fifth, fourth, third)?
+\\
+\\
+\\
+\\
+\\
+
+%
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.6\textwidth]{fig6_2}
+\caption{Frequency spectrum of a slide whistle with 
+$f =880~\textrm{Hz}$.}
+\label{f:2}
+\end{center}
+\end{figure}
+
+
+\subsection{Voice}
+
+The human vocal tract is an intricate system for producing sound. The
+voice of each person is unique. The sound is produced, and its quality
+determined, by the vocal tract consisting of throat, nasal cavity, and
+mouth. Each of these components acts as a resonator with
+characteristic resonant frequencies. The different vowel sounds come
+from different regions of the vocal tract. This allows for a large
+variety of sounds, but some general characteristics exist. \\
+
+\underline{Question 6}: 
+The human throat has a typical overall length of 17 cm. Consider
+it as a simple pipe, with one end closed at the vocal folds and the
+other open at the mouth. What is the fundamental resonance frequency?
+What are the frequencies of the next three harmonics?
+\\
+\\
+\\
+\\
+\\
+
+Have a male and female student sing the vowels “oo” or “ah” into the microphone. Observe the
+resulting frequency spectrum with the FFT tool. Figure 3 shows such a spectrum for a male voice
+singing “ah” with a pitch of 220 Hz. \\
+
+The frequency regions where several neighboring harmonics have high
+amplitudes are called {\em vocal formants}. Most people have similar
+formants because of the similar size and shape of their vocal tracts. 
+The individual resonators of the tract produce the different formants.
+They can be adjusted by a change in size and shape of the throat,
+nasal cavity, and mouth. How this is done distinguishes a great singer
+from a bad one. Vocal formants are what we listen to in order to
+recognize persons. Adjusting the cavities of the vocal tract changes
+the formant regions. Adjusting the tension in the vocal cords changes
+the pitch and associated harmonics. \\
+
+Figure~\ref{f:4} shows the frequency spectra of a male voice (top) 
+and female voice (bottom) making the vowel sound ``ee".
+Note the dominant formant regions.
+
+Have two or more students with noticeably different voices sing the vowel sounds “oo”,
+“ah”, and “ee” into the microphone. Acquire the frequency spectra. Compare the formant
+regions of the students. In Table 1, record the first and second formant region for the two
+students. An example for the vowel sound “ee” from a male and female student is shown in
+Figure 4
+
+\begin{table}[hbtp]
+\begin{center}
+Vowel sounds and corresponding vocal formant regions\\
+\begin{tabular}{| c | c | c | c | c | }
+\hline
+&\multicolumn{2}{c}{Student 1} \vrule
+&\multicolumn{2}{c}{Student 2} \vrule\\
+\hline
+Sound & \phantom{ }1st Formant region \phantom{ } & 2nd Formant region & \phantom{ }1st Formant region\phantom{ }\  & 2nd Formant region\\
+\hline
+oo &  &  &  &  \\
+\hline
+ah  &  &  &  &  \\
+\hline
+ee  &  &  &  &  \\
+\hline
+\end{tabular}
+\caption{Table}
+\label{t:1}
+\end{center}
+\end{table}
+
+\underline{Question 7}:  
+Write a summary on the findings from these formant region measurements. 
+How did formant regions compare between different vowel sounds? 
+Compare the differences in sound and formants between the two students vowels.
+\\
+\\
+\\
+\\
+\\
+\\
+
+\underline{Question 8}: 
+Telephones transmit frequencies only in the approximate range
+300-3000~Hz. Why do you think this frequency range is 
+sufficient for most purposes? \\
+\\
+\\
+\\
+
+The human vocal tract produces various types of sound. Continuant sounds are consonant sounds
+such as “m” and “n” that have a soft continuous tone. Sibilant sounds are consonants such as “s”
+and “z” that can be continuous and sound rather harsh. Plosive sounds are short and explosive
+like “p” and “t”. Observe some of these sounds and their frequency spectra.
+
+\underline{Question 9}: 
+Which vocal sounds sound more “musical”? Hint: Which sounds have a discrete frequency
+spectrum as compared to a more continuous spectrum with many closely spaced frequencies
+characteristic of noise? 
+\\
+\\
+\\
+\\
+\\
+%
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.6\textwidth]{fig6_4}
+\caption{Vowel sound ``ee” from a male voice (top) and 
+female voice (bottom). 
+The female voice has purer harmonics. 
+Note the formant regions.}
+\label{f:4}
+\end{center}
+\end{figure}
+
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%
+\begin{table}[hbtp]
+\begin{center}
+\begin{tabular}{ |p{0.8in} | p{0.8in} | p{0.9in}|}
+\hline
+Sound & 1st formant region (Hz) & 2nd formant region (Hz) \\
+\hline
+oo & & \\  
+\hline
+ah & & \\  
+\hline
+ee & & \\  
+\hline
+\end{tabular}
+\caption{}
+\label{t:}
+\end{center}
+\end{table}
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.6\textwidth]{fig6_3}
+\caption{}
+\label{f:}
+\end{center}
+\end{figure}
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=.6\textwidth]{fig6_5}
+\caption{}
+\label{f:}
+\end{center}
+\end{figure}
+
+
