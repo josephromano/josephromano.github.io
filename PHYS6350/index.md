@@ -8,12 +8,11 @@
 
 ## Problems and solutions
 
-- [solutions to problems in Benacquista & Romano](benacquista_romano/solutions/index.md)
+- [solutions to problems in Benacquista & Romano](../PHYS5306/benacquista_romano/solutions/index.md)
 
 ## Extra resources
 
-- [mathematical appendices from Benacquista & Romano](benacquista_romano/appendices.pdf)
-- [chpt 1 from Benacquista & Romano](benacquista_romano/chpt1.pdf)
-- [rotating hoop calculation](notes/rotating_hoop.pdf) 
-- simple pendulum animation: [python code](code/simple_pendulum.py), [animation](code/simple_pendulum.mp4) 
-- elliptic functions: [.ipynb](code/elliptic_functions.ipynb), [.pdf](code/elliptic_functions.pdf)
+- [mathematical appendices from Benacquista & Romano](../PHYS5306/benacquista_romano/appendices.pdf)
+- [chpt 1 from Benacquista & Romano](../PHYS5306/benacquista_romano/chpt1.pdf)
+- simple pendulum animation: [python code](../PHYS5306/code/simple_pendulum.py), [animation](../PHYS5306/code/simple_pendulum.mp4) 
+- elliptic functions: [.ipynb](../PHYS5306/code/elliptic_functions.ipynb), [.pdf](../PHYS5306/code/elliptic_functions.pdf)
