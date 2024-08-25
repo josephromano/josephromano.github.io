@@ -6,7 +6,7 @@
 - [course calendar](info/calendar.pdf)
 - [course topics](info/topics.pdf)
 - [UTRGV policies](info/utrgv-policies.pdf)
-- [UTRGV academic calendar](utrgv-academic-calendar.pdf)
+- [UTRGV academic calendar](info/utrgv-academic-calendar.pdf)
 
 ## Course material
 
