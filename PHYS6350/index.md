@@ -1,10 +1,9 @@
-# PHYS 6350 - Mathematical Methods I
+# PHYS 6350 - Mathematical Physics I
 
 ## Basic information
 
 - [syllabus](info/course-info.pdf)
-- [course calendar](info/calendar.pdf)
-- [course topics](info/topics.pdf)
+- [course calendar](info/course-calendar.pdf)
 - [UTRGV policies](info/utrgv-policies.pdf)
 - [UTRGV academic calendar](info/utrgv-academic-calendar.pdf)
 
@@ -14,8 +13,8 @@
 - ["Mathematical Methods in the Physical Sciences" by Boas](https://archive.org/details/MathematicalMethodsInThePhysicalSciences3e/page/n7/mode/2up)
 - ["Schaum's Outline Complex Analysis" by Spiegel et al.](https://archive.org/details/schaums-outline-series-murray-spiegel-seymour-lipschutz-john-schiller-dennis-spe)
 - [mathematical appendices from Benacquista & Romano](notes/benacquista_romano_appendices.pdf)
-- [notes on boundary value problems](notes/boundary_value_problems.pdf)
 - [notes from undergrad Math Methods II](notes/MMII_UG.pdf)
+- [notes on boundary value problems](notes/boundary_value_problems.pdf)
 - [notes on statistical inference](notes/statistical_inference.pdf)
 - ["Mathematical methods for physicists" by Afken, Weber, and Harris](https://archive.org/details/Mathematical_Methods_for_Physicists)
 
@@ -23,7 +22,8 @@
 
 - [Boas, undergrad Math Methods I](hw/MMI_UG_problems.pdf)
 - [Boas, undergrad Math Methods II](hw/MMII_UG_problems.pdf)
-
+- also, exercises in the notes listed above 
+ 
 ## Solutions to problems in appendices of Benacquista & Romano
 
 - [appendix A](../PHYS5306/benacquista_romano/solutions/soln_appA.pdf)
