@@ -13,6 +13,7 @@
 - ["Mathematical Methods in the Physical Sciences" by Boas](https://archive.org/details/MathematicalMethodsInThePhysicalSciences3e/page/n7/mode/2up)
 - ["Schaum's Outline Complex Analysis" by Spiegel et al.](https://archive.org/details/schaums-outline-series-murray-spiegel-seymour-lipschutz-john-schiller-dennis-spe)
 - [mathematical appendices from Benacquista & Romano](notes/benacquista_romano_appendices.pdf)
+- [singular value decomposition (Sec 2.6, "Numerical Recipes in C")](notes/NumericalRecipes-SVD.pdf)
 - [notes from undergrad Math Methods II](notes/MMII_UG.pdf)
 - [notes on boundary value problems](notes/boundary_value_problems.pdf)
 - [notes on statistical inference](notes/statistical_inference.pdf)
