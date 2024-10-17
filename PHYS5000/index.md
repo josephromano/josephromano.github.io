@@ -7,6 +7,7 @@
 ## Papers / presentations
 
 - [Les Houches article](papers/leshouches-romano.pdf)
+- [Solutions to exercises in Les Houches article](exercises/solutions_handwritten.pdf)
 - [Living Reviews in Relativity article](papers/LRR-romano-cornish.pdf)
 - Les Houches lecture 1: 
 [slides](presentations/leshouches/gwb_lecture1.pdf), 
