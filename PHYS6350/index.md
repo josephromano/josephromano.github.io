@@ -17,6 +17,7 @@
 - [notes from undergrad Math Methods II](notes/MMII_UG.pdf)
 - [notes on boundary value problems](notes/boundary_value_problems.pdf)
 - [notes on statistical inference](notes/statistical_inference.pdf)
+- [summer school lecture on statistical inference](notes/statistical_inference_lecture.pdf)
 - ["Mathematical methods for physicists" by Afken, Weber, and Harris](https://archive.org/details/Mathematical_Methods_for_Physicists)
 
 ## Suggested problems
