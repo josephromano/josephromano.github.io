@@ -4,10 +4,11 @@
 
 - ["How to solve it" by G. Polya](https://archive.org/details/polya-how-to-solve-it)
 - ["Quick calculus" by D. Kleppner and N. Ramsey](https://eeebec.wordpress.com/wp-content/uploads/2023/01/quick-calculus-a-self-teaching-guide-by-daniel-kleppner-norman-ramsey.pdf)
+- ["Mathematical Methods in the Physical Sciences" by M.L. Boas](https://archive.org/details/MathematicalMethodsInThePhysicalSciences3e/page/n7/mode/2up)
 - [mathematical appendices from Benacquista & Romano](../PHYS5306/benacquista_romano/appendices.pdf)
 - [notes from undergraduate Math Methods II](notes/MMII_UG.pdf)
 
-## Some suggested undergraduate math methods readings / problems
+## Suggested undergrad math methods readings / problems
 
 - [Boas, undergrad Math Methods I: readings](hw/MMI_UG_readings.pdf)
 - [Boas, undergrad Math Methods I: problems](hw/MMI_UG_problems.pdf)
