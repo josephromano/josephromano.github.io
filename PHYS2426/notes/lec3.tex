@@ -1,0 +1,80 @@
+\section{Electric flux, Gauss's law}
+
+\subsection{Electric flux}
+
+\bi
+
+\i Electric flux $\Phi_E$ is the ``flow" of the 
+electric field through a surface. 
+It is proportional to the (net) number of 
+electric field lines passing through the surface.
+
+\i For a uniform electric field $\vec E$ and 
+flat surface $S$ with area $A$ and unit normal
+$\hat n$,
+%
+\be
+\Phi_E = EA\cos\theta = E_\perp A = E A_\perp
+\ee
+%
+where $\theta$ is the angle between $\vec E$ and
+$\hat n$.
+
+\i $E_\perp$ is the component of $\vec E$ perpendicular
+to the surface (so in the same direction as $\hat n$);
+$A_\perp$ is the component of the area perpendicular to 
+the electric field lines.
+
+\i If the surface $S$ is curved or the electric field
+$\vec E$ is non-uniform, we must sum up the 
+contributions associated with infinitesimal area elements 
+$d\vec A = \hat n\, dA$:
+%
+\be
+\Phi_E = \int_S \vec E\cdot\hat n\, dA
+\ee
+ 
+\i For a closed surface $S$, $\hat n$ is taken to be the 
+{\em outward-pointing} normal.
+
+\ei
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Gauss's law}
+\bi
+
+\i {\em Gauss's law}:
+
+\be
+\oint_S \vec E\cdot \hat n\,dA = \frac{q_{\rm enc}}{\epsilon_0} 
+\ee
+%
+where $q_{\rm enc}$ is the (net) electric charge enclosed by
+the surface $S$.
+
+\i If $q_{\rm enc}=0$, the flux of the electric field through
+$S$ is zero.
+
+\i It is easy to ``prove" Gauss's law  for a single point 
+charge $q$ enclosed by a spherical surface centered on $q$.
+
+(i) The result is independent of the radius of the sphere,
+since the surface area of the sphere is proportional to 
+$r^2$, while the magnitude of the electric field falls-off
+like $1/r^2$.
+
+(ii) The result is also independent of the shape of the 
+surface enclosing $q$, since 
+%
+\be
+\hat r\cdot \hat n\,dA
+=r^2 \sin\theta\, d\theta\, d\phi
+\ee
+for any area element $\hat n\, dA$ (i.e., the surface need
+not be a sphere centered on the charge).
+
+\i For something more complicated than a single point charge, 
+use the superposition principle to calculate $\vec E$; the
+RHS is the (net) sum of the charges making up the 
+distribution that are enclosed by the surface $S$.
+
+\ei

@@ -1,0 +1,130 @@
+\section{Current and resistance}
+
+\subsection{Current}
+\bi
+
+\i Current is the rate of flow of charge through
+some surface:
+\be
+I_{\rm avg} = \Delta Q/\Delta t
+\quad{\rm or}\quad
+I = dQ/dt\quad({\rm instantaneous})
+\ee
+where $\Delta Q$ is the net charge that crosses 
+the surface (area $A$) in time interval $\Delta t$.
+
+\i The unit of current is an amp, 
+$1~{\rm A} \equiv 1~{\rm C}/{\rm s}$.
+The direction of current is the direction
+of flow of the positive charges.
+Current density $J$ is defined as
+$J\equiv I/A$.
+
+\i For charges to flow in a conductor, we need a 
+non-zero electric field inside the conductor.  
+(We are no longer dealing with electrostatics.)
+The non-zero field creates a potential difference
+$\Delta V$ between two ends of the conductor.
+
+\ei
+
+\subsection{Microscopic model of current flow}
+\bi
+
+\i Consider a cylindrical conductor with 
+cross-sectional area $A$, charge carriers with 
+number density $n$, each with charge $q$.
+
+\i In the absence of an applied electric field,
+there is no net flow of the charge carriers
+(e.g., free electrons in the conductor move in 
+random directions with velocity $\vec v_{\rm th}$
+due to thermal effects).
+
+\i In the presence of an applied electric field,
+the charge carriers accelerate, acquiring a 
+drift velocity $v_{\rm d}$, which is several orders 
+of magnitude smaller than the thermal velocity
+$v_{\rm th}$. (NOTE: $v_{\rm th} \sim 10^6~{\rm m}/{s}$
+for electrons at room temperature.)
+
+\i Take the length of the cylinder to be 
+$\Delta x = v_{\rm d}\Delta t$,
+so that in time interval $\Delta t$ all of the charges 
+in the cylinder have passed through one end of the cylinder.
+Then
+%
+\be
+I_{\rm avg} = \frac{\Delta Q}{\Delta t}
+= \frac{q n A \Delta x}{\Delta t}= qnA v_{\rm d}
+\quad\Rightarrow\quad
+J= qnv_{\rm d}
+\ee
+ 
+\i Example 27.4:
+Calculate the drift velocity of free
+electrons in a copper wire with cross-sectional area
+$A=3.3\times 10^{-6}~{\rm m}^2$, $I=10~{\rm A}$,
+mass density $\rho=8.92~{\rm g}/{\rm cm}^3$.
+Assume that there is one free electron per 
+copper atom.
+Also, recall that the molar mass of copper is
+$M=63.5~{\rm g}/{\rm mole}$, and $N_A=6.02\times 10^{23}$
+is the number of of atoms/mole.
+The result is $v_{\rm d}=2.23\times 10^{-4}~{\rm m}/{\rm s}$,
+which means that it take more than 1~hr for a free
+electron to travel 1~meter!
+
+\i So it's not the speed of the free electrons that 
+make a light turn on almost instantaneously when you 
+flip a switch.
+Rather it's the electrostatic force between neighboring
+electrons which ``smooths" out their distribution, so
+that there isn't an excess 
+or lack of charge carriers in any part of the circuit.
+
+\ei
+
+\subsection{Resistance}
+\bi
+
+\i The drift velocity of charges carriers is produced by
+a force.   
+If that force is proportional to the applied electric
+field, then the current density $J =qnv_{\rm d}$ is 
+proportional to the field, 
+$\vec J =\sigma \vec E$, where
+$\sigma$ is the {\em conductivity} of the conductor
+(property of the material).
+
+\i Materials for which $\vec J = \sigma\vec E$ are said to 
+obey {\em Ohm's law}.
+(NOTE: Ohm's law really isn't a law; it's an empirical 
+property of certain materials.)
+
+\i For a cylindrical piece of conductor with conductivity
+$\sigma$, cross-sectional area $A$, length $l$, and applied
+field $\vec E$, we have
+%
+\be
+J=\sigma E
+\quad\Leftrightarrow\quad
+I/A=\sigma\Delta V/l
+\quad\Leftrightarrow\quad
+R= \rho l/A
+\ee
+%
+where $R\equiv \Delta V/I$ is the {\em resistance} of 
+object and $\rho\equiv 1/\sigma$ is the {\em resisitivity}
+of the material.
+
+\i $R$ has units of ohms, 
+$1~\Omega \equiv 1~{\rm V}/{\rm A}$,
+and $\rho$ has units of $\Omega\cdot{\rm m}$.
+Typical values of $\rho$ are
+$\sim 10^{-8}~\Omega\cdot{\rm m}$ for metals, 
+$\sim 10^{13}~\Omega\cdot{\rm m}$ for insulators,
+and $\sim 1$ to $10^3$ for semiconductors.
+
+\ei
+

@@ -1,0 +1,111 @@
+\section{Direct current circuits}
+
+\subsection{Electromotive force}
+\bi
+
+\i {Electromotive force} (or EMF) is the potential 
+difference associated with the force 
+per unit charge that drives charges from the negative
+terminal of a battery 
+(solar cell, electric generator, etc.)\ 
+to the positive terminal.
+
+\i EMF is what's constant in a battery (e.g., a 9-volt 
+transistor battery). 
+EMF is typically denoted by ${\cal E}$.
+
+\i The output voltage $\Delta V$ of a {\em real} 
+battery depends on the amount of current $i$ 
+flowing out of the battery, according to 
+$\Delta V = {\cal E}-i r$, where $r$ is the {\em internal}
+resistance of the battery.
+
+\i Example 28.1 shows that as a battery ages, the 
+internal resistance $r$ increases, which 
+causes $\Delta V$ and the power delivered to a load 
+resistor $R$ to become much smaller fractions of 
+${\cal E}$ and the total power produced by the
+battery, $P_r+P_R$.
+The increased power delivered to the internal
+resistance causes the battery to heat up.
+
+\i Example 28.2 shows that the {\em maximum} power 
+delivered to a load resistor $R$ occurs when its value 
+agrees with the internal resistance $r$.
+
+\ei
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Series and parallel combinations of resistors}
+\bi
+
+\i For a series combination of resistors $R_1$ and $R_2$:
+%
+\be
+R_{\rm eq} = R_1 + R_2
+\ee
+%
+The proof of this relation uses the fact that the currents
+are equal for both resistors, $I_1=I_2=I$, while the 
+potential differences add, 
+$\Delta V=\Delta V_1 + \Delta V_2$.
+
+\i For a parallel combination of resistors $R_1$ and $R_2$:
+%
+\be
+\frac{1}{R_{\rm eq}} = \frac{1}{R_1} + \frac{1}{R_2}
+\ee
+%
+The proof of this relation uses the fact that the 
+currents add, $I=1_1+I_2$, while the 
+potential differences are equal 
+$\Delta V=\Delta V_1 = \Delta V_2$.
+Note that $R_{\rm eq} < R_{\rm smallest}$ for a 
+parallel combination.
+
+\i Application: Christmas tree lights
+
+(i) Old-fashioned Christmas tree lights were connected in 
+series, which meant that if one bulb burned out, all the
+other bulbs would go out (no current to those bulbs).
+
+(ii) Newer Christmas tree lights were connected in parallel
+to solve that problem.
+But a parallel connection draws a lot of current, which 
+makes these lights a fire hazard.
+
+(iii) ``Miniature" Christmas tree lights are wired again 
+in series, but each bulb has an insulating {\em jumper} 
+that becomes conductive when that bulb burn out. 
+So the remaining bulbs stay lit.
+
+\ei
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Kirchhoff's rules}
+\bi
+
+\i Kirchhoff's rules are used to analyze circuits that 
+cannot be reduced using simple 
+parallel and series combinations of resistors.
+
+\i Kirchoff's rules are a consequence of 
+conservation of charge and 
+conservation of energy:
+
+(i) Junction rule: 
+The sum of all the currents into a node is zero.
+
+(ii) Loop rule: 
+The sum of all the potential differences around a closed
+loop is zero.
+
+\i When applying Kirchhoff's rules, it is important to follow
+certain sign conventions: 
+(i) if the source of a potential difference 
+(e.g., a battery) is traversed from the $-$ to $+$ terminal, 
+$\Delta V$ is assigned a positive sign; 
+(ii) if current $i$ flows through resistor $R$ in the same 
+direction that the loop is traversed, the potential 
+difference is assigned a negative sign, $-I R$, a so-called
+``voltage drop".
+
+\ei 

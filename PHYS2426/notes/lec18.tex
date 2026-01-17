@@ -1,0 +1,104 @@
+\section{Induced electric fields;
+motors and generators}
+
+\subsection{Induced electric fields}
+\bi
+
+\i Recall that emf is defined by
+${\cal E} \equiv \oint_C\vec f_{\rm s}\cdot
+d\vec s$, where $f_{\rm s}$ is the force
+per unit charge exerted by the source,
+which can be chemical reactions in a 
+battery, a solar cell, etc.
+
+\i For motional emf, $\vec f_{\rm s} =
+\vec f_{\rm mag}$, the magnetic force per 
+unit charge on a moving charge.
+
+\i For a changing magnetic field
+$\vec f_{\rm s} =\vec E$, an induced electric
+field that acts on charges according to 
+$\vec F = q\vec E$, just like electric fields
+produced by electric charges.
+But this induced electric field is
+{\em non-conservative} since 
+$\oint_C \vec E\cdot d\vec s\ne 0$.
+
+\i So electric fields can be produced in 
+two ways:
+(i) by electric charges (which gives rise to 
+a conservative field), or 
+(ii) by changing magnetic fields 
+(which gives rise to a non-conservative field).
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Generators and motors}
+\bi
+
+\i A generator converts mechanical energy
+into electrical energy.
+A motor is a generator run in reverse;
+it converts electrical energy into mechanical
+energy.
+
+\i AC (alternating current) generator:
+Rotate a loop of wire in a permanent magnetic
+field and get an AC current out.
+(Mathematically: $\Phi_B = BA\cos\omega t$
+implies ${\cal E} = -N d\Phi_B/dt
+= NBA\omega\sin\omega t$.)
+
+\i An AC generator uses a {\em slip ring} to 
+connect the ends of the rotating loop to 
+brushes connected to an external circuit.
+A DC generator uses a {\em split ring}
+instead of a slip ring; the split ring
+switches the polarity every half cycle so that 
+${\cal E} = NBA\omega|\sin\omega t|$.
+
+\i A motor is constructed by sending a 
+current through a coil of wire in a 
+permanent magnetic field.
+The current in the coil produces a magnetic
+field that interacts with the external magnetic 
+field---it feels a torque in the external 
+field---and the coil 
+rotates on account of that torque.
+
+\i Demos:
+(i) Hand-powered AC generator;
+(ii) DC motor constructed from electromagnets;
+(iii) Do-it-yourself DC motor constructed from 
+a D-cell battery, a small magnet, paper 
+clips, and a coil of (magnet) wire stripped 
+on one side.
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Back-emf}
+
+\bi
+
+\i When a motor is turned on and starts 
+running, there is a {\em back emf}
+(and current) induced in the coil due to its 
+motion, which opposes the applied emf (and
+current) that originally got it moving.
+
+\i The back emf can be a sizable fraction 
+of the applied emf when the motor is running
+at full speed, which decreases the current to the
+load, $I = ({\cal E}-{\cal E}_{\rm back})/R$.
+
+\i For a heavy load, the motor turns more slowly.
+The back emf is then proportionally smaller, 
+leading to a larger current to the load.
+If the motor ``jams", the back emf is zero.
+This leads to a potentially large current that 
+can ``burn out" the motor.
+
+\ei
+

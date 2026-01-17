@@ -1,0 +1,116 @@
+\section{Energy stored in an inductor, $LC$ circuits}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Energy stored in an inductor}
+\bi
+
+\i Energy is stored in the current flowing in
+an inductor, similar to energy being stored in
+the charge on a capacitor.
+
+\i The power delivered to an inductor is given
+by $P = i{\cal E}_L = i L\,di/dt$.
+Integrating the power with respect to time to 
+find the energy, we have
+%
+\be
+U_B = \int_0^t P(t)\, dt = \int_0^i iL\,di
+= \frac{1}{2}L i^2
+\ee
+%
+The subscript $B$ indicates that the stored 
+energy is associated with a magnetic field.
+(NOTE: The above result is similar to 
+$U_E= \frac{1}{2}C(\Delta V)^2= q^2/2C$
+for the energy stored in a capacitor.)
+
+\i Consider a solenoid 
+($B=\mu_0 ni$, $L = \mu_0 n^2 lA$).  
+Substituting these expressions into
+$U_B = \frac{1}{2}Li^2$, we obtain
+$u_B=\frac{1}{2\mu_0} B^2$
+for the {\em energy density} (energy/volume).
+(NOTE: The above result is similar to 
+$u_E = \frac{1}{2}\epsilon_0 E^2$
+for the energy density in the electric field, 
+obtained from $U_E = \frac{1}{2}C(\Delta V)^2$ for 
+a parallel-plate capacitor, $C=\epsilon_0 A/d$,
+$E= \Delta V/d$.)
+
+\i Although the above expressions for the energy
+density $u_B$ and $u_E$ 
+were obtained for very specific cases,
+i.e., solenoid and parallel-plate capacitor,
+these expressions hold for {\em general} electric and
+magnetic fields.
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{$LC$ circuits}
+
+\bi
+\i Consider a fully-charged capacitor $C$ connected
+to an inductor $L$.
+When the switch is closed, charge will start to
+flow in the circuit,
+giving rise to a current $i=-dq/dt$ (minus
+sign since charge leaving the capacitor
+corresponds to a positive current).
+
+\i Applying the loop rule leads to the differential 
+equation ${q/C}-L\,di/dt=0$, or equivalently
+%
+\be
+L\,\frac{d^2q}{dt^2}
++\frac{q}{C}=0
+\ee
+
+\i This equation is similar to the simple harmonic
+oscillator equation for a mass $m$ attached to a spring
+with spring constant $k$ in the absence of friction:
+$m\, d^2 x/dt^2 = -kx$, which has oscillatory 
+solutions $x(t) = x_{\rm max}\cos(\omega t + \phi)$, with 
+angular frequency $\omega\equiv\sqrt{k/m}$.
+
+\i Thus, for the $LC$ circuit, charge (and current) will 
+oscillate with angular frequency $\omega\equiv 1/\sqrt{LC}$.
+
+\ei
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{$RLC$ circuits}
+
+\bi
+\i Adding a resistor in series to the $LC$ circuit 
+changes the differential equation to 
+%
+\be
+L\,\frac{d^2 q}{dt^2} + R\,\frac{dq}{dt} + \frac{q}{C}=0
+\ee
+%
+with solutions corresponding to damped oscillations:
+%
+\be
+q(t) = q_{\rm max}\,e^{-t/2\tau}
+\cos(\omega t +\phi)\,,
+\qquad
+\omega\equiv \frac{1}{\sqrt{LC}}\sqrt{1-\frac{R^2C}{4L}}
+\ee
+
+\i Depending on the sign of the quantity under
+the square-root, 
+the solutions correspond to either under-damped (+),
+over-damped ($-$), or critically-damped (0) motion.
+
+\i Energy is now dissipated in the resistor, analogous
+to a frictional force $F_{\rm f}=-bv$ in a {\em damped} mass-spring system.
+
+\i The correspondence between the mechanical and 
+electrical oscillators are:
+$L\leftrightarrow m$;
+$1/C\leftrightarrow k$;
+$R\leftrightarrow b$;
+$q\leftrightarrow x$;
+$i\leftrightarrow v$.
+
+\ei

@@ -1,0 +1,103 @@
+\section{Sources of a magnetic field}
+
+\subsection{Biot-Savart law}
+\bi
+\i Oersted (in 1819) discovered that a current-carrying
+wire produces a magnetic field that circles around the 
+wire in accordance with the right-hand rule 
+(thumb points in the direction of the current; fingers 
+curl in the direction of the magnetic field).
+
+\i Biot and Savart subsequently wrote down an expression for the 
+(infinitesimal) magnetic field $d\vec B$ at point $P$
+produced by an (infinitesimal) current element $I\,d\vec s$:
+%
+\be
+d\vec B = \frac{\mu_0}{4\pi}\frac{I\,d\vec s\cross \hat r}{r^2}\,,
+\quad{\rm where}\quad
+\mu_0 = 4\pi \times 10^{-7}~\frac{{\rm T}\cdot{\rm m}}{\rm A}
+\ee
+%
+The unit vector $\hat r$ points from the current element
+$I\, d\vec s$ to $P$, with $r$ being the distance between them.
+To obtain the total field produced by a full wire,
+one must integrate: $\vec B = \int_{\rm wire}\, d\vec B$.
+
+\i Examples:
+
+- field at a distance $a$ above a finite segment of a 
+straight wire, with endpoints making
+angles $\theta_1$, $\theta_2$ with respect to vertical:
+$B = (\mu_0/4\pi a)(\sin\theta_2-\sin\theta_1)$.
+
+- field at a perpendicular distance $a$ away from 
+infinitely-long, straight wire: $B= \mu_0 I/2\pi a$.
+
+- field at the center of an arc $\Delta\theta$ of a circle 
+of radius $a$: $B=\mu_0 I\Delta\theta/4\pi a$.
+
+- field at the center of a circular loop: $B=\mu_o I/2a$.
+
+The direction of $\vec B$ for these examples is given by 
+the right-hand rule as discussed previously.
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Force between two current-carrying wires}
+\bi
+
+\i Consider two infinitely-long, straight current-carrying
+wires (currents $I_1$, $I_2$) parallel to one another
+and separated by perpendicular distance $a$.  Then the 
+force per unit length between the wires is
+%
+\be
+\frac{F}{l} = \frac{\mu_0\, I_1 I_2}{2\pi a}
+\ee
+
+\i The above result can be obtained by finding the 
+magnetic field $\vec B_1$ 
+produced by wire 1 at the location 
+of wire 2, and then calculating the force that 
+$\vec B_1$ exerts on the current $I_2$.
+
+\i If the currents in the two wires flow in the same
+direction, then the force is attractive; if the currents
+flow in opposite directions, then the force is repulsive.
+
+\ei
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Amp\`ere's law}
+\bi
+
+\i Amp\'ere's law is similar to Gauss's law for electric
+fields, but it involves magnetic fields, enclosed currents,
+and closed loops (instead of electric fields, enclosed
+charges, and closed surfaces):
+%
+\be
+\oint_C \vec B\cdot d\vec s = \mu_0\, I_{\rm enc}
+\ee
+%
+where $I_{\rm enc}$ is the (net) current passing through
+any surface spanning the closed curve $C$.
+The current gets a positive sign if it passes in the same
+direction as the normal vector to the surface, defined by the 
+RHR.
+
+\i One can prove this result for a single current-carryng
+wire by using 
+the expression for the magnetic field obtained using 
+the Biot-Savart law, and then showing that the integral on 
+the LHS is equal to $\mu_0$ times $I$, if the wire passes
+through the closed loop, and 0 otherwise.
+
+\i The result extends to multiple currents using the 
+superposition principle.
+
+\i Amp\`ere's law can be used to used to calculate the 
+magnetic field for highly-symmetric current 
+configurations (examples in next lecture).
+
+\ei

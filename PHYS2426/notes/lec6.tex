@@ -1,0 +1,115 @@
+\section{Electrostatic potential (continued)}
+
+\subsection{Examples of electrostatic potentials}
+
+\bi
+
+\i For a uniform electric field $\vec E$, we have
+$\Delta V = - Ed<0$ if we integrate in the same 
+direction as $\vec E$.
+Thus, for $q>0$, the electrostatic potential energy
+{\em decreases} as you move in the direction of the 
+field.
+
+\i For a point charge $q$ at the origin,
+$V(r) = k_e q/r$, where we have chosen zero potential 
+at $r\rightarrow\infty$.
+
+\i For a set of discrete point charges or a continous
+charge distribution:
+%
+\be
+V(P) = \sum_i \frac{k_e q_i}{r_i}
+\quad({\rm discrete})
+\,,\qquad
+V(P) = \int \frac{k_e dq}{r}
+\quad({\rm continuous})
+ \ee
+
+\i There are many worked examples in the text for 
+finding $V(P)$ for different charge distributions.
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Electrostatic potential energy}
+\bi
+
+\i Consider three charges $q_1$, $q_2$, $q_3$ separated by 
+distances $r_{12}$, $r_{13}$, $r_{23}$.
+The electrostatic potential energy associated with this
+system of charges can be found by calculating how much
+work an external agent has to do to ``build" the configuration
+by bringing in charges one-by-one from infinity.
+
+\i You first bring $q_1$ to its position against no field;
+then $q_2$ to its position against the field created by
+$q_1$; and finally $q_3$ to its position against the 
+field created by $q_1$ and $q_2$:
+%
+\be
+W =\frac{k_e q_1 q_2}{r_{12}} + \frac{k_e q_1 q_3}{r_{13}}
++ \frac{k_e q_2 q_3}{r_{23}}
+\ee
+
+\ei
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Electrostatic potential associated with conductors}
+\bi
+
+\i Since $\vec E=\vec 0$ everywhere inside a conductor,
+$\Delta V=-\int_A^B \vec E\cdot d\vec s=0$ for any path lying
+within the conductor.
+Thus, a conductor is an {\em equipotential}.
+
+\i If a conductor has an empty cavity, then $\vec E=\vec 0$
+inside the cavity (as well as inside the ``meat" of the 
+conductor).  {\em Proof}:
+If that wasn't the case, then one could integrate
+$\vec E$ along one of its field lines inside the cavity,
+from one side of the cavity to the other,
+giving $\Delta V\ne 0$ or $V_B\ne V_A$, contradicting that
+a conductor is an equipotential.
+
+\i The surface charge density on the surface of a conductor
+has its greatest magnitude where the radius of curvature is
+smallest.  
+{\em Proof}: Model your conductor as two conducting spheres 
+with radii $r_1$, $r_2$ (with $r_1>r_2$) 
+and charge $q_1$, $q_2$ connected by a metal wire.
+Since this configuration is an equipotential, $k_e q_1/r_1 = k_e q_2/r_2$,
+which implies $q_2/q_1 = r_2/r_1$.
+It then follows that 
+%
+\be
+\frac{\sigma_2}{\sigma_1} 
+= \frac{q_2}{4\pi r_2^2}\bigg/\frac{q_1}{4\pi r_1^2}
+= \frac{q_2}{q_1}\frac{r_1^2}{r_2^2}
+= \frac{r_2}{r_1}\frac{r_1^2}{r_2^2}
+= \frac{r_1}{r_2} > 1
+\ee
+
+\ei
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Demonstrations}
+\bi
+
+\i An uncharged (metallic-coated) pith ball is 
+attracted to the charged surface of a van de Graaff generator.
+When it hits the surface of the generator, it becomes
+charged by conduction and is then repelled.
+
+\i We see the same behavior outside the outer surface of a 
+charged metallic Faraday cage.
+
+\i Inside the charged Faraday cage, the electric field is 
+zero, so an uncharged pith ball feels no force inside.
+
+\i If instead we charge the inner cylindrical surface of the 
+Faraday cage, and place an uncharged pith ball 
+between the inner and outer cylindrical surfaces, then we 
+find that the pith ball is first attracted and then 
+repelled by the inner cylinder, eventually hitting the outer 
+cylinder and bouncing back, oscillating wildly.
+
+\ei

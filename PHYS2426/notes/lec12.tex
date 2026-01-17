@@ -1,0 +1,124 @@
+\section{Direct current circuits (continued)}
+
+\subsection{Resistor-Capacitor ($RC$) circuits}
+
+\bi
+\i $RC$ circuits contain resistors, capacitors and possibly
+sources of EMF.
+
+\i Charging a capacitor:
+When a capacitor $C$ is charged through a resistor $R$ 
+by an EMF ${\cal E}$, the charge increases exponentially
+while the current decreases exponentially:
+%
+\be
+q(t) = Q_{\rm max}\left(1-e^{-t/RC}\right)\,,
+\qquad
+i(t) = I_{\rm max} \, e^{-t/RC}
+\ee
+%
+where $Q_{\rm max} = {\cal E}C$ and 
+$I_{\rm max} = {\cal E}/R$.
+The combination $\tau\equiv RC$ in the 
+exponential is called the $RC$ 
+{\em time constant}, since it has units of time.
+
+\i These results follow from applying the loop 
+rule to the $RC$ circuit:
+${\cal E} - i R- {q}/{C} =0$ or
+${\cal E} - R\,{dq}/{dt}- {q}/{C} =0$,
+and then solving the differential equation
+for $q(t)$.
+
+\i Discharging a capacitor:
+When a capacitor $C$ is discharged through a resistor
+$R$, both the charge on the capacitor and the current
+through the circuit decrease exponentially:
+%
+\be
+q(t) = Q_{\rm max} \, e^{-t/RC}\,,
+\qquad
+i(t) = I_{\rm max} \, e^{-t/RC}
+\ee
+%
+where $I_{\rm max} = Q_{\rm max}/RC$.
+
+\i These results follow from applying the loop 
+rule to the $RC$ circuit:
+${q}/{C} -i R=0$ or
+${q}/{C} + R\,{dq}/{dt} =0$,
+and then solving the differential equation
+for $q(t)$.
+(NOTE: $i = -dq/dt$ since the charge $q$ on the capacitor
+is {\em decreasing}.)
+
+\ei
+
+\subsection{Household wiring and electrical safety}
+
+\bi
+\i Some important numbers:
+
+- The EMF of a wall outlet is 120~volts (AC, but that really
+doesn't matter for this analyis).
+
+- 14-gauge household wire typically carries up to $\sim 20~{\rm A}$ 
+of current.
+It has a resistance of $2.5~\Omega/1000~{\rm ft}$, 
+so 100~feet of that wire has a resistance 
+$R_{\rm w} \sim 0.25~\Omega$.
+
+- A household appliance (e.g., hair dryer) has 
+$P\sim 1200~{\rm W}$ implying 
+$I=10~{\rm A}$ and $R_{\rm load}=12~\Omega$.
+
+- A human being has a resistance 
+$R_h\sim 100,000~\Omega$ (dry skin),
+but $R_h\sim 1000~\Omega$ (wet skin).
+
+- Summary:
+$R_{\rm w} \sim 0.1~\Omega \ll R_{\rm load} \sim 10~\Omega
+\ll R_{\rm h}\sim 1000~\Omega$.
+
+\i Current kills, not potential difference.
+$I=0.01~{\rm A}$ will give a painful shock;
+$I=0.1~{\rm A}$ is potentially lethal.
+($120~{\rm V}$ and $R_{\rm h}\sim 1000~\Omega$
+gives $I\sim 0.1~{\rm A}$, which can kill you.)
+
+\i Modern household wire consists of 3 wires: 
+a ``hot" wire encased in black plastic ($120~{\rm V}$), 
+a ``neutral" wire encased in white
+plastic (typically grounded, so $0~{\rm V})$, and a ``ground"
+wire, usually bare or encased in green plastic, which should
+be connected to the Earth (i.e., ``ground").
+
+\i Circuit breakers typically consist of fuses (older houses)
+or spring-loaded switches, which either ``burn out" or ``trip" 
+if too much current (e.g., greater than 20~A) flows in the circuit,
+thus preventing fires.
+
+\i NEVER replace an old-fashioned fuse with a penny or
+any other piece of metal that won't burn out if too much
+current is flowing in the circuit.
+
+\i Household appliances 
+that have a three-prong plug have the ground wire connected 
+to the chassis.
+If the appliance is connected to a three-prong outlet and 
+the hot wire accidently touches the chassis of the appliance, 
+then the total
+resistance is approximately that of the wire, which will cause
+the circuit breaker to trip, which prevents you from being 
+electrocuted even if you are touching the appliance.
+
+\i If the appliance doesn't have a ground wire, and the hot
+wire accidently touches the chassis, then the total resistance
+of the circuit will be that of the load.
+The circuit breaker won't trip since the current is normal
+(i.e., less than 20~A).
+But you will have 120~V across you, which will produce 0.1~A
+of current through you if you have wet skin.
+This can electrocute you.
+
+\ei

@@ -1,0 +1,108 @@
+\section{Electric field, electric field lines}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Electric field}
+
+\bi
+
+\i The electric force between charges is a {\em non-contact}
+force.
+A set of charges creates a {\em field} to which another 
+charge responds.
+
+\i The electric field at a point $P$ in space is a vector 
+$\vec E$, whose direction is given by the electric force 
+$\vec F_e$ on
+a small, positive (test) charge $q_0$ placed at $P$, and whose
+magnitude is given by $F_e/q_0$:
+%
+\be
+\vec E = \vec F_e/q_0
+\ee
+
+\i For a single point charge $q$:
+%
+\be
+\vec E = \frac{k_e q}{r^2}\,\hat r
+\ee
+
+\i For a set of discrete 
+point charges $q_i$, $i=1,2,\cdots, N$ or
+a continuous charge distribution:
+%
+\be
+\vec E = \sum_{i=1}^N\frac{k_e q_i}{r_i^2}\,\hat r_i
+\quad({\rm discrete}),
+\qquad\vec E = \int \frac{k_e dq}{r^2}\,\hat r
+\quad({\rm continuous})
+\ee
+%
+where
+%
+\be
+dq = \rho\, dV\,,
+\quad
+dq = \sigma\, dA\,,
+\quad
+dq = \lambda\, dl\,,
+\ee
+%
+for volume, surface, and line charge densities 
+$\rho$, $\sigma$, and $\lambda$, respectively.
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\subsection{Worked examples}
+\bi
+
+\i Electric dipole: Two charges, $+q$ and $-q$ separated by distance
+$a$ along the $x$-axis (located at $x=-a/2$, $x=a/2$, respectively).
+Find $\vec E$ at point $P=(0,y)$.
+\be
+E_y(P)=0\,,\qquad
+E_x(P) = \frac{k_e q a}{\left[y^2 + (a/2)^2\right]^{3/2}}
+\ee
+
+For $y\gg a$, $E_x(P)\simeq k_e q a/y^3$ (note $1/y^3$ dependence).
+
+\i Uniform line charge $\lambda$:
+Length $l$, charge $Q$, located on the $x$-axis
+with ends at $x=-l/2$, $x=l/2$.
+Find $\vec E$ at point $P=(0,y)$.
+\be
+E_x(P)=0\,,\qquad
+E_y(P) = \frac{k_e Q}{y}\frac{1}{\sqrt{y^2 + (l/2)^2}}
+\ee
+
+For $y\gg l$, $E_y(P)\simeq k_e Q/y^2$ (point charge).
+
+For $y<<l$, $E_y(P)\simeq \lambda/2\pi \epsilon_0 y$ (infinite line charge).
+
+\ei
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\subsection{Electric field lines}
+
+\bi
+
+\i Pictorial representation of the electric field $\vec E$.  
+Direction of field lines point in the direction of $\vec E$; 
+density of field lines (number per area perpendicular to $\vec E$) 
+is proportional to the magnitude of $\vec E$.
+
+\i Rules for drawing electric field lines: 
+
+(i) lines begin on $+$ charges, end on $-$ charges (or may 
+extend to infinity);
+
+(ii) the number of lines leaving or terminating on a charge
+should be proportional to the magnitude of the charge;
+
+(iii) electric field lines cannot cross.
+
+\i For a point charge, the density of lines at a distance
+$r$ from the charge is given by $N/4\pi r^2$, which is 
+proportional to the magnitude of the field $E=k_e q/r^2$
+as it should.
+ 
+\ei

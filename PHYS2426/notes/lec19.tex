@@ -1,0 +1,119 @@
+\section{Inductance}
+
+\subsection{Self inductance}
+\bi
+
+\i When a circuit is first connected to a battery 
+with emf ${\cal E}$, the changing magnetic flux 
+through the circuit (due to the increasing current)
+induces a back emf
+%
+\be
+{\cal E}_L \equiv -L\,\frac{di}{dt}
+\ee
+which opposes the change in the flux.
+The proportionality constant $L$ is called the 
+{\em inductance} (or {\em self inductance}) of
+the circuit; it has units of Henries (${\rm H}$), 
+where $1~{\rm H} = 1~{\rm V}\cdot{\rm s}/{\rm A}$.
+
+\i Since we can also write ${\cal E}=-N\,{d\Phi_B}/dt$,
+we have $L\,{di}/{dt} = N\,{d\Phi_B}/{dt}$, or 
+$L = N\Phi_B/i$, which depends only on the
+geometry of the circuit.
+
+\i Inductance corresponds to the {\em inertia} 
+(or opposition) of
+a circuit to changes in its current.
+Inductance is analogous to mass, which is inertia 
+to changes in the velocity of an object 
+$\vec F = m\,d\vec v/dt$.
+
+\i Examples:
+
+(i) solenoid (length $l$, cross-sectional area $A$, number of
+turns per length $n$):
+$L = \mu_0 n^2 Al$.
+
+(ii) coaxial cable (length $l$, inner radius $a$, outer radius $b$):
+$L/l = (\mu_0/2\pi) \ln(b/a)$.
+
+\ei
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Mutual inductance}
+\bi
+
+\i Consider two loops of wire with numbers of loops
+$N_1$, $N_2$ and currents $i_1$, $i_2$.
+Then a changing current $i_1$ in loop 1 induces a changing
+flux $\Phi_{12}$ in loop 2, leading to 
+${\cal E}_2 \equiv - M_{12}\, di_1/dt$,
+where $M_{12} = N_2 \Phi_{12}/i_1$.
+(Similarly, ${\cal E}_1 = - M_{21}\, di_2/dt$,
+where $M_{21} = N_1 \Phi_{21}/i_2$.)
+
+\i It turns out that $M_{12}=M_{21}\equiv M$,
+called the {\em mutual inductance} of the two 
+loops.  
+The mutual inductance depends only the geometry
+(size, relative orientation, etc.) 
+of the two loops.
+
+\i Examples
+
+(i) Two coaxial solenoids with the longer solenoid
+having length $l$, cross-sectional area $A$,
+and number of turns $N_1$,
+and the shorter solenoid having 
+number of turns $N_2$:
+$M = \mu_0 N_1 N_2 A/l$.
+(For this problem, it is simplest to calculate
+$M_{12}$ since the flux through solenoid 2 due
+to solenoid 1 is uniform;
+this is not so for the flux through solenoid 1
+due to solenoid 2.)
+
+(ii) Transformer with number of turns $N_1$,
+$N_2$ for the input and output:
+${\cal E}_1/N_1 = {\cal E}_2/N_2$.
+(Thus a transformer {\em steps-up} the voltage
+if $N_2>N_1$.)
+
+\ei
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{$RL$ circuits}
+
+\bi
+\i Consider a battery with emf ${\cal E}$ connected to 
+a resistor $R$ and inductor $L$ in series.
+
+\i Then applying the loop rule to the potential differences
+around the circuit leads to a differential equation
+${\cal E}-iR - L\,di/dt=0$, which has solution
+%
+\be
+i(t) = i_{\rm max}\left(1- e^{-t/\tau}\right)
+\ee
+%
+where $i_{\rm max} = {\cal E}/R$ and 
+$\tau\equiv L/R$ is the time constant for the 
+$LR$ circuit.
+
+\i The current doesn't increase instantaneously
+due to the inductance in the circuit.
+
+\i After obtaining maximum current through the inductor,
+one can remove the battery leaving just the resistor and
+the inductor.
+Then the current will decrease exponentially:
+\be
+i(t) = i_{\rm max}\,e^{-t/\tau}
+\ee
+
+\i NOTE: If you pull out the power chord of a running 
+vacuum cleaner you will see a spark at the outlet, 
+as the inductance of the motor is trying to keep the 
+current following, in accordance with Lenz's law.
+
+\ei
+

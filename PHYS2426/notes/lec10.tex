@@ -1,0 +1,125 @@
+\section{Resistance, superconductivity, electrical power}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Classical model of electrical conduction in metals}
+
+\bi
+
+%\i Goal: an expression for the resistivity $\rho$ or conductivity
+%$\sigma$ in terms of fundamental properties of a material---i.e.,
+%$q$, $n$, mass of charge carrier, etc.
+
+\i Paul Drude ($\sim 1900$) came up with a {\em classical} model
+of electrical conduction in metals, which treats the free electrons
+as a classical {\em gas}.
+
+\i In the absence of an applied electric field, the free electrons
+move in random directions with thermal velocity $\vec v_{\rm th}$,
+colliding with atomic nuclei, fixed in the metal.
+In the presence of an applied electric field $\vec E$,
+the free electrons accelerate in the direction opposite the field, 
+with $\vec a = q\vec E/m_e$, so 
+$\vec v_{\rm f} = \vec v_{\rm i} + \vec a \Delta t$.
+
+\i Since $\vec v_{\rm i, avg}=\vec 0$, the average of $\vec v_{\rm f}$
+over all free electrons gives the drift velocity
+$\vec v_{\rm d}\equiv \vec v_{\rm f, avg} = (q\vec E/m_e)\tau$,
+where $\tau\equiv l_{\rm avg}/v_{\rm th}$ is the average time 
+between collisions. 
+
+\i Thus, 
+%
+\be
+\vec J = qn\vec v_{\rm d} = (q^2 n\tau/m_e)\vec E
+\quad\Rightarrow\quad
+\sigma = q^2 n\tau/m_e\,,
+\quad
+\rho = m_e/(q^2 n\tau)
+\ee
+ 
+\i Problems:
+(i) the predicted resistivity values are a factor $10\times$ 
+smaller than the observed values;
+(ii) the predicted temperature dependence is 
+$\rho\propto\sqrt{T}$ as opposed to the observed dependence 
+$\rho\propto T$.
+
+\i Reason: classical model (gas of electrons).
+Proper treatment requires quantum mechanics.
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Temperature dependence of resistivity}
+
+\bi
+
+\i Observed temperature dependence of resistivity:
+$\rho = \rho_0\left[1+\alpha(T-T_0)\right]$,
+where $\rho_0$ is the resistivity at temperature $T_0$,
+and $\alpha$ is the temperature coefficient of
+resistivity (units: $1/{}^\circ {\rm C}$).
+
+\i NOTE: $\alpha\sim 10^{-3}/{}^\circ{\rm C}$
+for most conductors.
+It is possible for $\alpha<0$ for semiconductors
+(increasing $T$ may increase density of charge carriers).
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Superconductors}
+\bi
+
+\i The resistance of certain materials goes to zero
+below a {\em critical temperature} $T_{\rm c}$.
+
+\i In 1911, Kamerlingh-Onnes discovered that Mercury
+was superconducting below 4.2~K (recall that 0~K, which is
+{\em absolute zero}, corresponds to $-273.15~{}^\circ {\rm C}$).
+In 1987, the Nobel Prize in Physics was awarded
+to Bednorz and M\"{u}ller for discovering superconductivity
+in copper-oxide materials at relatively high temperatures
+($\sim 100~{\rm K}$).
+
+\i Current continues to flow in a superconductor
+even if the potential difference is removed.
+No energy is dissipated as heat in a superconducting 
+wire.
+
+\i Application: Superconducting magnets made with coils 
+of superconducting wire produce stronger magnetic fields
+than conventional, non-superconducting, magnets.
+Superconducting magnetis are often used in MRI and NMR 
+machines in hospitals.
+
+\ei
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Electrical power}
+\bi
+
+\i Recall that power is the time rate of change of
+energy production or consumption,
+$P = dE/dt$.
+
+\i In an electric circuit,
+a charge $q$ loses energy $q\Delta V$ as it moves
+through a circuit from the positive terminal of a
+battery to the negative terminal.
+It gains energy $q\Delta V$ as it moves from the 
+negative terminal to the positive terminal 
+{\em through} the battery.
+(Chemical reactions provide the energy.)
+
+\i Thus, the power delivered to a resistor $R$
+with potential difference $\Delta V$ is
+%
+\be
+P = q\Delta V/\Delta t = I\Delta V = I^2 R = (\Delta V)^2/R
+\ee
+
+\i The power delivered to a resistor is dissipated as heat,
+so-called $I^2R$ {\em losses}.
+
+\ei
+

@@ -1,0 +1,111 @@
+\section{Sources of a magnetic field (continued)}
+
+\subsection{Examples of fields calculated using Amp\`ere's law}
+
+\bi
+
+\i Cylindrical wire (uniform current $I$, radius $R$):
+$B= \mu_0 I r/2\pi R^2$ for $r<R$; 
+$B= \mu_0 I /2\pi r$ for $r>R$;
+For both cases $\vec B$ circles around the axis of the wire.
+ 
+\i Torus (current $I$, $N$ turns, cross-sectional radius $a$, 
+inner and outer radii $b$ and $c$): $B=\mu_0 NI/2\pi r$ for
+$b<r<c$.  The direction of $\vec B$ is circumferential.
+Outside the magnetic field is weak but non-zero, circling around the 
+cross-section of the torus.
+
+\i Solenoid (current $I$, $n$ turns per unit length, radius
+$a$):
+Inside $B=\mu_0 nI$.  The direction of $\vec B$ is along
+the axis of the solenoid.
+Outside the magnetic field is weak but non-zero, circling around 
+the cross-section of the solenoid.
+
+\ei
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Gauss's law for magnetic fields}
+\bi
+
+\i One can define magnetic flux $\Phi_B$ through a 
+surface $S$ analogous to electric flux $\Phi_E$:
+%
+\be
+\Phi_B \equiv \int_S \vec B\cdot \hat n\, dA
+\ee
+
+\i But since magnetic field lines form closed loops
+(because isolated magnetic poles do not exist),
+the magnetic flux through a {\em closed} surface 
+$S$ is zero:
+%
+\be
+\oint_S \vec B\cdot \hat n\,dA = 0
+\ee
+%
+Recall that for electric fields, Gauss's law is 
+$\oint_S \vec E\cdot \hat n\,dA = q_{\rm enc}/\epsilon_0$.
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Magnetic properties of materials}
+\bi
+
+\i The magnetic properties of materials are determined
+by the magnetic dipole moments associated with atomic
+current loops (orbital or spin angular momentum of 
+electrons).
+A proper treatment of magnetism at the atomic level 
+requires quantum mechanics.
+
+\i A classical treatment of orbital angular momentum of
+an electron yields 
+$\mu_{\rm orb} = eL/2 m_{\rm e}$, with $\vec\mu_{\rm orb}$
+pointing opposite $\vec L$.
+Quantum mechanically, $\mu_{\rm orb}$ is quantized, 
+with values given by integer multiples of 
+$\sqrt{2} e\hbar/2 m_{\rm e}$, where
+$\hbar = 1.05\times 10^{-34}~{\rm J}\cdot{\rm s}$ is
+Planck's constant.
+
+\i A magnetic moment associated with the spin angular 
+momentum of an electron doesn't make sense classically 
+since an electron is a {\em point particle}.
+Quantum mechanically an 
+electron has an intrinsic spin angular momentum $\pm \hbar/2$
+and corresponding spin magnetic moment
+$\mu_{\rm spin} = \pm e\hbar/2m_{\rm e}$. 
+Since electrons are paired with opposite spins
+(Pauli exclusion principle),
+the spin magnetic moment is non-zero only for atoms 
+containing an {\em odd} number of electrons.
+
+\i Ferromagnetic materials (iron, cobalt, nickel)
+have strong coupling between neigboring magnetic
+dipole moments associated with unpaired spins 
+forming magnetic {\em domains}.
+These domains increase in size and align 
+themselves in the direction of an external magnetic 
+field.
+The induced magnetization remains even if the external 
+field is removed.
+For $T>T_{\rm curie}$ ($770~{}^\circ {\rm C}$ for iron),
+the magnetization is lost due to thermal motion of
+the atoms.
+
+\i Paramagnetic materials have magnetic dipole moments
+associated with unpaired electron spins that align 
+themselves in the direction of an external magnetic field. 
+The coupling between neighboring dipole moments is
+weak, so thermal effects easily disrupt the alignment
+of the spin magnetic moments.
+
+\i Diamagnetic materials (water, copper, gold, silver bismuth)
+have magnetic dipole moments associated with the orbital 
+angular momentum of electrons that change in a direction
+{\em opposite} to an external magnetic field. 
+The induced magnetization thus repels the external field.
+Magnetic levitation is possible with diamagnetic superconductors.
+
+\ei

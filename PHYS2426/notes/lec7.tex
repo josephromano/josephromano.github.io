@@ -1,0 +1,116 @@
+\section{Capacitance}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Capacitors}
+
+\bi
+
+\i A capacitor is a circuit element whose primary
+function is to {\em store charge}.
+
+\i Given two conductors (of any shape and size)
+with charges $\pm Q$, respectively, the 
+capacitance $C$ is defined by
+%
+\be
+C \equiv Q/\Delta V
+\ee
+%
+where $\Delta V$ is the potential difference between
+the positively and negatively-charged conductors.
+
+\i The value of $C$ is independent of $\Delta V$,
+depending only on the geometrical arrangement of 
+the conductors.
+
+\i Examples:
+
+- Parallel-plate capacitor, area $A$, separation $d$: 
+$C = \epsilon_0 A/d$.
+
+- Two concentric cylinders, length $L$, inner and 
+outer radii $a$, $b$:
+$C = 2\pi\epsilon_0 L/\ln(b/a)$.
+
+- Two concentric spheres, inner and 
+outer radii $a$, $b$:
+$C = 4\pi\epsilon_0 ab/(b-a)$.
+
+- Single, isolated sphere:
+$C = 4\pi\epsilon_0 a$.
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Series and parallel combinations}
+\bi
+
+\i One can connect capacitors in {\em parallel} or 
+{\em series}, or combinations of the two.
+Such a combination of capacitors can be reduced to a 
+single {\em equivalent} capacitance $C_{\rm eq}$.
+
+\i For a parallel combination of $C_1$ and $C_2$:
+\be
+C_{\rm eq} = C_1 + C_2
+\ee
+The proof of this relation uses the fact that the 
+potential differences are equal,
+$\Delta V_1 = \Delta V_2 = \Delta V$,
+while the charges add
+$Q=Q_1+Q_2$.
+
+\i For a series combination of $C_1$ and $C_2$:
+\be
+\frac{1}{C_{\rm eq}} = \frac{1}{C_1} + \frac{1}{C_2}
+\ee
+The proof of this relation uses the fact that the 
+potential differences add,
+$\Delta V = \Delta V_1+\Delta V_2$, while the charges 
+are equal, $Q=Q_1=Q_2$.
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Energy stored in a capacitor}
+
+\bi
+
+\i To charge up a capacitor, one needs to do 
+work against the electric field associated with 
+the charge already deposited on the plates.
+
+\i If $q$ is the current charge on the 
+capacitor, then the associated potential 
+difference of the plates is $q/C$.
+To move additional charge $dq$ against 
+that potential requires work $dW = dq\, q/C$.
+
+\i The total work $W$ is given by the integral
+%
+\be
+W = \int_0^Q dq\, \frac{q}{C} = 
+\frac{1}{2}\frac{Q^2}{C}
+\ee
+
+\i This work is the electrostatic potential
+energy $U_E$ stored in the capacitor, and it
+can be written in several equivalent ways:
+%
+\be
+U_E 
+= \frac{1}{2}\frac{Q^2}{C} 
+= \frac{1}{2}C(\Delta V)^2
+= \frac{1}{2}Q\Delta V
+\ee
+
+\i For a parallel plate capacitor, which has
+$C=\epsilon_0 A/d$ and $\Delta V= Ed$, one can show 
+that the (volume) energy density 
+$u_E\equiv {U_E}/{\rm volume}$ is given by
+$u_E = \frac{1}{2}\epsilon_0 E^2$.
+This expression is actually valid for {\em any}
+electrostatic field, not just for the field 
+between the plates of a parallel-plate capacitor.
+\ei
+

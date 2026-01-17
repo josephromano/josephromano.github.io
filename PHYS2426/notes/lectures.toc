@@ -1,0 +1,98 @@
+\contentsline {section}{\numberline {1}Electric charge, electric force}{5}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Electric charge}{5}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Electric force}{5}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Electric field, electric field lines}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Electric field}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Worked examples}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Electric field lines}{6}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Electric flux, Gauss's law}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Electric flux}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Gauss's law}{7}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Gauss's law examples, conductors}{8}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Gauss's law examples}{8}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Conductors in electrostatic fields}{8}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Electrostatic potential}{9}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Work and potential energy}{9}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Electrostatic potential}{9}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Obtaining $\vec E$ from $V$}{9}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Electrostatic potential (continued)}{10}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Examples of electrostatic potentials}{10}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Electrostatic potential energy}{10}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Electrostatic potential associated with conductors}{10}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Demonstrations}{10}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Capacitance}{11}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Capacitors}{11}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Series and parallel combinations}{11}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Energy stored in a capacitor}{11}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Dielectrics}{12}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Electric dipoles}{12}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Dielectrics}{12}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Current and resistance}{13}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Current}{13}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Microscopic model of current flow}{13}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Resistance}{13}{subsection.9.3}%
+\contentsline {section}{\numberline {10}Resistance, superconductivity, electrical power}{14}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Classical model of electrical conduction in metals}{14}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Temperature dependence of resistivity}{14}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Superconductors}{14}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Electrical power}{14}{subsection.10.4}%
+\contentsline {section}{\numberline {11}Direct current circuits}{15}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Electromotive force}{15}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Series and parallel combinations of resistors}{15}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Kirchhoff's rules}{15}{subsection.11.3}%
+\contentsline {section}{\numberline {12}Direct current circuits (continued)}{16}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Resistor-Capacitor ($RC$) circuits}{16}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Household wiring and electrical safety}{16}{subsection.12.2}%
+\contentsline {section}{\numberline {13}Magnetic fields}{17}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Basic properties}{17}{subsection.13.1}%
+\contentsline {subsection}{\numberline {13.2}Magnetic force on a charged particle}{17}{subsection.13.2}%
+\contentsline {subsection}{\numberline {13.3}Motion of a charged particle in a uniform magnetic field}{17}{subsection.13.3}%
+\contentsline {section}{\numberline {14}Magnetic fields (continued)}{18}{section.14}%
+\contentsline {subsection}{\numberline {14.1}Magnetic force on a current-carrying wire}{18}{subsection.14.1}%
+\contentsline {subsection}{\numberline {14.2}Torque on a current-carrying loop}{18}{subsection.14.2}%
+\contentsline {subsection}{\numberline {14.3}Hall effect}{18}{subsection.14.3}%
+\contentsline {section}{\numberline {15}Sources of a magnetic field}{19}{section.15}%
+\contentsline {subsection}{\numberline {15.1}Biot-Savart law}{19}{subsection.15.1}%
+\contentsline {subsection}{\numberline {15.2}Force between two current-carrying wires}{19}{subsection.15.2}%
+\contentsline {subsection}{\numberline {15.3}Amp\`ere's law}{19}{subsection.15.3}%
+\contentsline {section}{\numberline {16}Sources of a magnetic field (continued)}{20}{section.16}%
+\contentsline {subsection}{\numberline {16.1}Examples of fields calculated using Amp\`ere's law}{20}{subsection.16.1}%
+\contentsline {subsection}{\numberline {16.2}Gauss's law for magnetic fields}{20}{subsection.16.2}%
+\contentsline {subsection}{\numberline {16.3}Magnetic properties of materials}{20}{subsection.16.3}%
+\contentsline {section}{\numberline {17}Faraday's law of induction}{21}{section.17}%
+\contentsline {subsection}{\numberline {17.1}Faraday's law of induction}{21}{subsection.17.1}%
+\contentsline {subsection}{\numberline {17.2}Motional EMF}{21}{subsection.17.2}%
+\contentsline {subsection}{\numberline {17.3}Lenz's law}{21}{subsection.17.3}%
+\contentsline {section}{\numberline {18}Induced electric fields; motors and generators}{22}{section.18}%
+\contentsline {subsection}{\numberline {18.1}Induced electric fields}{22}{subsection.18.1}%
+\contentsline {subsection}{\numberline {18.2}Generators and motors}{22}{subsection.18.2}%
+\contentsline {subsection}{\numberline {18.3}Back-emf}{22}{subsection.18.3}%
+\contentsline {section}{\numberline {19}Inductance}{23}{section.19}%
+\contentsline {subsection}{\numberline {19.1}Self inductance}{23}{subsection.19.1}%
+\contentsline {subsection}{\numberline {19.2}Mutual inductance}{23}{subsection.19.2}%
+\contentsline {subsection}{\numberline {19.3}$RL$ circuits}{23}{subsection.19.3}%
+\contentsline {section}{\numberline {20}Energy stored in an inductor, $LC$ circuits}{24}{section.20}%
+\contentsline {subsection}{\numberline {20.1}Energy stored in an inductor}{24}{subsection.20.1}%
+\contentsline {subsection}{\numberline {20.2}$LC$ circuits}{24}{subsection.20.2}%
+\contentsline {subsection}{\numberline {20.3}$RLC$ circuits}{24}{subsection.20.3}%
+\contentsline {section}{\numberline {21}Maxwell's equations and electromagnetic waves}{25}{section.21}%
+\contentsline {subsection}{\numberline {21.1}Displacement current}{25}{subsection.21.1}%
+\contentsline {subsection}{\numberline {21.2}Maxwell's equations}{25}{subsection.21.2}%
+\contentsline {subsection}{\numberline {21.3}Electromagnetic waves}{25}{subsection.21.3}%
+\contentsline {section}{\numberline {22}Nature of light, ray optics}{26}{section.22}%
+\contentsline {subsection}{\numberline {22.1}Nature of light}{26}{subsection.22.1}%
+\contentsline {subsection}{\numberline {22.2}Measuring the speed of light}{26}{subsection.22.2}%
+\contentsline {subsection}{\numberline {22.3}Ray approximation}{26}{subsection.22.3}%
+\contentsline {subsection}{\numberline {22.4}Reflection}{26}{subsection.22.4}%
+\contentsline {section}{\numberline {23}Ray optics (continued)}{27}{section.23}%
+\contentsline {subsection}{\numberline {23.1}Refraction}{27}{subsection.23.1}%
+\contentsline {subsection}{\numberline {23.2}Dispersion}{27}{subsection.23.2}%
+\contentsline {subsection}{\numberline {23.3}Total internal reflection}{27}{subsection.23.3}%
+\contentsline {section}{\numberline {24}Image formation by flat and spherical mirrors}{28}{section.24}%
+\contentsline {subsection}{\numberline {24.1}Flat mirrors}{28}{subsection.24.1}%
+\contentsline {subsection}{\numberline {24.2}Spherical mirrors}{28}{subsection.24.2}%
+\contentsline {subsection}{\numberline {24.3}Ray tracing for concave and convex mirrors}{28}{subsection.24.3}%
+\contentsline {section}{\numberline {25}Image formation by refraction and thin lenses}{29}{section.25}%
+\contentsline {subsection}{\numberline {25.1}Image formation by refraction}{29}{subsection.25.1}%
+\contentsline {subsection}{\numberline {25.2}Thin lenses}{29}{subsection.25.2}%
+\contentsline {subsection}{\numberline {25.3}Ray tracing for converging and diverging lenses}{29}{subsection.25.3}%

@@ -1,0 +1,102 @@
+\section{Maxwell's equations and electromagnetic 
+waves}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Displacement current}
+\bi
+
+\i As mentioned in previous lectures,
+Faraday discovered that a changing magnetic field 
+induces an electric field (Faraday's law of induction).
+
+\i Maxwell realized that, likewise, 
+a changing electric field induces a magnetic field.
+This observation requires adding a {\em displacement current} 
+%
+\be
+I_{\rm d}\equiv\epsilon_0\, d\Phi_E/dt
+\ee
+to the conduction current 
+$I_{\rm enc}$ in Amp\`ere's law, where $\Phi_E$ is the
+electric flux through a surface $S$ spanning a closed
+curve $C$.
+
+\i The displacement current is necessary for electric
+charge conservation, as illustrated by charging a 
+parallel-plate capacitor.  
+(One can consider a surface $S$ spanning a closed 
+curve $C$ that does not 
+interesect the wire but extends into the region between
+the plates of the capacitor.) 
+
+\ei
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Maxwell's equations}
+\bi
+
+\i Including the effects of changing magnetic 
+and electric fields, the full set of 
+equations for electricity and magnetism (called
+Maxwell's equations) are:
+\begin{align}
+&\oint_S \vec E\cdot\hat n\,dA = \frac{q_{\rm enc}}{\epsilon_0}
+\quad({\rm Gauss's\ law})
+\\
+&\oint_C \vec E\cdot d\vec s = -\frac{d\Phi_B}{dt}
+\quad({\rm Faraday's\ law})
+\\
+&\oint_C \vec B\cdot d\vec s = \mu_0\left(
+I_{\rm enc} + \epsilon_0\frac{d\Phi_E}{dt}\right)
+\quad({\rm Ampere's\ law\ with\ Maxwell's\ displacement\ current})
+\\
+&\oint_S \vec B\cdot\hat n\,dA = 0
+\quad({\rm no\ magnetic\ monopoles})
+\end{align}
+
+\i Maxwell's equations and the Lorentz force law:
+%
+\be
+\vec F = q(\vec E +\vec v\cross\vec B)\,,
+\qquad
+\vec F = d\vec p/dt
+\ee
+%
+describe {\em all} of electrodynamics.
+
+\ei
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Electromagnetic waves}
+\bi
+
+\i Maxwell's equations in vacuum admit {\em wave} 
+solutions---disturbances in the electric 
+and magnetic fields that propagate through space
+with speed 
+%
+\be
+v=\frac{1}{\sqrt{\mu_0\epsilon_0}} = 2.998\times 10^8~{\rm m/s}
+\equiv c
+\ee
+
+\i The speed of electromagnetic waves in vacuum
+is the {\em same} as the speed of light $c$, which led 
+Maxwell to infer that light is an example of an 
+electromagnetic wave.
+(The relationship between light and electricity and
+magnetism was not known before.)
+
+\i Electromagnetic waves can propagate in vacuum
+(in the absence of charges and currents), because
+changes in the electric field induce magnetic fields,
+whose changes induce electric fields, etc.
+
+\i Visible light is just a small part of the 
+electromagnetic {\em spectrum}, consisting of 
+wavelengths between 400~nm (violet light) and 
+700~nm (red light).
+Infrared radiation, microwaves, and radio waves
+have longer wavelengths.
+Ultraviolet radiation, X-rays, and gamma rays have
+shorter wavelengths.
+
+\ei 

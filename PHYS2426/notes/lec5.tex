@@ -1,0 +1,120 @@
+\section{Electrostatic potential}
+
+\subsection{Work and potential energy}
+
+\bi
+
+\i Recall: The work done by a force in moving a particle
+from point $A$ to point $B$ along some path is given
+by 
+%
+\be
+W_{A\rightarrow B} = \int_A^B \vec F\cdot d\vec s
+\ee
+%where $d\vec s$ is the infinitesimal displacement vector
+%along the path.
+
+\i For a general force, the value of the integral depends
+on the path connecting $A$ and $B$.
+If the force is {\em conservative}, then the integral
+is path independent and depends only on the endpoints.
+
+\i Examples of conservative forces are gravity, the 
+spring force, and the electrostatic force.
+An example of a non-conservative force is friction.
+
+\i For conservative forces, one can a associate a 
+{\em potential energy} $U$ with the work done by 
+the force in moving the particle from $A$ to $B$:
+%
+\be
+\Delta U\equiv U_B- U_A = -W_{A\rightarrow B} = 
+-\int_A^B \vec F\cdot d\vec s
+\ee
+
+\i Note the minus sign in the above expression.
+The potential energy of the system decreases if the 
+force does positive work.
+For example, as a mass $m$ falls in a gravitational
+field $\vec g$, it loses potential energy, while gaining
+kinetic energy.
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Electrostatic potential}
+
+\bi
+
+\i The above results apply to the electrostatic force 
+acting on a charge $q$.  
+We define
+%
+\be
+\Delta U = -\int_A^B \vec F_e\cdot d\vec s
+= -q\int_A^B \vec E\cdot d\vec s
+\ee
+
+\i The electrostatic potential $V$ is then defined as 
+the electrostatic potential energy per unit charge:
+\be
+\Delta V \equiv \frac{\Delta U}{q}
+= -\int_A^B \vec E\cdot d\vec s
+\ee
+%
+which has units of Joules per Coulomb, or volts
+($1~{\rm volt} \equiv 1~{\rm J}/{\rm C}$).
+
+
+\i Note that changing the electrostatic potential
+$V$ by an additive constant ($V'= V+{\rm const}$) 
+does not change the potential difference, since 
+$\Delta V = \Delta V'$.
+So the zero (or reference point) of the 
+electrostatic potential can be set in whatever way
+is most convenient for the problem at hand.
+%(We will see that for point charges, the reference
+%point is taken to be infinity.)
+
+\i If $\vec E$ is everywhere orthogonal to $d\vec s$,
+then $\Delta V=0$.
+This means that the electric field $\vec E$ is 
+{\em perpendicular} to an
+{\em equipotential} surface.
+
+\ei
+%%%%%%%%%%%%%%%%
+\subsection{Obtaining $\vec E$ from $V$}
+\bi
+
+\i The electrostatic potential $V$ is given by integrating
+the electric field $\vec E$.
+Conversely, by considering two nearby points $A$ and $B$, 
+one can 
+show that the electric field $\vec E$ is given by 
+differentiating $V$:
+%
+\be
+E_x = -\frac{\partial V}{\partial x}\,,\quad
+E_y = -\frac{\partial V}{\partial y}\,,\quad
+E_z = -\frac{\partial V}{\partial z}
+\quad\Leftrightarrow\quad
+\vec E=-\grad V
+\ee
+%
+
+\i This relationship is very useful since it is often much
+easier to first calculate the electrostatic potential $V$
+for a distribution of charges, and then differentiate $V$
+to obtain the electric field $\vec E$.
+
+\i Recall that it is typically hard to calculate $\vec E$
+for a distribution of charges since one has to sum up
+{\em vectors} for each charge in the distribution.
+Summing up scalars (for the potential $V$) is much easier.
+
+\i Note that the units of $\vec E$ can also be expressed
+in terms of volt per meter:
+$1~{\rm N}/{\rm C} = 1~{\rm volt}/{\rm m}$.
+
+\ei
