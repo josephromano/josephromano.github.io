@@ -15,4 +15,7 @@
 
 ## Extra resources
 
-- TBD
+- [openstax University Physics Volume 1](https://openstax.org/details/books/university-physics-volume-1) 
+- [openstax University Physics Volume 2](https://openstax.org/details/books/university-physics-volume-2) 
+- [openstax University Physics Volume 3](https://openstax.org/details/books/university-physics-volume-3) 
+
