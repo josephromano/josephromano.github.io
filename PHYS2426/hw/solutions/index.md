@@ -6,4 +6,5 @@
 - [chpt 26](soln_Ch26.pdf)
 - [chpt 27](soln_Ch27.pdf)
 - [chpt 28](soln_Ch28.pdf)
+- [chpt 29](soln_Ch29.pdf)
 
