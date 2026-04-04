@@ -8,4 +8,5 @@
 - [chpt 27](soln_Ch27.pdf)
 - [chpt 28](soln_Ch28.pdf)
 - [chpt 29](soln_Ch29.pdf)
+- [chpt 30](soln_Ch30.pdf)
 
