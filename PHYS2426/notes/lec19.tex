@@ -36,8 +36,11 @@ turns per length $n$):
 $L = \mu_0 n^2 Al$.
 
 (ii) coaxial cable (length $l$, inner radius $a$, outer radius $b$):
-$L/l = (\mu_0/2\pi) \ln(b/a)$.
+$L = (\mu_0/2\pi)\, l\ln(b/a)$.
 
+(iii) torodial solenoid with rectangular cross section (inner radius $a$,
+outer radius $b$, height $h$, number of turns $N$):
+$L = (\mu_0/2\pi)N^2 h \ln(b/a)$.
 \ei
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Mutual inductance}
@@ -46,11 +49,11 @@ $L/l = (\mu_0/2\pi) \ln(b/a)$.
 \i Consider two loops of wire with numbers of loops
 $N_1$, $N_2$ and currents $i_1$, $i_2$.
 Then a changing current $i_1$ in loop 1 induces a changing
-flux $\Phi_{12}$ in loop 2, leading to 
-${\cal E}_2 \equiv - M_{12}\, di_1/dt$,
-where $M_{12} = N_2 \Phi_{12}/i_1$.
-(Similarly, ${\cal E}_1 = - M_{21}\, di_2/dt$,
-where $M_{21} = N_1 \Phi_{21}/i_2$.)
+magnetic flux $\Phi_{21}$ in loop 2, leading to 
+${\cal E}_2 \equiv - M_{21}\, di_1/dt$,
+where $M_{21} = N_2 \Phi_{21}/i_1$.
+(Similarly, ${\cal E}_1 = - M_{12}\, di_2/dt$,
+where $M_{12} = N_1 \Phi_{12}/i_2$.)
 
 \i It turns out that $M_{12}=M_{21}\equiv M$,
 called the {\em mutual inductance} of the two 
@@ -61,17 +64,15 @@ of the two loops.
 
 \i Examples
 
-(i) Two coaxial solenoids with the longer solenoid
-having length $l$, cross-sectional area $A$,
-and number of turns $N_1$,
-and the shorter solenoid having 
-number of turns $N_2$:
-$M = \mu_0 N_1 N_2 A/l$.
+(i) Two coaxial solenoids with the shorter, narrower solenoid 
+(length $l_1$, radius $a_1$, and number of turns $N_1$) 
+sitting inside the  longer, wider solenoid 
+(length $l_2$, radius $a_2$, and number of turns $N_2$).
+One should find 
+$M = \mu_0 n_1 n_2\, l_1\,\pi a_1^2$.
 (For this problem, it is simplest to calculate
-$M_{12}$ since the flux through solenoid 2 due
-to solenoid 1 is uniform;
-this is not so for the flux through solenoid 1
-due to solenoid 2.)
+$M_{12}$ since the flux through the solenoid 1 is uniform.
+This is not the case for the flux through solenoid 2.)
 
 (ii) Transformer with number of turns $N_1$,
 $N_2$ for the input and output:
