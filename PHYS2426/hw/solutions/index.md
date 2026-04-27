@@ -10,4 +10,6 @@
 - [chpt 29](soln_Ch29.pdf)
 - [chpt 30](soln_Ch30.pdf)
 - [chpt 31](soln_Ch31.pdf)
+- [chpt 31](soln_Ch32.pdf)
+- [chpt 31](soln_Ch35.pdf)
 
