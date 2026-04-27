@@ -71,28 +71,28 @@
 \contentsline {subsection}{\numberline {19.1}Self inductance}{23}{subsection.19.1}%
 \contentsline {subsection}{\numberline {19.2}Mutual inductance}{23}{subsection.19.2}%
 \contentsline {subsection}{\numberline {19.3}$RL$ circuits}{23}{subsection.19.3}%
-\contentsline {section}{\numberline {20}Energy stored in an inductor, $LC$ circuits}{24}{section.20}%
-\contentsline {subsection}{\numberline {20.1}Energy stored in an inductor}{24}{subsection.20.1}%
-\contentsline {subsection}{\numberline {20.2}$LC$ circuits}{24}{subsection.20.2}%
-\contentsline {subsection}{\numberline {20.3}$RLC$ circuits}{24}{subsection.20.3}%
-\contentsline {section}{\numberline {21}Maxwell's equations and electromagnetic waves}{25}{section.21}%
-\contentsline {subsection}{\numberline {21.1}Displacement current}{25}{subsection.21.1}%
-\contentsline {subsection}{\numberline {21.2}Maxwell's equations}{25}{subsection.21.2}%
-\contentsline {subsection}{\numberline {21.3}Electromagnetic waves}{25}{subsection.21.3}%
-\contentsline {section}{\numberline {22}Nature of light, ray optics}{26}{section.22}%
-\contentsline {subsection}{\numberline {22.1}Nature of light}{26}{subsection.22.1}%
-\contentsline {subsection}{\numberline {22.2}Measuring the speed of light}{26}{subsection.22.2}%
-\contentsline {subsection}{\numberline {22.3}Ray approximation}{26}{subsection.22.3}%
-\contentsline {subsection}{\numberline {22.4}Reflection}{26}{subsection.22.4}%
-\contentsline {section}{\numberline {23}Ray optics (continued)}{27}{section.23}%
-\contentsline {subsection}{\numberline {23.1}Refraction}{27}{subsection.23.1}%
-\contentsline {subsection}{\numberline {23.2}Dispersion}{27}{subsection.23.2}%
-\contentsline {subsection}{\numberline {23.3}Total internal reflection}{27}{subsection.23.3}%
-\contentsline {section}{\numberline {24}Image formation by flat and spherical mirrors}{28}{section.24}%
-\contentsline {subsection}{\numberline {24.1}Flat mirrors}{28}{subsection.24.1}%
-\contentsline {subsection}{\numberline {24.2}Spherical mirrors}{28}{subsection.24.2}%
-\contentsline {subsection}{\numberline {24.3}Ray tracing for concave and convex mirrors}{28}{subsection.24.3}%
-\contentsline {section}{\numberline {25}Image formation by refraction and thin lenses}{29}{section.25}%
-\contentsline {subsection}{\numberline {25.1}Image formation by refraction}{29}{subsection.25.1}%
-\contentsline {subsection}{\numberline {25.2}Thin lenses}{29}{subsection.25.2}%
-\contentsline {subsection}{\numberline {25.3}Ray tracing for converging and diverging lenses}{29}{subsection.25.3}%
+\contentsline {section}{\numberline {20}Energy stored in an inductor, $LC$ circuits}{25}{section.20}%
+\contentsline {subsection}{\numberline {20.1}Energy stored in an inductor}{25}{subsection.20.1}%
+\contentsline {subsection}{\numberline {20.2}$LC$ circuits}{25}{subsection.20.2}%
+\contentsline {subsection}{\numberline {20.3}$RLC$ circuits}{25}{subsection.20.3}%
+\contentsline {section}{\numberline {21}Maxwell's equations and electromagnetic waves}{26}{section.21}%
+\contentsline {subsection}{\numberline {21.1}Displacement current}{26}{subsection.21.1}%
+\contentsline {subsection}{\numberline {21.2}Maxwell's equations}{26}{subsection.21.2}%
+\contentsline {subsection}{\numberline {21.3}Electromagnetic waves}{26}{subsection.21.3}%
+\contentsline {section}{\numberline {22}Nature of light, ray optics}{27}{section.22}%
+\contentsline {subsection}{\numberline {22.1}Nature of light}{27}{subsection.22.1}%
+\contentsline {subsection}{\numberline {22.2}Measuring the speed of light}{27}{subsection.22.2}%
+\contentsline {subsection}{\numberline {22.3}Ray approximation}{27}{subsection.22.3}%
+\contentsline {subsection}{\numberline {22.4}Reflection}{27}{subsection.22.4}%
+\contentsline {section}{\numberline {23}Ray optics (continued)}{28}{section.23}%
+\contentsline {subsection}{\numberline {23.1}Refraction}{28}{subsection.23.1}%
+\contentsline {subsection}{\numberline {23.2}Dispersion}{28}{subsection.23.2}%
+\contentsline {subsection}{\numberline {23.3}Total internal reflection}{28}{subsection.23.3}%
+\contentsline {section}{\numberline {24}Image formation by flat and spherical mirrors}{29}{section.24}%
+\contentsline {subsection}{\numberline {24.1}Flat mirrors}{29}{subsection.24.1}%
+\contentsline {subsection}{\numberline {24.2}Spherical mirrors}{29}{subsection.24.2}%
+\contentsline {subsection}{\numberline {24.3}Ray tracing for concave and convex mirrors}{29}{subsection.24.3}%
+\contentsline {section}{\numberline {25}Image formation by refraction and thin lenses}{30}{section.25}%
+\contentsline {subsection}{\numberline {25.1}Image formation by refraction}{30}{subsection.25.1}%
+\contentsline {subsection}{\numberline {25.2}Thin lenses}{30}{subsection.25.2}%
+\contentsline {subsection}{\numberline {25.3}Ray tracing for converging and diverging lenses}{30}{subsection.25.3}%
