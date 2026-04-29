@@ -1,108 +1,108 @@
-\section{Image formation by flat and
-spherical mirrors}
+\section{Ray optics (continued)}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Flat mirrors}
+\subsection{Refraction}
 \bi
 
-\i Using angle of incidence equals angle of 
-reflection, one can show that for a flat mirror,
-a virtual image is produced, which is upright,
-has the same size as the object ($h'=h$), and 
-is as far behind the mirror as the object is 
-in front of it ($q=-p$).
+\i In addition to light rays reflecting off
+of a surface between two media, they can also
+be transmitted from one medium into the other.
 
-\i NOTE:
-
-(i) The apparent left-right reversal (right hand
-of a person seen as the left hand of the image)
-is actually a front-back reversal.
-
-(ii) You only need a mirror half your
-height to see your full body, and it doesn't
-depend on how far away you are from the mirror.
-
-(iii) a double-mirror from from two flat mirrors
-intersecting at a right angle allows you to 
-see yourself as others do (since the doubly-reflected
-image doesn't have any apparent left-right reversal).
-
-\ei
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Spherical mirrors}
-\bi
-
-\i Spherical mirrors are formed from spherical 
-reflecting surfaces having radius of curvature $R$.
-
-\i They can either be {\em concave}, like a shaving
-mirror; or {\em convex}, like a passenger-side mirror
-on a car.
-
-\i Tracing rays of light from an object to the
-image using the law of reflection and simple geometry,
-one can show that
+\i If $v_{1,2}$ denote the speeds of light in
+the two media, then the law of refraction
+(called Snell's law) is
 %
 \be
-\frac{1}{p}+ \frac{1}{q} = \frac{1}{f}\,,
+\frac{\sin\theta_1}{v_1} =
+\frac{\sin\theta_2}{v_2} 
 \qquad
-\frac{1}{f} \equiv \frac{2}{R} 
+{\rm or,\ equivalently}
+\qquad
+n_1\sin\theta_1 = n_2\sin\theta_2
 \ee
 %
-where $p$ and $q$ are the object and image location, 
-respectively.
+where $\theta_{1,2}$ are the angles that
+the rays of light make with the 
+normal to the surface between media 1,2.
 
-\i The second equation relates the radius of curvature
-of the mirror to the {\em focal length} $f$.
-In the {\em paraxial} approximation (where rays of 
-light don't deviate much from the main axis of the
-mirror), parallel rays of light converge
-to or diverge from a single focal point $F$.
+\i The second equation is expressed in terms 
+of {\em indices of refraction} 
+\be
+n\equiv c/v
+\ee
+for the two media.
+Since light travels fastest in vacuum, $n\ge 1$.
+For air, $n\approx 1.000293$;
+for water $n\approx 1.33$;
+for (crown) glass, $n\approx 1.5$.
 
-\i For spherical mirrors, parallel rays of light far 
-from the main axis don't all meet at a single point.  
-This is called {\em spherical aberration}.
+\i One can prove Snell's law using Fermat's principle
+of least time, similar to the proof for the law of
+reflection.
+(Lifeguard-and-drowning-swimmer analogy.)
 
-\i For parabolic mirrors, {\em all} parallel rays meet
-at a single point. 
+\i As light travels from a medium with a lower index
+of refraction to one with a higher index of refraction
+($n_1<n_2$), the rays are bent {\em toward} the normal
+(opposite for $n_1>n_2$).
 
-\i The sign conventions for the mirror equation are:
-
-$p>0$ if the object is in front of the reflecting 
-surface of the mirror;
-
-$q>0$ if the image is in front of the mirror;
-
-$h'>0$ if the image is upright; 
-
-$f, R>0$ if the mirror is concave.
+\i Demo: A pencil appears to be bent if observed obliquely
+in a glass of water.
 
 \ei
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Ray tracing for concave and convex mirrors}
+\subsection{Dispersion}
 \bi
 
-\i For a concave mirror, parallel rays of light meet at the 
-focal point in front of the mirror.
+\i Dispersion refers to the fact that the index of
+refraction of a material depends, in general, on 
+the wavelength of the light propagating through it.
 
-\i For a convex mirror, parallel rays of light
-diverge from the focal point in back of the mirror.
+\i Demo: ``White" light passing through a prism is
+split into its spectrum of colors (violet light 
+is refracted through a 
+greater angle than red light, since violet light
+has a larger index of refraction).
 
-\i By tracing rays of light reflecting off of a mirror,
-one can show that:
+\i Dispersion is responsible for the production 
+of a {\em rainbow}  as ``white" light from the Sun
+passes through a rain drop.
+(The light is actually refracted, then reflected, 
+and then refracted again by the rain drop, causing the 
+red band of the rainbow to be above the violet band).
 
-(i) a concave mirror produces both
-real and virtual images (if $p>f$ and $p<f$, respectively).
+\i A {\em secondary} rainbow is formed when the light
+is reflected twice by the back surface of the rain
+drop.
 
-(ii) a convex mirror {\em always} produces virtual
-images that are upright and reduced in size.
+\ei
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Total internal reflection}
+\bi
 
-\i If $p=f$ for a concave mirror, no image is formed
-(formally, $q\rightarrow\infty$).
+\i Total internal reflection occurs when light
+propagates from a medium with higher index of
+refraction to one with lower index of refraction 
+($n_1>n_2$), provided the incident angle is 
+greater than the {\em critical angle} $\theta_{\rm c}$
+defined by
+%
+\be
+\sin\theta_{\rm c} \equiv n_2/n_1
+\ee
 
-\i Note that real images are always inverted (relative
-to the orientation of the object), while virtual images 
-are always upright.
+\i Note that for $\theta_1=\theta_c$, the 
+refracted angle $\theta_2 = 90^\circ$, moving along the
+surface between the two media.
+
+\i Light can be made to follow the curved trajectory
+of a plastic fiber, provided the curvature of the fiber
+is not too sharp.
+This is the basic principle underlying light transfer
+using {\em fiber optics}.
+
+\i Fiber optics has applications for both the 
+telecommunications industry and medical devices.
 
 \ei

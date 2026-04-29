@@ -64,15 +64,13 @@ of the two loops.
 
 \i Examples
 
-(i) Two coaxial solenoids with the shorter, narrower solenoid 
-(length $l_1$, radius $a_1$, and number of turns $N_1$) 
-sitting inside the  longer, wider solenoid 
-(length $l_2$, radius $a_2$, and number of turns $N_2$).
-One should find 
+(i) Two coaxial solenoids with the smaller solenoid 
+(length $l_1$, radius $a_1$, number of turns $N_1$) 
+sitting inside the  larger solenoid 
+(length $l_2\gg l_1$, radius $a_2\gg a_1$, number of turns $N_2$):
 $M = \mu_0 n_1 n_2\, l_1\,\pi a_1^2$.
-(For this problem, it is simplest to calculate
-$M_{12}$ since the flux through the solenoid 1 is uniform.
-This is not the case for the flux through solenoid 2.)
+(Hint: calculate $M_{12}$ since the flux through 
+solenoid 1 is uniform, but not for solenoid 2.)
 
 (ii) Transformer with number of turns $N_1$,
 $N_2$ for the input and output:
@@ -93,12 +91,11 @@ around the circuit leads to a differential equation
 ${\cal E}-iR - L\,di/dt=0$, which has solution
 %
 \be
-i(t) = i_{\rm max}\left(1- e^{-t/\tau}\right)
+i(t) = i_{\rm max}\left(1- e^{-t/\tau_L}\right)\,,
+\quad{\rm where}\quad
+i_{\rm max} = {\cal E}/R\,,\quad
+\tau_L\equiv L/R\,.
 \ee
-%
-where $i_{\rm max} = {\cal E}/R$ and 
-$\tau\equiv L/R$ is the time constant for the 
-$LR$ circuit.
 
 \i The current doesn't increase instantaneously
 due to the inductance in the circuit.
@@ -108,7 +105,7 @@ one can remove the battery leaving just the resistor and
 the inductor.
 Then the current will decrease exponentially:
 \be
-i(t) = i_{\rm max}\,e^{-t/\tau}
+i(t) = i_{\rm max}\,e^{-t/\tau_L}
 \ee
 
 \i NOTE: If you pull out the power chord of a running 

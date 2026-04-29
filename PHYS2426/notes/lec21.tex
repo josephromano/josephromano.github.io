@@ -1,102 +1,118 @@
-\section{Maxwell's equations and electromagnetic 
-waves}
+\section{Alternating current (AC) circuits}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Displacement current}
+\subsection{Individual $R$, $L$, and $C$ circuits}
 \bi
 
-\i As mentioned in previous lectures,
-Faraday discovered that a changing magnetic field 
-induces an electric field (Faraday's law of induction).
+\i Consider a circuit driven by the $AC$ potential
+${\cal E}(t) = {\cal E}_m\sin(\omega_d t)$, with driving angular frequency $\omega_d$.
 
-\i Maxwell realized that, likewise, 
-a changing electric field induces a magnetic field.
-This observation requires adding a {\em displacement current} 
+\i Then the instantaneous current $i(t)$ through the circuit will also vary sinusoidally
+with angular frequency $\omega_d$.
+But it will be shifted in phase relative to ${\cal E}(t)$, 
+so that $i(t) = I \sin(\omega_d t - \phi)$.
+
+\i Using the loop rule for single element $R$, $L$, and $C$ circuits:
+%
+\ben
+\i Purely resistive circuit: $\phi=0$ and $I = {\cal E}_m/R$.
+\i Purely inductive circuit: $\phi=\pi/2$ and $I = {\cal E}_m/X_L$, where $X_L \equiv L\,\omega_d$.
+\i Purely capacitive circuit: $\phi=-\pi/2$ and $I = {\cal E}_m/X_C$, where $X_C \equiv 1/(C\omega_d)$.
+\een
+
+\i The above results imply that 
+$i$ and ${\cal E}$ are in phase for a purely resistive circuit;
+${\cal E}$ leads $i$ by $\pi/2$ for a purely inductive circuit; 
+and $i$ leads ${\cal E}$ by $\pi/2$ for a purely capacitive circuit.
+
+\i The quantities $X_L$ and $X_C$ are inductive and capacitive {\it reactances}.
+These quantities generalizes the resistance $R$ to inductors and capacitors in 
+AC circuits.
+Note that $X_L=0$ and $X_C\rightarrow\infty$ for a DC circuit (i.e., $\omega_d=0$).
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Single $RLC$ circuit in series}
+
+\bi
+\i We now consider the driving potential ${\cal E}(t)$ connected to 
+a series $RLC$ circuit.
+The loop rule yields:
+\be
+{\cal E} = iR + L\frac{\dd i}{\dd t} + \frac{1}{C}\int^t \> i(t')\dd t'
+=I\left[R\sin(\omega_d t-\phi) + (X_L-X_C)\cos(\omega_d t- \phi) \right]
+\ee
+
+\i Setting the lhs to ${\cal E}_m \sin(\omega_d t)$ and using the 
+trig identities
 %
 \be
-I_{\rm d}\equiv\epsilon_0\, d\Phi_E/dt
+\sin(A\pm B) = \sin A\cos B\pm \cos A\sin B\,,\qquad
+\cos(A\pm B) = \cos A\cos B\mp \sin A\sin B
 \ee
-to the conduction current 
-$I_{\rm enc}$ in Amp\`ere's law, where $\Phi_E$ is the
-electric flux through a surface $S$ spanning a closed
-curve $C$.
+%
+to expand $\sin(\omega_d t-\phi)$ and $\cos(\omega_d t-\phi)$ on the rhs, 
+we find
+%
+\be
+\tan\phi = \frac{X_L-X_C}{R}\,,
+\quad{\rm and}\quad
+I = {\cal E}_m/{Z}\,
+\quad{\rm where}\quad
+Z = \sqrt{R^2 + (X_L-X_C)^2}
+\ee
+%
 
-\i The displacement current is necessary for electric
-charge conservation, as illustrated by charging a 
-parallel-plate capacitor.  
-(One can consider a surface $S$ spanning a closed 
-curve $C$ that does not 
-interesect the wire but extends into the region between
-the plates of the capacitor.) 
+\i $Z$ is called the {\it impedance} of the $RLC$ circuit. 
+Its value depends on the driving frequency $\omega_d$.
+
+\i Resonance occurs when the impedance $Z$ is as small as possible.
+This occurs when the driving frequency $\omega_d$ is chosen so that
+the capacitive and inductive reactances $X_C$ and $X_L$ cancel one another:
+\be
+Z = R
+\quad\iff\quad
+X_L = X_C
+\quad\iff\quad
+\omega_d = \frac{1}{\sqrt{LC}}
+\ee
+%
+This is the natural frequency for a simple $LC$ oscillator circuit.
+
+\i For this choice of $\omega_d$, the amplitude of the current $I$ 
+is as large as possible ($I = {\cal E}_m/R$) for fixed ${\cal E}_m$.
 
 \ei
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Maxwell's equations}
+\subsection{Transformers}
+
 \bi
 
-\i Including the effects of changing magnetic 
-and electric fields, the full set of 
-equations for electricity and magnetism (called
-Maxwell's equations) are:
-\begin{align}
-&\oint_S \vec E\cdot\hat n\,dA = \frac{q_{\rm enc}}{\epsilon_0}
-\quad({\rm Gauss's\ law})
-\\
-&\oint_C \vec E\cdot d\vec s = -\frac{d\Phi_B}{dt}
-\quad({\rm Faraday's\ law})
-\\
-&\oint_C \vec B\cdot d\vec s = \mu_0\left(
-I_{\rm enc} + \epsilon_0\frac{d\Phi_E}{dt}\right)
-\quad({\rm Ampere's\ law\ with\ Maxwell's\ displacement\ current})
-\\
-&\oint_S \vec B\cdot\hat n\,dA = 0
-\quad({\rm no\ magnetic\ monopoles})
-\end{align}
+\i Consider a transformer constructed from two coils of wire
+$N_1$ and $N_2$ connected by an iron core.
+The iron core ``links" the magnetic fluxes passing through 
+the two coils so that $\Phi_{12}=\Phi_{21}\equiv \Phi$.
 
-\i Maxwell's equations and the Lorentz force law:
+\i Connect the ``primary" coil (side 1) of the transformer to 
+AC potential ${\cal E}_1$ and the ``secondary" coil (side 2) of 
+the transformer to a switch $S$ and resistance $R_2$.
+Then
 %
 \be
-\vec F = q(\vec E +\vec v\cross\vec B)\,,
-\qquad
-\vec F = d\vec p/dt
+{\cal E}_1 = -N_1 \frac{\dd \Phi}{\dd t}\,,
+\quad
+{\cal E}_2 = -N_2 \frac{\dd \Phi}{\dd t}
+\quad\implies\quad
+{\cal E}_2 = \left(\frac{N_2}{N_1}\right){\cal E}_1
 \ee
-%
-describe {\em all} of electrodynamics.
+
+\i Conservation of energy 
+${\cal E}_1 i_1= {\cal E}_2 i_2$ then implies
+$i_2 = (N_1/N_2) i_1$, and an ``effective" resistance
+$R_1 = (N_1/N_2)^2 R_2$ seen by ${\cal E}_1$,
+using $i_1^2 R_1 = i_2^2 R_2$ to define $R_1$.
 
 \ei
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Electromagnetic waves}
-\bi
 
-\i Maxwell's equations in vacuum admit {\em wave} 
-solutions---disturbances in the electric 
-and magnetic fields that propagate through space
-with speed 
-%
-\be
-v=\frac{1}{\sqrt{\mu_0\epsilon_0}} = 2.998\times 10^8~{\rm m/s}
-\equiv c
-\ee
 
-\i The speed of electromagnetic waves in vacuum
-is the {\em same} as the speed of light $c$, which led 
-Maxwell to infer that light is an example of an 
-electromagnetic wave.
-(The relationship between light and electricity and
-magnetism was not known before.)
-
-\i Electromagnetic waves can propagate in vacuum
-(in the absence of charges and currents), because
-changes in the electric field induce magnetic fields,
-whose changes induce electric fields, etc.
-
-\i Visible light is just a small part of the 
-electromagnetic {\em spectrum}, consisting of 
-wavelengths between 400~nm (violet light) and 
-700~nm (red light).
-Infrared radiation, microwaves, and radio waves
-have longer wavelengths.
-Ultraviolet radiation, X-rays, and gamma rays have
-shorter wavelengths.
-
-\ei 
