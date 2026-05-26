@@ -6,6 +6,7 @@
 
 ## Papers / presentations
 
+- [Scholarpedia article](http://www.scholarpedia.org/article/Stochastic_gravitational_wave_backgrounds)
 - [Les Houches article](papers/leshouches-romano.pdf)
 - [Solutions to exercises in Les Houches article](exercises/solutions_handwritten.pdf)
 - [Living Reviews in Relativity article](papers/LRR-romano-cornish.pdf)
