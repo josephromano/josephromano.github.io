@@ -2,7 +2,8 @@
 
 ## Basic information
 
-- [syllabus](info/syllabus.pdf)
+- [course-info](info/course-info.pdf)
+- [course-calendar](info/course-info.pdf)
 
 ## Problems and solutions
 
