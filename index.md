@@ -1,5 +1,6 @@
 # Content
 
+- [PHYS 1402 - General Physics II](PHYS1402/index.md)
 - [PHYS 1406 - Physics of Sound and Music](PHYS1406/index.md)
 - [PHYS 2426 - Physics for Scientists and Engineers II](PHYS2426/index.md)
 - [PHYS 5000 - Stochastic gravitational-wave backgrounds](PHYS5000/index.md)
