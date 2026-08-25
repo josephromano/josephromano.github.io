@@ -2,10 +2,8 @@
 
 ## Basic information
 
-- [syllabus](info/course-info.pdf)
+- [course information](info/course-info.pdf)
 - [course calendar](info/course-calendar.pdf)
-- [UTRGV policies](info/utrgv-policies.pdf)
-- [UTRGV academic calendar](info/utrgv-academic-calendar.pdf)
 
 ## Course material
 

@@ -2,8 +2,8 @@
 
 ## Basic information
 
-- [course-info](info/course-info.pdf)
-- [course-calendar](info/course-info.pdf)
+- [course information](info/course-info.pdf)
+- [course calendar](info/course-calendar.pdf)
 
 ## Problems and solutions
 
