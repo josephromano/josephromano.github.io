@@ -1,5 +1,6 @@
 # Problems:
 
+- [Suggested problems](suggested_problems.pdf)
 - [chpt 15](Ch15.pdf) 
 - [chpt 16](Ch16.pdf) 
 - [chpt 17](Ch17.pdf) 
