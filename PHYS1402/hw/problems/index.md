@@ -8,5 +8,4 @@
 - [chpt 20](Ch20.pdf) 
 - [chpt 21](Ch21.pdf) 
 - [chpt 22](Ch22.pdf) 
-- [chpt 23](Ch23.pdf) 
 
