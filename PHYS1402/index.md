@@ -5,10 +5,10 @@
 - [course information](info/course-info.pdf)
 - [course calendar](info/course-calendar.pdf)
 
-## Problems and solutions
+## Homework 
 
-- [suggested problems (from Rex and Wolfson)](hw/problems/index.md)
-- [solutions to suggested problems](hw/solutions/index.md)
+- [suggested problems](hw/problems/index.md)
+- [answers / solutions](hw/solutions/index.md)
 
 ## Lecture notes
 
