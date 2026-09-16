@@ -1,0 +1,436 @@
+\documentclass[10pt,twoside]{article}
+\usepackage{amssymb,amsmath,amsthm,longtable}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
+
+% some definitions
+
+\def\cross{\times}
+\def\del{\nabla}
+\def\grad{\vec\nabla}
+\def\div{\grad\cdot}
+\def\curl{\grad\cross}
+\def\I{I\!\!\!-}
+\def\dd{{\rm d}}
+ 
+% begin equation, itemize, etc.
+
+\def\be{\begin{equation}}
+\def\ee{\end{equation}}
+\def\bi{\begin{itemize}}
+\def\ei{\end{itemize}}
+\def\ben{\begin{enumerate}}
+\def\een{\end{enumerate}}
+\def\i{\item{}}
+
+\def\defn{\underline{Definition}:\ }
+\def\ex{\underline{Example}:\ }
+\def\exer{\underline{Exercise}:\ }
+\def\soln{\underline{Solution}:\ }
+\def\theor{\underline{Theorem}:\ }
+\def\pf{\underline{Proof}:\ }
+\def\ques{\underline{Question}:\ }
+\def\ans{\underline{Answer}:\ }
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            
+\begin{document}
+
+\title{College Physics II \\
+Lecture summaries}
+%\author{J.D.\ Romano}
+\author{DRAFT}
+\date{Fall 2026}
+\maketitle
+ 
+\begin{abstract}
+\input{abstract}
+\end{abstract}
+
+\newpage
+\tableofcontents
+\cleardoublepage
+
+\section{Electric charges, forces, and fields}
+\label{s:charges_etc}
+
+\subsection{Electric charge} 
+
+\bi
+
+\i Properties of electric charge:
+
+(i) Two types: {\em positive} and {\em negative}
+($+$ and $-$), whose effects tend to cancel.
+Opposite charges attract, like charges repel.
+
+(ii) Total electric charge is {\em conserved}
+(cannot be created or destroyed, only transferred from one 
+object to another).
+
+(iii) Electric charge is {\em quantized}
+(integer multiples of the
+charge of a proton $e = 1.602\times 10^{-19}~{\rm C}$;
+an electron has charge $-e$).
+
+\i Materials:
+
+(i) {\em Conductors}: one or more electrons per atom are able to 
+move freely through the material.
+Examples: aluminum, copper, gold, ... (metals).
+
+(ii) {\em Insulators}: electrons are bound to atomic nuclei.
+Examples: rubber, wood, paper, ...
+
+\i Some demos: 
+
+1) A plastic rod rubbed with fur is negatively charged;
+a glass rod rubbed with silk is positively charged.
+Show that opposite charges attract, like charges repel.
+
+%2) An uncharged aluminum can will be attracted to both
+%negative and positive rods.
+%Electrons in the aluminum can (a conductor) move away 
+%from the negative rod or toward the positive rod 
+%leading to an attractive force in both cases.
+
+2) Bits of uncharged paper will be attracted to both
+negative and positive rods due to charge separation 
+within the atoms / molecules in the paper (an insulator).
+
+3) A charged rubber ballon sticks to the white board
+for the same reason as (2).
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Electric force}
+\bi
+
+\i {\em Coulomb's law}:
+The magnitude of the electric force between two point 
+charges $q_1$ and $q_2$ separated by a distance $r$ is
+%
+\be
+F = \frac{k |q_1| |q_2|}{r^2}
+\quad{\rm where}\quad
+k= 8.99\times 10^9~
+\frac{{\rm N}\cdot{\rm m}^2}{{\rm C}^2}
+\ee
+%
+
+\i The force is attractive (directed towards one another)
+if the two charges have opposite signs;
+the force is repulsive (directed away from one another)
+if the two charges have the same signs.
+
+\i One sometimes writes
+%
+\be
+k=\frac{1}{4\pi\epsilon_0}\,,
+\quad{\rm where}\quad
+\epsilon_0= 8.85\times 10^{-12}~\frac{{\rm C}^2}{{\rm N}\cdot{\rm m}^2}
+\ee
+where $\epsilon_0$ 
+is the so-called {\em permitivity} of free space (vacuum).
+
+\i The electric force on point charge $Q$ due to a set of 
+point charges $q_1$, $q_2$, ..., $q_N$ is given by the vector 
+sum of the forces 
+%
+\be
+\vec F_{Q,{\rm net}} = 
+\vec F_{1Q} + \vec F_{2Q} + \cdots + \vec F_{NQ}
+\ee
+%
+where $\vec F_{1Q}$ is the electric force that point charge $q_1$ 
+exerts on $Q$, etc.
+This is called the {\em superposition principle}.
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Electric field}
+
+\bi
+
+\i The electric force between charges is a {\em non-contact}
+force.
+A set of charges creates a {\em field} to which another 
+charge responds.
+
+\i The electric field at a point $P$ in space is a vector 
+$\vec E(P)$, whose direction is given by the electric force 
+$\vec F_{q_0}(P)$ on
+a small, positive (so called ``test") charge $q_0$ placed at $P$, and whose
+magnitude is given by $F_{q_0}(P)/q_0$:
+%
+\be
+\vec E(P) = \vec F_{q_0}(P)/q_0
+\ee
+%
+Note that by dividing by $q_0$, the electric field does not depend
+on properties of the test charge.
+It depends only on the charges producing the field.
+
+\i For a single point charge $q$:
+%
+\be
+E(P) = \frac{k q}{r^2}
+\ee
+%
+where point $P$ is a distance $r$ from $q$.
+The direction of the electric field is radially away from the 
+charge if $q>0$ and towards the charge if $q<0$.
+
+\i The electric field produced by a set of discrete 
+point charges $q_1$, $q_2$, $\cdots$, $q_N$ is given by the
+superposition principle:
+%
+\be
+\vec E(P) = \vec E_1(P) + \vec E_2(P) + \cdots + \vec E_N(P)
+\ee
+%
+where $\vec E_1(P)$ is the electric field due to $q_1$, etc.
+
+\ei
+
+\subsection{Electric field examples}
+\bi
+
+\i Electric dipole: Two charges, $+q$ and $-q$ separated by distance
+$a$ along the $x$-axis (located at $x=-a/2$, $x=a/2$, respectively).
+Then the electric field at point $P=(0,y)$ on the $y$-axis is given by:
+\be
+E_y(P)=0\,,\qquad
+E_x(P) = \frac{k q a}{\left[y^2 + (a/2)^2\right]^{3/2}}
+\ee
+
+When $y\gg a$, the electric field has magnitude $E(P)\simeq k q a/y^3$, 
+which falls off as the {\it cube} of the distance to the dipole.
+
+\i The electric field produced by an infinite 2-dimensional sheet of 
+charge with surface charge density $\sigma$ has magnitude
+%
+\be
+E(P) = \frac{|\sigma|}{2\epsilon_0}
+\ee
+%
+The field points perpendicular to the sheet (away from the sheet if 
+$\sigma>0$; toward the sheet if $\sigma<0$).
+The magnitude of the electic field is independent of the distance from the sheet.
+
+\i In practice, one doesn't have 2-dimensional sheets that are infinite in extent.
+But the above results still hold for a finite sheet provided the point $P$ is 
+sufficiently close to the sheet.
+
+\i The electric field between two infinite, parallel sheets of charge with 
+surface charge densities $+\sigma$ and $-\sigma$ has magnitude
+%
+\be
+E(P) = \frac{\sigma}{\epsilon_0}
+\ee
+%
+The electric field points from the positively-charged sheet to the 
+negatively-charged sheet.
+
+\i This last example will be important when we discuss 
+{\it capacitors} later on.
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\subsection{Electric field lines}
+
+\bi
+
+\i Pictorial representation of the electric field $\vec E$.  
+Direction of field lines point in the direction of $\vec E$; 
+density of field lines (number per area perpendicular to $\vec E$) 
+is proportional to the magnitude of $\vec E$.
+
+\i Rules for drawing electric field lines: 
+
+(i) lines begin on $+$ charges, end on $-$ charges (or may 
+extend to infinity);
+
+(ii) the number of lines leaving or terminating on a charge
+should be proportional to the magnitude of the charge;
+
+(iii) electric field lines cannot cross.
+
+\i For a point charge, the density of lines at a distance
+$r$ from the charge is given by $N/4\pi r^2$, which is 
+proportional to the magnitude of the field $E(P)=k q/r^2$
+as it should be.
+ 
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Conductors in electrostatic fields}
+\bi
+
+\i Properties:
+
+1) $\vec E=\vec 0$ everywhere inside a conductor, for both
+solid conductors and conductors with {\em empty} cavities.
+
+2) If an isolated conductor carries a charge, then that excess
+charge resides on the outer surface of the conductor.
+
+3) The electric field just outside the surface of a charged 
+conductor is perpendicular to the surface with magnitude
+$E= \sigma/\epsilon_0$, where $\sigma$ is the surface charge
+density.
+
+4) For irregularly shaped conductors, the surface charge 
+density $\sigma$ is greatest where the radius of curvature of
+the surface is smallest (i.e., where the surface is sharpest).
+
+\i Property (1) arises since charges in the conductor 
+rearrange themselves in response to an applied electric 
+field such that the {\em induced} field associated with 
+these charges exactly cancels the applied field in the 
+conductor, $\vec E+\vec E_{\rm ind}=\vec 0$.
+
+\i Property (1) implies that any external electric field
+is shielded from a cavity inside a conductor.
+That's why you're safe inside a car during a lightning
+storm.
+
+\i Fields within a cavity, produced e.g., by a charge,
+do make it outside of the conductor.  So the outside of
+a conductor is not shielded from the fields inside a 
+cavity of a conductor.
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+
+
+\section{Electrostatic potential}
+
+\subsection{Work and potential energy}
+
+\bi
+
+\i Recall: The work done by a force in moving a particle
+from point $A$ to point $B$ along some path is given
+by 
+%
+\be
+W_{A\rightarrow B} = \int_A^B \vec F\cdot d\vec s
+\ee
+%where $d\vec s$ is the infinitesimal displacement vector
+%along the path.
+
+\i For a general force, the value of the integral depends
+on the path connecting $A$ and $B$.
+If the force is {\em conservative}, then the integral
+is path independent and depends only on the endpoints.
+
+\i Examples of conservative forces are gravity, the 
+spring force, and the electrostatic force.
+An example of a non-conservative force is friction.
+
+\i For conservative forces, one can a associate a 
+{\em potential energy} $U$ with the work done by 
+the force in moving the particle from $A$ to $B$:
+%
+\be
+\Delta U\equiv U_B- U_A = -W_{A\rightarrow B} = 
+-\int_A^B \vec F\cdot d\vec s
+\ee
+
+\i Note the minus sign in the above expression.
+The potential energy of the system decreases if the 
+force does positive work.
+For example, as a mass $m$ falls in a gravitational
+field $\vec g$, it loses potential energy, while gaining
+kinetic energy.
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Electrostatic potential}
+
+\bi
+
+\i The above results apply to the electrostatic force 
+acting on a charge $q$.  
+We define
+%
+\be
+\Delta U = -\int_A^B \vec F_e\cdot d\vec s
+= -q\int_A^B \vec E\cdot d\vec s
+\ee
+
+\i The electrostatic potential $V$ is then defined as 
+the electrostatic potential energy per unit charge:
+\be
+\Delta V \equiv \frac{\Delta U}{q}
+= -\int_A^B \vec E\cdot d\vec s
+\ee
+%
+which has units of Joules per Coulomb, or volts
+($1~{\rm volt} \equiv 1~{\rm J}/{\rm C}$).
+
+
+\i Note that changing the electrostatic potential
+$V$ by an additive constant ($V'= V+{\rm const}$) 
+does not change the potential difference, since 
+$\Delta V = \Delta V'$.
+So the zero (or reference point) of the 
+electrostatic potential can be set in whatever way
+is most convenient for the problem at hand.
+%(We will see that for point charges, the reference
+%point is taken to be infinity.)
+
+\i If $\vec E$ is everywhere orthogonal to $d\vec s$,
+then $\Delta V=0$.
+This means that the electric field $\vec E$ is 
+{\em perpendicular} to an
+{\em equipotential} surface.
+
+\ei
+%%%%%%%%%%%%%%%%
+\subsection{Obtaining $\vec E$ from $V$}
+\bi
+
+\i The electrostatic potential $V$ is given by integrating
+the electric field $\vec E$.
+Conversely, by considering two nearby points $A$ and $B$, 
+one can 
+show that the electric field $\vec E$ is given by 
+differentiating $V$:
+%
+\be
+E_x = -\frac{\partial V}{\partial x}\,,\quad
+E_y = -\frac{\partial V}{\partial y}\,,\quad
+E_z = -\frac{\partial V}{\partial z}
+\quad\Leftrightarrow\quad
+\vec E=-\grad V
+\ee
+%
+
+\i This relationship is very useful since it is often much
+easier to first calculate the electrostatic potential $V$
+for a distribution of charges, and then differentiate $V$
+to obtain the electric field $\vec E$.
+
+\i Recall that it is typically hard to calculate $\vec E$
+for a distribution of charges since one has to sum up
+{\em vectors} for each charge in the distribution.
+Summing up scalars (for the potential $V$) is much easier.
+
+\i Note that the units of $\vec E$ can also be expressed
+in terms of volt per meter:
+$1~{\rm N}/{\rm C} = 1~{\rm volt}/{\rm m}$.
+
+\ei
+
+\end{document}
+
