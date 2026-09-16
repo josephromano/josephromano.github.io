@@ -16,5 +16,6 @@
 
 ## Extra resources
 
+- [Essential College Physics Volume 2 by Rex and Wolson](https://archive.org/details/essentialcollege0000rexa)
 - [openstax College Physics 2e](https://openstax.org/details/books/college-physics-2e)
 
