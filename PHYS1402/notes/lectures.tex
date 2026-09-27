@@ -308,28 +308,29 @@ cavity of a conductor.
 \ei
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
-\end{document}
+\section{Electrostatic energy, potential, and capacitors}
 
-
-\section{Electrostatic potential}
-
-\subsection{Work and potential energy}
-
+\subsection{Review: Work and potential energy}
 \bi
 
-\i Recall: The work done by a force in moving a particle
+\i The {\it work} done by a force in moving a particle
 from point $A$ to point $B$ along some path is given
 by 
 %
 \be
-W_{A\rightarrow B} = \int_A^B \vec F\cdot d\vec s
+W_{A\rightarrow B} 
+= \sum_{A\rightarrow B} F_\parallel \Delta s 
+= \sum_{A\rightarrow B} (F_x \Delta x + F_y\Delta y + F_z\Delta z)
 \ee
-%where $d\vec s$ is the infinitesimal displacement vector
-%along the path.
+%
+where $\Delta s$ is magnitude of the infinitesimal displacement 
+vector $\Delta\vec s$ along the path and $F_\parallel$ is the 
+component of the force $\vec F$ parallel to $\Delta\vec s$.
+The MKS unit of work is a Joule ($1~{\rm J}\equiv 1~{\rm N}/{\rm m}$).
 
-\i For a general force, the value of the integral depends
-on the path connecting $A$ and $B$.
-If the force is {\em conservative}, then the integral
+\i For a general force, the work done depends on the 
+path connecting $A$ and $B$.
+If the force is {\em conservative}, then the work
 is path independent and depends only on the endpoints.
 
 \i Examples of conservative forces are gravity, the 
@@ -342,15 +343,80 @@ the force in moving the particle from $A$ to $B$:
 %
 \be
 \Delta U\equiv U_B- U_A = -W_{A\rightarrow B} = 
--\int_A^B \vec F\cdot d\vec s
+-\sum_{A\rightarrow B} (F_x\Delta x+ F_y\Delta y + F_z\Delta z)
+\label{e:DeltaU}
 \ee
+%
 
-\i Note the minus sign in the above expression.
-The potential energy of the system decreases if the 
+\i Note that changing the potential energy
+$U$ by an additive constant ($U'= U+{\rm const}$) 
+does not change the difference in potential energy, 
+since $\Delta U = \Delta U'$.
+So the zero (or reference point) of the 
+potential energy can be set in whatever way
+is most convenient for the problem at hand.
+(We will see that for point charges, the reference
+point is taken to be infinity.)
+
+\i From Equation~\eqref{e:DeltaU} for $\Delta U$, 
+we see that the components 
+of the conservative force $\vec F$ and the potential 
+energy $U$ are related by
+%
+\be
+F_x = -\Delta_x U\,,\qquad
+F_y = -\Delta_y U\,,\qquad
+F_z = -\Delta_z U
+\ee
+%
+where $\Delta_x U$ denotes the change in the potential 
+energy $U$ as one moves a distance $\Delta x$ in the $x$-direction, 
+and similarly for $y$ and $z$.
+
+\i Hence, we can calculate the force $\vec F$ 
+by evaluating how the potential energy $U$ changes in different
+directions in space.
+
+\i Note the minus sign in Equation~\eqref{e:DeltaU}.
+This means that the potential energy of the system decreases if the 
 force does positive work.
 For example, as a mass $m$ falls in a gravitational
 field $\vec g$, it loses potential energy, while gaining
-kinetic energy.
+kinetic energy, $\Delta K = -\Delta U$.
+
+\i This last result implies that the total mechanical
+energy $E\equiv U + K$ of a system is unchanged (i.e., 
+{\it conserved}) if only conservative forces are acting:
+%
+\be
+\Delta E = \Delta K + \Delta U = 0\quad
+(\text{for conservative forces})
+\ee
+
+\ei
+
+\subsection{Electrostatic potential energy}
+\bi
+
+\i Example: Consider three charges $q_1$, $q_2$, $q_3$ separated by 
+distances $r_{12}$, $r_{13}$, $r_{23}$.
+The electrostatic potential energy associated with this
+system of charges can be found by calculating how much
+work an external agent has to do to ``build" the configuration
+by bringing in charges one-by-one from infinity.
+
+\i You first bring $q_1$ to its position against no field;
+then $q_2$ to its position against the field created by
+$q_1$; and finally $q_3$ to its position against the 
+field created by $q_1$ and $q_2$:
+%
+\be
+U =\frac{k q_1 q_2}{r_{12}} + \frac{k q_1 q_3}{r_{13}}
++ \frac{k q_2 q_3}{r_{23}}
+\ee
+
+\i The above expression can be extended to an arbitrary
+number of charges.
 
 \ei
 
@@ -359,78 +425,211 @@ kinetic energy.
 
 \bi
 
-\i The above results apply to the electrostatic force 
-acting on a charge $q$.  
-We define
+\i The above results relating work and potential energy
+apply as well to the electrostatic force acting on a charge $q$
 %
 \be
-\Delta U = -\int_A^B \vec F_e\cdot d\vec s
-= -q\int_A^B \vec E\cdot d\vec s
+\Delta U = -W_{A\rightarrow B}
+=-\sum_{A\rightarrow B}
+(F_x\Delta x + F_y \Delta y+ F_z\Delta z)
+=-q\sum_{A\rightarrow B}
+(E_x\Delta x + E_y \Delta y+ E_z\Delta z)
 \ee
+%
+where we used $\vec F=q\vec E$ to obtain the last equality.
 
-\i The electrostatic potential $V$ is then defined as 
-the electrostatic potential energy per unit charge:
+\i Dividing the above equation by $q$, we obtain
+%
 \be
 \Delta V \equiv \frac{\Delta U}{q}
-= -\int_A^B \vec E\cdot d\vec s
+=-\sum_{A\rightarrow B}
+(E_x\Delta x + E_y \Delta y+ E_z\Delta z)
 \ee
 %
-which has units of Joules per Coulomb, or volts
-($1~{\rm volt} \equiv 1~{\rm J}/{\rm C}$).
+where $V$ is called the {\it electrostatic potential}.
 
+\i The electrostatic potential $V$ is thus the electrostatic potential 
+energy $U$ per unit charge (similar to the electric field $\vec E$
+being the electrostatic force $\vec F$ per unit charge).
+The MKS unit of electrostatic potential is the volt (V)
+defined as $1~{\rm V} = 1~{\rm J}/{\rm C}$.
 
-\i Note that changing the electrostatic potential
-$V$ by an additive constant ($V'= V+{\rm const}$) 
-does not change the potential difference, since 
-$\Delta V = \Delta V'$.
-So the zero (or reference point) of the 
-electrostatic potential can be set in whatever way
-is most convenient for the problem at hand.
-%(We will see that for point charges, the reference
-%point is taken to be infinity.)
-
-\i If $\vec E$ is everywhere orthogonal to $d\vec s$,
+\i If $\vec E$ is everywhere orthogonal to the displacement $\Delta \vec s$,
 then $\Delta V=0$.
-This means that the electric field $\vec E$ is 
-{\em perpendicular} to an
-{\em equipotential} surface.
+This means that the electric field $\vec E$ is perpendicular to an
+{\em equipotential} surface, which has $\Delta V=0$.
 
-\ei
-%%%%%%%%%%%%%%%%
-\subsection{Obtaining $\vec E$ from $V$}
-\bi
+\i Note that the units of $\vec E$ can be expressed either as 
+$1~{\rm N}/{\rm C}$ (from $\vec E=\vec F/q$) or as 
+$1~{\rm volt}/{\rm m}$ (from $E_x = -\Delta_x V$, the change in $V$ in the
+$x$-direction).
+Thus, $1~{\rm N}/{\rm C} = 1~{\rm volt}/{\rm m}$.
 
-\i The electrostatic potential $V$ is given by integrating
-the electric field $\vec E$.
-Conversely, by considering two nearby points $A$ and $B$, 
-one can 
-show that the electric field $\vec E$ is given by 
-differentiating $V$:
+
+\i Examples of electrostatic potentials:
+
+(i) For a uniform electric field $\vec E$, we have
+$\Delta V = - Ed<0$ if we move in the same 
+direction as $\vec E$.
+Thus, for $q>0$, the electrostatic potential energy
+{\em decreases} as you move in the direction of the 
+field.
+
+(ii) For a point charge $q$ at the origin,
+$V(r) = k q/r$, where we have chosen zero potential 
+at $r\rightarrow\infty$.
+
+(iii) For a set of discrete point charges:
 %
 \be
-E_x = -\frac{\partial V}{\partial x}\,,\quad
-E_y = -\frac{\partial V}{\partial y}\,,\quad
-E_z = -\frac{\partial V}{\partial z}
-\quad\Leftrightarrow\quad
-\vec E=-\grad V
+V(P) = 
+\frac{k q_1}{r_1}
++\frac{k q_2}{r_2}
++\frac{k q_3}{r_3}
++\cdots
++\frac{k q_N}{r_N}
 \ee
-%
-
-\i This relationship is very useful since it is often much
-easier to first calculate the electrostatic potential $V$
-for a distribution of charges, and then differentiate $V$
-to obtain the electric field $\vec E$.
-
-\i Recall that it is typically hard to calculate $\vec E$
-for a distribution of charges since one has to sum up
-{\em vectors} for each charge in the distribution.
-Summing up scalars (for the potential $V$) is much easier.
-
-\i Note that the units of $\vec E$ can also be expressed
-in terms of volt per meter:
-$1~{\rm N}/{\rm C} = 1~{\rm volt}/{\rm m}$.
 
 \ei
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Electrostatic potential associated with conductors}
+\bi
+
+\i Since $\vec E=\vec 0$ everywhere inside a conductor,
+$\Delta V=0$ for any path lying within the conductor.
+Thus, a conductor is an {\em equipotential}.
+
+\i If a conductor has an empty cavity, then $\vec E=\vec 0$
+inside the cavity (and also with the conductor).
+
+{\em Proof}: If that wasn't the case, then one find a path 
+from one side of the cavity to the other having 
+$\Delta V\ne 0$, contradicting that a conductor is an equipotential.
+
+\i The surface charge density on the surface of a conductor
+has its greatest magnitude where the radius of curvature is
+smallest.  
+
+{\em Proof}: Model your conductor as two conducting spheres 
+with radii $r_1$, $r_2$ (with $r_1>r_2$) 
+and charge $q_1$, $q_2$ connected by a metal wire.
+Since this configuration is an equipotential, $k q_1/r_1 = k q_2/r_2$,
+which implies $q_2/q_1 = r_2/r_1$.
+It then follows that 
+%
+\be
+\frac{\sigma_2}{\sigma_1} 
+= \frac{q_2}{4\pi r_2^2}\bigg/\frac{q_1}{4\pi r_1^2}
+= \frac{q_2}{q_1}\frac{r_1^2}{r_2^2}
+= \frac{r_2}{r_1}\frac{r_1^2}{r_2^2}
+= \frac{r_1}{r_2} > 1
+\ee
+
+\ei
+
+\subsection{Capacitors}
+
+\bi
+
+\i A capacitor is a circuit element whose primary
+function is to {\em store charge}.
+
+\i Given two conductors (of any shape and size)
+with charges $\pm Q$, respectively, the 
+capacitance $C$ is defined by
+%
+\be
+C \equiv Q/\Delta V
+\ee
+%
+where $\Delta V$ is the potential difference between
+the positively and negatively-charged conductors.
+
+\i The value of $C$ is independent of $Q$ and $\Delta V$,
+depending only on the geometrical arrangement of 
+the conductors.
+
+\i Example: A parallel-plate capacitor, having 
+area $A$ and separation $d$ has capacitance 
+$C = \epsilon_0 A/d$.
+
+\i One can connect capacitors in {\em parallel} or 
+{\em series}, or combinations of the two.
+Such a combination of capacitors can be reduced to a 
+single {\em equivalent} capacitance.
+
+\i For a parallel combination of $C_1$ and $C_2$:
+\be
+C_p = C_1 + C_2
+\ee
+The proof of this relation uses the fact that the 
+potential differences are equal,
+$\Delta V_1 = \Delta V_2 = \Delta V$,
+while the charges add
+$Q=Q_1+Q_2$.
+
+\i For a series combination of $C_1$ and $C_2$:
+\be
+\frac{1}{C_s} = \frac{1}{C_1} + \frac{1}{C_2}
+\ee
+The proof of this relation uses the fact that the 
+potential differences add,
+$\Delta V = \Delta V_1+\Delta V_2$, while the charges 
+are equal, $Q=Q_1=Q_2$.
+
+\i To charge up a capacitor, one needs to do 
+work against the electric field associated with 
+the charge already deposited on the plates.
+
+\i If $q$ is the current charge on the 
+capacitor, then the associated potential 
+difference of the plates is $q/C$.
+To move additional charge $dq$ against 
+that potential requires work $dW = dq\, q/C$.
+
+\i The total work $W$ is given by the area 
+under the potential-difference-vs-charge triangle:
+\be
+W = \frac{1}{2}\frac{Q^2}{C}
+\ee
+
+\i This work is the electrostatic potential
+energy $U$ stored in the capacitor, and it
+can be written in several equivalent ways:
+%
+\be
+U_E 
+= \frac{1}{2}\frac{Q^2}{C} 
+= \frac{1}{2}C(\Delta V)^2
+= \frac{1}{2}Q\Delta V
+\ee
+
+\i A {\em dielectric} is an insulator placed 
+between the conductors of a capacitor.
+
+\i Alignment of polarized molecules within the
+dielectric creates an induced electric field that
+{\em opposes} the applied electric field 
+associated with the free charges $\pm Q$ on the two 
+conductors.
+
+\i This induced electric field reduces the total
+electric field between the conductors, leading to 
+a reduced value of the potential diffence $\Delta V$,
+and a corresponding increase in $C=Q/\Delta V$.
+
+\i The increase in capacitance is encoded in the 
+(dimensionless) dielectric constant $\kappa\ge 1$, 
+defined by 
+$C=\kappa C_0$, where $C_0$ is the capacitance in
+the absence of a dielectric.
+
+\i For vacuum, $\kappa =1$;
+for air, $\kappa = 1.00059$;
+for paper, $\kappa = 3.7$;
+for a conductor, $\kappa = \infty$.
+
+\ei
 \end{document}
 
