@@ -18,6 +18,7 @@
 - [summer school lecture on statistical inference](notes/statistical_inference_lecture.pdf)
 - [summer school lecture on statistical inference](notes/statistical_inference_lecture.pdf)
 - [lecture notes on probabilistic inference](notes/probabilistic_inference.pdf)
+- [solutions to probability problems, Boas Chpt 15](hw/solutions/solutions_probability_problems.pdf)
 - ["Mathematical methods for physicists" by Afken, Weber, and Harris](https://archive.org/details/Mathematical_Methods_for_Physicists)
 
 ## Suggested problems
