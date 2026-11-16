@@ -1040,5 +1040,812 @@ which will produce 0.1~A of current through you if you have wet skin.
 This can electrocute you.
 
 \ei
+
+\section{Magnetic fields and forces}
+
+\subsection{Basic properties}
+\bi
+
+\i Two magnetic poles, $N$ and $S$, similar to $+$ and $-$ 
+electrical charges.
+Like poles repel, unlike poles attract; 
+isolated magnetic poles do not exist in nature
+(unlike isolated electric charges).
+
+\i Iron filings are attracted to both poles of a magnet.
+They become magnetized.
+
+\i Iron filings align themselves with magnetic 
+field lines.
+Magnetic field lines form closed loops (as opposed 
+to starting or terminating at $N$ and $S$ poles).
+
+\i The Earth has an intrinsic magnetic field 
+(due to motion of charged molten material in its
+core) with its South magnetic pole located near
+Earth's North geographic pole.
+A compass needle is a small magnet which aligns
+its North pole with Earth's South magnetic pole
+(points approximately toward geographic North).
+
+\i All magnetic fields are ultimately due to the
+motion of electric charges (e.g., electron orbital 
+motion and instrinsic spin).
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Magnetic force on a charged particle}
+\bi
+\i The magnetic force on a charged particle is given by
+magnitude
+%
+\be
+F_B = |q|v B\sin\theta
+\ee
+%
+where $\theta$
+is the angle between the velocity $\vec v$ of the 
+charged particle and the magnetic field $\vec B$, 
+and the direction of $\vec F_B$ given by the right-hand rule
+(RHR).
+
+\i Right-hand rule: 
+Curl the fingers of your right hand from $\vec v$ to 
+$\vec B$. 
+Then your thumb points in the direction of $\vec B$.
+Thus, $\vec F_B$ is perpendicular to the plane spanned
+by $\vec v$ and $\vec B$.
+
+\i If the particle is at rest ($v=0$) or if
+$\vec v$ is parallel to $\vec B$, then $\vec F_B=\vec 0$.
+Measuring $\vec F_B$ for a given $\vec v$ determines
+only the components of $\vec B$ perpendicular to $\vec v$.
+
+\i Since $\vec F_B$ is perpendicular to $\vec v$,
+the magnetic force does no work on a charged particle.
+(It can only change the direction of $\vec v$, not
+its magnitude).
+
+\i Units of $\vec B$: 
+$1~{\rm Tesla} \equiv 1~{\rm N}/{\rm A}\cdot{\rm m}$.
+The Gauss defined by $1~{\rm Tesla} \equiv 10^4~{\rm Gauss}$ is 
+also sometime used.
+
+\i Earth's magnetic field $\sim 0.5~{\rm Gauss}$;
+MRI magnet $\sim 1.5~{\rm T}$;
+superconducting magnet $\sim 30~{\rm T}$;
+magnetic field of a neutron star $\sim 10^8~{\rm T}$.
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Motion of a charged particle in a uniform magnetic field}
+\bi
+
+\i The motion of a charged particle in a uniform
+magnetic field with $\vec v$ perpendicular to $\vec B$ 
+is {\em uniform circular motion} with $v={\rm const}$.
+The speed, radius, magnetic field, and charge-to-mass
+ratio of the particle are related by
+%
+\be
+R = \frac{mv}{|q|B}
+\quad\Leftrightarrow\quad
+T = \frac{2\pi m}{|q|B}
+\quad\Leftrightarrow\quad
+f = \frac{|q|B}{2\pi m}
+\ee
+%
+where $T$ is the period and $f$ is the frequency of
+the circular motion.
+$f$ is called the {\em cyclotron} frequency.
+
+\i Note the cyclotron frequency is independent of 
+the speed $v$ and radius $R$.
+
+\i If $\vec v$ has a component parallel to $\vec B$,
+then the motion is a helix.
+
+\i Applications of the motion of a charged particle in
+a uniform magnetic field include:
+
+(i) velocity selector: formed from perpendicular uniform
+electric and magnetic fields. 
+The velocity of a charged particle is unchanged provided
+$v= E/B$.
+
+(ii) mass spectrometer: a velocity selector with uniform
+magnetic field $\vec B_1$ followed by 
+another uniform magnetic field $\vec B_2$.
+It is used to select different particle masses by the 
+radii of their circular motion 
+\be
+\frac{|q|}{m} = \frac{E}{B_1 B_2 R}
+\ee
+J.J.~Thomson (1897) determined the charge-to-mass ratio of the 
+electron this way.
+
+(iii) a cyclotron: the first particle accelerator 
+(E.O.~Lawrence, M.S.~Livingston, 1934) constructed
+from a uniform magnetic field and two ``dees", having 
+alternating potential difference, with frequency 
+given by the cyclotron frequency discussed above.
+A charged particle is accelerated to larger and larger 
+velocities with correspondingly larger and larger radii.
+
+\ei
+
+\subsection{Magnetic force (torque) on a current-carrying wire (loop)}
+\bi
+
+\i The magnitude of the magnetic force on a current-carrying wire is
+%
+\be
+F_B = I L B\sin\theta
+\ee
+%
+where $\theta$ is the angle between the direction of the current
+$\vec I$ and the magnetic field $\vec B$.
+The direction of $\vec F_B$ is given by the RHR as before.
+
+\i The above result is a simple extension of the magnetic force on a 
+single charged particle $q$ to $nAL$ charged particles 
+moving with drift velocity $\vec v_{\rm d}$ in a wire
+(recall $\vec I = qn\vec v_{\rm d}A$).
+
+\i Consider a rectangular loop of wire (sides $a$
+and $b$) carrying a current $I$ 
+in a uniform magnetic field $\vec B$.
+Assume to begin with that $\vec B$ is parallel to 
+the sides having length $b$ and
+perpendicular to the area vector $\vec A$.
+
+\i The area vector $\vec A$ has magnitude $A=ab$
+and direction determined by the RHR: 
+have the fingers of your right hand curl in the 
+direction of the circulating current, then your 
+thumb points in the direction of $\vec A$.
+
+\i For this case, the total magnetic force on the wire is zero,
+but there is a non-zero net torque about an axis perpendicular to 
+$\vec B$ (passing through the center of the loop):
+%
+\be
+\tau = IAB = \mu B
+\ee
+%
+where $\vec\mu \equiv I \vec A$ is the {\em magnetic dipole
+moment} of the current loop.
+
+\i More generally, $\tau = \mu B\sin\theta$,
+where $\theta$ is the angle between $\vec A$ and $\vec B$.
+
+\i The torque is in a direction to rotate the magnetic
+dipole moment $\vec\mu$ in the direction of the 
+magnetic field $\vec B$.
+
+\i Application: motors 
+(but need to alternate the direction of the current flow 
+in order to keep the loop turning.)
+
+\ei
+
+\subsection{Sources of a magnetic field}
+
+\bi
+
+\i Oersted (in 1819) discovered that a current-carrying
+wire produces a magnetic field that circles around the 
+wire in accordance with the right-hand rule 
+(thumb points in the direction of the current; fingers 
+curl in the direction of the magnetic field).
+
+\i Examples:
+
+- field at a perpendicular distance $d$ away from 
+infinitely-long, straight wire: $B= \mu_0 I/2\pi d$
+
+- field at the center of a circular loop of radius $r$: $B=\mu_o I/2r$
+
+- solenoid (current $I$, $n$ turns per unit length, radius
+$a$): $B=\mu_0 nI$
+
+The direction of $\vec B$ for these examples is given by 
+the right-hand rule as discussed previously.
+
+\i The quantity $\mu_0$ in the above expressions for $\vec B$ 
+is the {\it permeability} of free space (i.e., vacuum).  
+It has the approximate value
+%
+\be
+\mu_0 \approx 4\pi \times 10^{-7}~\frac{{\rm T}\cdot {\rm m}}{{\rm A}}
+\ee
+%
+It plays a role similar to $\epsilon_0$ for electric fields.
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Force between two current-carrying wires}
+\bi
+
+\i Consider two infinitely-long, straight current-carrying
+wires (currents $I_1$, $I_2$) parallel to one another
+and separated by perpendicular distance $d$.  Then the 
+force per unit length between the wires is
+%
+\be
+\frac{F}{L} = \frac{\mu_0\, I_1 I_2}{2\pi d}
+\ee
+
+\i The above result can be obtained by finding the 
+magnetic field $\vec B_1$ 
+produced by wire 1 at the location 
+of wire 2, and then calculating the force that 
+$\vec B_1$ exerts on the current $I_2$.
+
+\i If the currents in the two wires flow in the same
+direction, then the force is attractive; if the currents
+flow in opposite directions, then the force is repulsive.
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Magnetic properties of materials}
+\bi
+
+\i The magnetic properties of materials are determined
+by the magnetic dipole moments associated with atomic
+current loops (orbital or spin angular momentum of 
+electrons).
+A proper treatment of magnetism at the atomic level 
+requires quantum mechanics.
+
+\i Ferromagnetic materials (iron, cobalt, nickel)
+have strong coupling between neigboring magnetic
+dipole moments associated with unpaired electron spins 
+forming magnetic {\em domains}.
+These domains increase in size and align 
+themselves in the direction of an external magnetic 
+field.
+The induced magnetization remains even if the external 
+field is removed.
+For $T>T_{\rm curie}$ ($770~{}^\circ {\rm C}$ for iron),
+the magnetization is lost due to thermal motion of
+the atoms.
+
+\i Paramagnetic materials have magnetic dipole moments
+associated with unpaired electron spins that align 
+themselves in the direction of an external magnetic field. 
+The coupling between neighboring dipole moments is
+weak, so thermal effects easily disrupt the alignment
+of the spin magnetic moments.
+
+\i Diamagnetic materials (water, copper, gold, silver bismuth)
+have magnetic dipole moments associated with the orbital 
+angular momentum of electrons that change in a direction
+{\em opposite} to an external magnetic field. 
+The induced magnetization thus repels the external field.
+Magnetic levitation is possible with diamagnetic superconductors.
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%
+\section{Electromagnetic induction and alternating current}
+
+\subsection{Faraday's law of induction}
+\bi
+\i Three demonstrations:
+
+(i) Move a permanent magnet toward or away from
+a coil of wire.
+A current is induced in the coil when the 
+magnet is moving (CW or CCW current  depending
+on whether the magnet is moving toward or
+away from the wire, consistent with Lenz's law).
+
+(ii) Move a coil of wire toward or away from 
+a permanent magnet.
+A current is induced in the moving coil 
+(CW or CCW current  depending
+on whether the coil is moving toward or
+away from the magnet, consistent with Lenz's law).
+
+(iii) Link two coils of wire by an iron core, 
+with one of the coils connected to a battery and 
+a switch.
+Close the switch, and a current is induced in
+the other coil.
+Open the switch, and a current is induced in the
+other coil in the opposite direction. 
+
+\i Demos (i) and (ii) show that only {\em relative}
+motion is important.
+Demo (iii) shows that you can get an induced 
+electric field in the absence of physical motion.
+This is actually how a transformer works (more about transformers later).
+
+\i The above demos illustrate that a
+{\em changing magnetic field produces (induces) an electric field}.
+
+\i Mathematically, the induced emf in the coil
+is given by
+%
+\be
+{\cal E} = - N\frac{\Delta\Phi}{\Delta t},
+\qquad
+\Phi \equiv \vec B\cdot \vec A = B A \cos\theta
+\ee
+%
+where $N$ is the number of loops of the coil, 
+and $\Phi$ is the 
+magnetic flux passing through the surface spanned by
+the coil (area $A$ and normal vector making angle 
+$\theta$ wrt $\vec B$).
+The minus sign comes from Lenz's law (see below).
+
+\i Applications:
+(i) GFCI (ground-fault circuit interruptor)
+outlets;
+(ii) pick-up of an electric guitar.
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Lenz's law}
+\bi
+
+\i Lenz's law: {\em The direction of the induced 
+current {\em opposes} the change of magnetic flux 
+through the loop.}
+
+\i Said another way, Nature tries to preserve the
+status quo.
+(Use the right-hand rule to determine whether
+a CW or CCW induced current will oppose the change
+of flux.)
+
+\i Lenz's law is a consequence of conservation of energy.
+
+\i Demo:
+Dropping a magnet down a conducting tube.
+The magnet takes a long time to fall due to currents that are
+induced in the circular cross sections of the tube.
+These induced currents produce magnetic fields that oppose 
+the change in flux associated with the falling magnet.
+
+\ei
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Motional EMF}
+\bi
+
+\i Demonstration (ii) is an example of
+{\em motional emf}; namely, the charge
+carriers in a moving conductor feel a magnetic force.
+
+\i The induced emf for this case is associated with
+the magnetic force per unit charge on the charge 
+carriers in the moving conductor.
+
+\i Connect the moving conductor to an external
+circuit with a resistor, and current will flow
+with the power dissipated in the resistor equal to the
+power associated with the applied force, which 
+moves the wire in the external magnetic field.
+(The applied force will be balanced by an 
+equal and opposite magnetic force once an 
+induced current in the moving conductor starts
+to flow.)
+
+\i \ex If a conducting rod (length $l$) moves with
+constant velocity $v$ to the right along parallel
+conducting rails (resistance $R$) in the presence
+of a uniform magnetic field $B$ (pointing into the
+page), then 
+%
+\be
+I = \frac{{\cal E}}{R} = \frac{Blv}{R}\,,
+\qquad
+P_R = I^2 R = IlBv = F_b v 
+\ee
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Generators and motors}
+\bi
+
+\i A generator converts mechanical energy
+into electrical energy.
+A motor is a generator run in reverse;
+it converts electrical energy into mechanical
+energy.
+
+\i AC (alternating current) generator:
+Rotate a loop of wire in a permanent magnetic
+field and get an AC current out.
+(Mathematically: $\Phi = BA\cos\omega t$
+implies ${\cal E} = -N \Delta\Phi/\Delta t
+= NBA\omega\sin\omega t$, where $\omega\equiv 2\pi f$ is the
+angular frequency of the rotational motion.)
+
+\i A motor is constructed by sending a 
+current through a coil of wire in a 
+permanent magnetic field.
+The current in the coil produces a magnetic
+field that interacts with the external magnetic 
+field---it feels a torque in the external 
+field---and the coil 
+rotates on account of that torque.
+
+\i Demos:
+(i) Hand-powered AC generator;
+(ii) DC motor constructed from electromagnets;
+(iii) Do-it-yourself DC motor constructed from 
+a D-cell battery, a small magnet, paper 
+clips, and a coil of (magnet) wire stripped 
+on one side.
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Back-emf}
+
+\bi
+
+\i When a motor is turned on and starts 
+running, there is a {\em back emf}
+(and current) induced in the coil due to its 
+motion, which opposes the applied emf (and
+current) that originally got it moving.
+
+\i The back emf can be a sizable fraction 
+of the applied emf when the motor is running
+at full speed, which decreases the current to the
+load, $I = ({\cal E}-{\cal E}_{\rm back})/R$.
+
+\i For a heavy load, the motor turns more slowly.
+The back emf is then proportionally smaller, 
+leading to a larger current to the load.
+If the motor ``jams", the back emf is zero.
+This leads to a potentially large current that 
+can ``burn out" the motor.
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Transformers}
+
+\bi
+
+\i A transformer consists of two coils of wire with number
+of turns $N_1$ and $N_2$ connected by an iron core.
+The iron core ``links" the magnetic fluxes passing through 
+the two coils to have the same value $\Phi$.
+
+\i Connect the ``primary" coil (side 1) of the transformer to 
+a time-varying potential ${\cal E}_1$ and the 
+``secondary" coil (side 2) of the transformer to a switch $S$ and resistance $R_2$.
+Then
+%
+\be
+{\cal E}_1 = -N_1 \frac{\Delta \Phi}{\Delta t}\,,
+\quad
+{\cal E}_2 = -N_2 \frac{\Delta \Phi}{\Delta t}
+\quad\implies\quad
+{\cal E}_2 = \left(\frac{N_2}{N_1}\right){\cal E}_1\,,
+\qquad I_2 = \frac{{\cal E}_2}{R_2}
+\ee
+
+\i A transformer allows you to change the potential 
+difference between the primary and secondary coils.
+One has a ``step-up" transformer (i.e., ${\cal E}_2>{\cal E}_1$) if $N_2>N_1$,
+and a ``step-down" transformer (i.e., ${\cal E}_2<{\cal E}_1$) if $N_2<N_1$.
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Inductance}
+
+\bi
+
+\i When a circuit is first connected to a battery 
+with emf ${\cal E}$, the changing magnetic flux 
+through the circuit (due to the increasing current)
+induces a back emf
+%
+\be
+{\cal E}_L \equiv -L\,\frac{\Delta I}{\Delta t}
+\ee
+which opposes the change in the flux.
+The proportionality constant $L$ is called the 
+{\em inductance} (or {\em self inductance}) of
+the circuit; it has units of Henries (${\rm H}$), 
+where $1~{\rm H} \equiv 1~{\rm V}\cdot{\rm s}/{\rm A}$.
+
+\i Since we can also write ${\cal E}=-N\,{\Delta \Phi}/\Delta t$,
+we have $L\,{\Delta I}/{\Delta t} = N\,{\Delta\Phi}/{\Delta t}$, or 
+%
+\be
+L = \frac{N\Phi}{I}
+\ee
+%
+which depends only on the geometry of the circuit.
+
+\i Inductance corresponds to the {\em inertia} 
+(or opposition) of
+a circuit to changes in its current.
+Inductance is analogous to mass, which is inertia to changes in the velocity of an object 
+$\vec F = m\,d\vec v/dt$.
+
+\i Example:
+solenoid (length $l$, cross-sectional area $A$, number of
+turns per length $n$):
+$L = \mu_0 n^2 A l$.
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Energy stored in an inductor}
+\bi
+
+\i Energy is stored in the current flowing in
+an inductor, similar to energy being stored in
+the charge on a capacitor.
+
+\i The power delivered to an inductor is given
+by $P = I{\cal E}_L = I L\,\Delta I/\Delta t$.
+This means that in time interval $\Delta t$, the stored energy
+in the inductor is $\Delta U_B = P\Delta t = LI\Delta I$.
+Summing over the time intervals yields 
+%
+\be
+U_B = \sum \Delta U_B = \frac{1}{2}L I^2
+\ee
+%
+The subscript $B$ indicates that the stored 
+energy is associated with a magnetic field.
+(NOTE: The above result is similar to 
+$U_E= \frac{1}{2}C(\Delta V)^2= q^2/2C$
+for the energy stored in a capacitor.)
+
+\i Consider a solenoid 
+($B=\mu_0 nI$, $L = \mu_0 n^2 A l$).  
+Substituting these expressions into
+$U_B = \frac{1}{2}LI^2$, we obtain
+%
+\be
+u_B = \frac{1}{2\mu_0} B^2
+\ee
+%
+for the {\em energy density} (energy/volume).
+(NOTE: The above result is similar to 
+$u_E = \frac{1}{2}\epsilon_0 E^2$
+for the energy density in the electric field, 
+obtained from $U_E = \frac{1}{2}C(\Delta V)^2$ for 
+a parallel-plate capacitor, $C=\epsilon_0 A/d$,
+$E= \Delta V/d$.)
+
+\i Although the above expressions for the energy
+density $u_B$ and $u_E$ 
+were obtained for very specific cases
+(i.e., solenoid and parallel-plate capacitor),
+these expressions hold for {\em general} electric and
+magnetic fields.
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{$RL$ circuits}
+
+\bi
+\i Consider a battery with emf ${\cal E}$ connected to 
+a resistor $R$ and inductor $L$ in series.
+
+\i Then applying the loop rule to the potential differences
+around the circuit leads to the equation
+${\cal E}-I R - L\,\Delta I/\Delta t=0$.
+This is a differential equation, which can be solved using calculus
+%
+\be
+I(t) = I_{\rm max}\left(1- e^{-t/\tau_L}\right)\,,
+\quad{\rm where}\quad
+I_{\rm max} = {\cal E}/R\,,\quad
+\tau_L\equiv L/R
+\ee
+%
+where $\tau_L$ is called the {\it inductive time constant},
+similar to $\tau_C \equiv RC$ for a $RC$ circuit.
+
+\i The current doesn't increase instantaneously
+due to the inductance in the circuit.
+
+\i After obtaining maximum current through the inductor,
+one can remove the battery leaving just the resistor and
+the inductor.
+Then the current will decrease exponentially:
+\be
+I(t) = I_{\rm max}\,e^{-t/\tau_L}
+\ee
+
+\i NOTE: If you pull out the power chord of a running 
+vacuum cleaner you will see a spark at the outlet, 
+as the inductance of the motor is trying to keep the 
+current following, in accordance with Lenz's law.
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{$LC$ oscillators}
+
+\bi
+\i Consider a fully-charged capacitor $C$ connected
+to an inductor $L$.
+When the switch is closed, charge will start to
+flow in the circuit,
+giving rise to a current $I=-\Delta q/\Delta t$ (minus
+sign since charge leaving the capacitor
+corresponds to a positive current).
+
+\i Applying the loop rule leads to the differential 
+equation ${q/C}-L\,\Delta I/\Delta t=0$.
+This equation can be solved using calculus with solution:
+%
+\be
+q(t) = Q\cos(\omega t)\,,\qquad
+\omega\equiv \frac{1}{\sqrt{LC}}
+\ee
+%
+where $Q$ is the initial charge on the capacitor
+and $\omega$ is the angular frequency of oscillation.
+A similar equation holds for the current $I(t)$.
+
+\i This behavior is similar to that for 
+a mass $m$ attached to a spring
+with spring constant $k$ in the absence of friction, 
+which has oscillatory 
+solutions $x(t) = x_{\rm max}\cos(\omega t)$, with 
+angular frequency $\omega\equiv\sqrt{k/m}$.
+
+\i Adding a resistor $R$ in series to the $LC$ circuit 
+leads to damped oscillations 
+%
+\be
+q(t) = Q\,e^{-t/2\tau_L}
+\cos(\omega t)\,,
+\qquad
+\omega\equiv \frac{1}{\sqrt{LC}}\sqrt{1-\frac{R^2C}{4L}}
+\ee
+
+\i Depending on the sign of the quantity under
+the square-root, 
+the solutions correspond to either under-damped (+),
+over-damped ($-$), or critically-damped (0) motion.
+
+\i Energy is now dissipated in the resistor, analogous
+to a frictional force $F_{\rm f}=-bv$ in a {\em damped} mass-spring system.
+The correspondence between the mechanical and 
+electrical oscillators are:
+$L\leftrightarrow m$;
+$1/C\leftrightarrow k$;
+$R\leftrightarrow b$;
+$q\leftrightarrow x$;
+$I\leftrightarrow v$.
+
+\ei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{$RLC$ circuits}
+\bi
+
+\i Consider a circuit driven by an AC potential
+${\cal E}(t) = {\cal E}_{\rm max}\sin(\omega_d t)$, with driving angular frequency $\omega_d$.
+
+\i Then the instantaneous current $I(t)$ through the circuit will also vary sinusoidally
+with angular frequency $\omega_d$.
+But it will be shifted in phase relative to ${\cal E}(t)$, 
+so that $I(t) = I_{\rm max} \sin(\omega_d t - \phi)$.
+
+\i Using the loop rule for single element $R$, $L$, and $C$ circuits:
+%
+\ben
+\i Purely resistive circuit: $\phi=0$ and $I_{\rm max} = {\cal E}_{\rm max}/R$.
+\i Purely inductive circuit: $\phi=\pi/2$ and 
+$I_{\rm max} = {\cal E}_{\rm max}/X_L$, where $X_L \equiv L\,\omega_d$.
+\i Purely capacitive circuit: $\phi=-\pi/2$ and 
+$I_{\rm max} = {\cal E}_{\rm max}/X_C$, where $X_C \equiv 1/(C\omega_d)$.
+\een
+
+\i The above results imply that 
+$I$ and ${\cal E}$ are in phase for a purely resistive circuit;
+${\cal E}$ leads $I$ by $\pi/2$ for a purely inductive circuit; 
+and $I$ leads ${\cal E}$ by $\pi/2$ for a purely capacitive circuit.
+
+\i The quantities $X_L$ and $X_C$ are inductive and capacitive {\it reactances}.
+These quantities generalizes the resistance $R$ to inductors and capacitors in 
+AC circuits.
+Note that $X_L=0$ and $X_C\to\infty$ for a DC circuit (i.e., $\omega_d=0$),
+and $X_L\to\infty$ and $X_C\to 0$ for a very large frequency (i.e., $\omega_d\to \infty$).
+
+\i Now suppose that the driving potential ${\cal E}(t)$ is connected to 
+a series $RLC$ circuit.
+The loop rule yields:
+\be
+{\cal E}_{\rm max}\sin(\omega_d t) 
+=I_{\rm max}\left[R\sin(\omega_d t-\phi) + (X_L-X_C)\cos(\omega_d t- \phi) \right]
+\ee
+
+\i Using trig identities, one can show that the above equation reduces to
+%
+\be
+{\cal E}_{\rm max} = I_{\rm max} Z\,,
+\quad{\rm where}\quad
+Z = \sqrt{R^2 + (X_L-X_C)^2}
+\quad{\rm and}\quad
+\tan\phi = \frac{X_L-X_C}{R}
+\ee
+%
+
+\i $Z$ is called the {\it impedance} of the $RLC$ circuit. 
+Its value depends on the driving frequency $\omega_d$.
+
+\i Resonance occurs when the impedance $Z$ is as small as possible.
+This occurs when the driving frequency $\omega_d$ is chosen so that
+the capacitive and inductive reactances $X_C$ and $X_L$ cancel one another:
+\be
+Z = R
+\quad\iff\quad
+X_L = X_C
+\quad\iff\quad
+\omega_d = \frac{1}{\sqrt{LC}}
+\ee
+%
+This is the natural frequency for a simple $LC$ oscillator circuit.
+
+\i For this choice of $\omega_d$, the amplitude of the current 
+$I_{\rm max}$
+is as large as possible ($I_{\rm max} = {\cal E}_{\rm max}/R$) 
+for fixed ${\cal E}_{\rm max}$.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{RMS values and power factor}
+
+\i For AC circuits having sinusoidal time dependence, 
+e.g., ${\cal E}(t) = {\cal E}_{\rm max}\sin(\omega_d t-\phi)$,
+one often refers to {\it time-averaged} quantities (averaged over a period) as
+opposed to the instantaneous or maximum values of these quantities.
+
+\i For example, the time-averaged power for an $RLC$ series circuit is 
+%
+\be 
+\bar P 
+= {\cal E}_{\rm rms} I_{\rm rms}\cos\phi 
+= I_{\rm rms}^2 Z \cos\phi 
+= I_{\rm rms}^2 R\,,
+\ee
+%
+where
+%
+\be
+\cos\phi = \frac{R}{Z} = \frac{R}{\sqrt{R^2 + (X_L-X_C)^2}}
+\ee
+%
+is called the {\it power factor}, and $I_{\rm rms}$ and 
+${\cal E}_{\rm rms}$ refer to the 
+{\it rms} (root-mean-squared) current and potential, 
+which equal $I_{\rm rms} = {I_{\rm max}}/\sqrt{2}$ and
+${\cal E}_{\rm rms} = {\cal E}_{\rm max}/\sqrt{2}$.
+
+\i \ex When one says that a wall outlet has a potential difference of 120~volt AC,
+they are refering to the rms value, ${\cal E}_{\rm rms}=120~{\rm volt}$.
+The maximum potential difference is 
+${\cal E}_{\rm max}=\sqrt{2}{\cal E}_{\rm rms}\approx 170~{\rm volt}$.
+ 
+\ei
+
+
 \end{document}
 
